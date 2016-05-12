@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sentayzo.app"
+    android:versionCode="8"
+    android:versionName="1.4.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+ <!-- Permissions required for GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:name="com.sentayzo.app.ApplicationClass"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.sentayzo.app.MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.sentayzo.app.NewAccount"
+            android:label="@string/title_activity_new_account"
+            android:parentActivityName="com.sentayzo.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sentayzo.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sentayzo.app.NewTransaction"
+            android:label="@string/title_activity_new_transaction"
+            android:parentActivityName="com.sentayzo.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sentayzo.app.MainActivity" />
+        </activity>
+
+        <provider
+            android:name="com.sentayzo.app.MyContentProvider"
+            android:authorities="SentayzoDbAuthority"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.sentayzo.app.OverviewActivity"
+            android:label="@string/title_activity_view_account_history"
+            android:parentActivityName="com.sentayzo.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sentayzo.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sentayzo.app.EditTransaction"
+            android:label="@string/title_activity_edit_transaction"
+            android:parentActivityName="com.sentayzo.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sentayzo.app.MainActivity" />
+        </activity>
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <activity
+            android:name="com.sentayzo.app.HelpActivity"
+            android:label="@string/title_activity_help"
+            android:parentActivityName="com.sentayzo.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sentayzo.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sentayzo.app.FinancialStatement"
+            android:label="@string/title_activity_financial_statement"
+            android:parentActivityName="com.sentayzo.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sentayzo.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sentayzo.app.TestOut"
+            android:label="TestOut" />
+        <activity
+            android:name="com.sentayzo.app.NewTransfer"
+            android:label="@string/title_activity_new_transfer"
+            android:parentActivityName="com.sentayzo.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sentayzo.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sentayzo.app.CategoryTxView"
+            android:label="@string/title_activity_category_tx_view"
+            android:parentActivityName="com.sentayzo.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sentayzo.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sentayzo.app.PayeeTxView"
+            android:label="@string/title_activity_payee_tx_view"
+            android:parentActivityName="com.sentayzo.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sentayzo.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sentayzo.app.SettingsActivity"
+            android:label="@string/action_settings"
+            android:parentActivityName="com.sentayzo.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sentayzo.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sentayzo.app.PracticeActivity"
+            android:label="@string/title_activity_practice" />
+        <activity
+            android:name="com.sentayzo.app.FragTabActivity"
+            android:label="@string/title_activity_frag_tab" />
+        <activity
+            android:name="com.sentayzo.app.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name="com.sentayzo.app.StartActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sentayzo.app.ReportsViewActivity"
+            android:label="@string/title_activity_reports_view"
+            android:parentActivityName="com.sentayzo.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sentayzo.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sentayzo.app.NavDrawerTestActivity"
+            android:label="@string/title_activity_nav_drawer_test" />
+
+        <!-- Register the Alarm Receiver -->
+        <receiver android:name="com.sentayzo.app.AlarmReceiver" />
+
+        <activity
+            android:name="com.sentayzo.app.NewScheduledTransactionActivity"
+            android:label="@string/title_activity_new_scheduled_transaction"
+            android:parentActivityName="com.sentayzo.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sentayzo.app.MainActivity" />
+        </activity>
+
+        <service
+            android:name="com.sentayzo.app.AlarmService"
+            android:enabled="true" />
+
+        <receiver android:name="com.sentayzo.app.BootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.sentayzo.app.EditScheduledTx"
+            android:label="@string/title_activity_edit_scheduled_tx"
+            android:parentActivityName="com.sentayzo.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sentayzo.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sentayzo.app.EditTransfer"
+            android:label="@string/title_activity_edit_transfer"
+            android:parentActivityName="com.sentayzo.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sentayzo.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.sentayzo.app.StoreActivity"
+            android:label="@string/title_activity_store" />
+        <activity
+            android:name="com.sentayzo.app.FinishedTransactions"
+            android:label="@string/title_activity_finished_transactions" />
+        <activity
+            android:name="com.sentayzo.app.HelpActivityNew"
+            android:label="@string/title_activity_help_activity_new"
+            android:parentActivityName="com.sentayzo.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sentayzo.app.MainActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.analytics.globalConfigResource"
+            android:resource="@xml/analytics_global_config" />
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAI96NnmxYxYoS4jhKLic051TGJae9a_FGYeXNgBw" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.sentayzo.app.AdsTestActivity"
+            android:label="@string/title_activity_ads_test" />
+        <activity
+            android:name="com.sentayzo.app.BudgetActivity"
+            android:label="@string/title_activity_budget" />
+        <activity
+            android:name="com.sentayzo.app.Temp_activity"
+            android:label="@string/title_activity_temp_activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.sentayzo.app.TransactionHistoryActivity"
+            android:label="@string/title_activity_transaction_history"
+            android:parentActivityName="com.sentayzo.app.OverviewActivity"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".OverviewActivity" />
+        </activity>
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <provider
+            android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"
+            android:authorities="com.sentayzo.app.google_measurement_service"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

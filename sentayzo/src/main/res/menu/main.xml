@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sentayzo.app.MainActivity" >
+
+    <item
+        android:id="@+id/action_Backup"
+        android:orderInCategory="100"
+        android:title="@string/action_Backup"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_Restore"
+        android:orderInCategory="100"
+        android:title="@string/action_Restore"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_Help"
+        android:orderInCategory="100"
+        android:title="@string/action_Help"
+        android:icon="@drawable/ic_action_help"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/ab_newAccount"
+        android:icon="@drawable/ic_new_trn"
+        android:title="@string/newAccountIcon"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/ab_newTransaction"
+        android:icon="@drawable/ic_new_ac"
+        android:title="@string/newTransaction"
+        app:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/ab_newTranfer"
+        android:icon="@drawable/ic_action_money_transfer"
+        android:title="@string/newTransfer"
+        app:showAsAction="ifRoom"
+        />
+
+
+    
+    
+    
+    
+
+</menu>

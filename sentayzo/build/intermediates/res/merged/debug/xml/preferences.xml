@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+     
+
+    <PreferenceCategory android:title="@string/pref_localeInfo_title" >
+        <ListPreference
+            android:defaultValue="US"
+            android:entries="@array/country_name"
+            android:entryValues="@array/country_code"
+            android:key="pref_default_country"
+            android:summary="United States"
+            android:title="@string/pref_country" />
+        <ListPreference
+            android:defaultValue="USD"
+            android:key="pref_default_currency"
+            android:title="@string/pref_currency" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_use_custom_currency"
+            android:summary="@string/pref_use_custom_currency_summary"
+            android:title="@string/pref_use_custom_currency" />
+
+        <com.sentayzo.app.CustomCurrencyPreference
+            android:dependency="pref_use_custom_currency"
+            android:key="pref_create_custom_currency"
+            android:shouldDisableView="true"
+            android:title="@string/create_custom_currency" 
+            android:summary=" "/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_privacy_title" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_PIN_authorisation"
+            android:summary="@string/pref_PIN_summary"
+            android:title="@string/pref_PIN_authorisation" />
+
+        <EditTextPreference
+            android:dependency="pref_PIN_authorisation"
+            android:dialogMessage="@string/pref_enter_PIN_dialog_message"
+            android:dialogTitle="@string/pref_enter_PIN"
+            android:key="pref_PIN_entry"
+            android:positiveButtonText="@string/save"
+            android:shouldDisableView="true"
+            android:title="@string/pref_enter_PIN" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_general_settings_title" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_daily_reminder"
+            android:summary="@string/pref_daily_reminder_summary"
+            android:title="@string/pref_daily_reminder" />
+
+        <com.sentayzo.app.TimePickerPreference
+            android:dependency="pref_daily_reminder"
+            android:key="pref_set_time"
+            android:shouldDisableView="true"
+            android:title="@string/pref_set_time" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_history_start_date"
+            android:summary="@string/pref_history_start_date_summary"
+            android:title="@string/pref_history_start_date_title" />
+
+        <com.sentayzo.app.DatePickerPreference
+            android:dependency="pref_history_start_date"
+            android:key="pref_start_date"
+            android:persistent="true"
+            android:shouldDisableView="true"
+            android:title="@string/pref_set_date" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/super_light_grey" >
+
+    <TextView
+        style="?android:textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help_title_one"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_about_money_cradle"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/help_topic_one"
+        android:textColor="#106Ab0"
+        android:textStyle="normal" />
+    
+        <TextView
+        android:id="@+id/tv_whatsnew"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/whatsnew"
+        android:textColor="#106Ab0"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_quick_overview"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/help_topic_two"
+        android:textColor="#106Ab0"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_additional_features"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/help_topic_three"
+        android:textColor="#106Ab0"
+        android:textStyle="normal" />
+
+    <TextView
+        style="?android:textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/help_title_two"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_what_is_an_account"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/help_question_one"
+        android:textColor="#106Ab0"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_how_do_i_change_currency"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/help_question_two"
+        android:textColor="#106Ab0"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_what_is_a_payee"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/help_question_three"
+        android:textColor="#106Ab0"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_what_is_account_type"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/help_question_four"
+        android:textColor="#106Ab0"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_features_nolonger_working"
+        style="?android:textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/help_question_five"
+        android:textColor="#106Ab0"
+        android:textStyle="normal" />
+
+</LinearLayout>

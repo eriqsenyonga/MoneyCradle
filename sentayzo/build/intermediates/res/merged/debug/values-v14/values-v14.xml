@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_disabled">@android:color/darker_gray</color>
+    <color name="default_normal">@android:color/holo_blue_dark</color>
+    <color name="default_pressed">@android:color/holo_blue_light</color>
+    <style name="ActionBar.Solid.Myabstyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_myabstyle</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_myabstyle</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_myabstyle</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Myabstyle</item>
+    </style>
+    <style name="ActionBar.Transparent.Myabstyle" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_myabstyle</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Myabstyle</item>
+    </style>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/abc_text_size_button_material</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="Platform.AppCompat" parent="Platform.V14.AppCompat"/>
+    <style name="Platform.AppCompat.Light" parent="Platform.V14.AppCompat.Light"/>
+    <style name="Platform.V14.AppCompat" parent="Platform.V11.AppCompat">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="Platform.V14.AppCompat.Light" parent="Platform.V11.AppCompat.Light">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.StatusBar.EventContent.Info"/>
+    <style name="TextAppearance.StatusBar.EventContent.Line2">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time"/>
+    <style name="TextAppearance.StatusBar.EventContent.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="Theme.Myabstyle" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_myabstyle</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Myabstyle</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Myabstyle</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Myabstyle</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Myabstyle</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Myabstyle</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_myabstyle</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_myabstyle</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Myabstyle</item>
+        
+                <!-- Light.DarkActionBar specific -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.Myabstyle.Widget</item>
+
+    </style>
+    <style name="Theme.Myabstyle.Widget" parent="@style/Theme.AppCompat">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Myabstyle</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Myabstyle</item>
+    </style>
+</resources>

@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sentayzo.app.ScheduledFragment"
+    android:background="#F0F0F0"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+    
+    
+    <android.support.v4.view.ViewPager
+            android:id="@+id/scheduled_pagerz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="0dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:background="@color/white" />
+
+ 
+
+</LinearLayout>

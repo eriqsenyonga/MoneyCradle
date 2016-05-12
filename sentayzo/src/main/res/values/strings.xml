@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Money Cradle</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="newAccountIcon">New Account</string>
+    <string name="title_activity_new_account">New Account</string>
+    <string name="temporary">New account form goes here</string>
+    <string name="saveNewAccount">Save New Account</string>
+    <string name="cancelNewAccount">Cancel New Account</string>
+    <string name="newTransaction">New Transaction</string>
+    <string name="title_activity_new_transaction">New Transaction</string>
+    <string name="saveNewTransaction">Save New Transaction</string>
+    <string name="cancelNewTransaction">Cancel New Transaction</string>
+    <string name="Name">Name</string>
+    <string name="hint1">Enter account name</string>
+    <string name="accountType">Account Type</string>
+    <string name="openAmount">Opening Amount</string>
+    <string name="note">Note</string>
+    <string name="anyOther">other details</string>
+    <string name="anyOtherTx">any other transaction details</string>
+    <string name="acType">Account Type</string>
+    <string name="account">Account</string>
+    <string name="project">Project</string>
+    <string name="payee">Payee</string>
+
+    <string name="category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="title_activity_edit_transaction">Edit Transaction</string>
+    <string name="default_open_amount">0</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date">Date</string>
+    <string name="txaccountName">Account:</string>
+    <string name="payee2">Payee: </string>
+    <string name="amount1">Amount: </string>
+    <string name="category1">Category:  </string>
+    <string name="title_activity_edit_account">Edit Account</string>
+    <string name="noTransactions">Click +t above to add transaction</string>
+    <string name="tx_type">Transaction Type</string>
+    <string name="totalAmountView">Total :</string>
+    <string name="title_activity_view_account_history">Account History</string>
+    <string name="dateCreated">Date Created:  </string>
+    <string name="accountName">Account Name:  </string>
+    <string name="accountType2">Account Type:  </string>
+    <string name="openningBalance">Opening Bal:</string>
+    <string name="accountNOte">Note:</string>
+    <string name="accountbal">Current Bal:</string>
+    <string name="action_Backup">Backup Database</string>
+    <string name="action_Restore">Restore Database</string>
+    <string name="action_Help">Help</string>
+    <string name="addAccount1">Click </string>
+    <string name="addAccount2"> to add account</string>
+    <string name="addTx1">Click </string>
+    <string name="addTx2"> to add transaction</string>
+    <string name="title_activity_help">Help</string>
+    <string name="help_new_account">Add new account</string>
+    <string name="help_image">image</string>
+    <string name="help_addAccountClick">- Click \'+a\' in action bar</string>
+    <string name="help_fillForm">- Fill in form in the \'New Account\' screen</string>
+    <string name="help_clickSave">- Click save to save account or \'X\' to cancel</string>
+    <string name="help_new_tx">Add new transaction</string>
+    <string name="help_addTxClick">- Click \'+t\' in action bar</string>
+    <string name="help_fillFormTx">- Fill in form in the \'New Transaction\' screen</string>
+    <string name="help_interactAccount">Interact with account</string>
+    <string name="help_clickAc">- Click any account from the accounts\' list in the ACCOUNTS Tab</string>
+    <string name="help_clickAcInt">- Select an option in the dialog </string>
+    <string name="help_clickTxInt">- Select an option in the dialog </string>
+    <string name="help_clickTx">- Click any transaction from the transactions\' list in the HISTORY Tab</string>
+    <string name="help_interactTx">Interact with transaction</string>
+    <string name="title_activity_financial_statement">FinancialStatement</string>
+    <string name="Title">Personal Financial Statement</string>
+    <string name="cashFlow">Cashflow</string>
+    <string name="totIncome">Total Income : </string>
+    <string name="totExpense">Total Expenses : </string>
+    <string name="sup">Surplus :</string>
+    <string name="assetLabel">Assets :</string>
+    <string name="liabilityLabel">Liabilities :</string>
+    <string name="cashLabel">Cash :</string>
+    <string name="bankLabel">Bank :</string>
+    <string name="conclusionB">You are in a good financial position.</string>
+    <string name="yourTotal">Your total is :</string>
+    <string name="fPosition">Financial Position</string>
+    <string name="transfer">Transfer Money</string>
+    <string name="conclusion">Your cashflow is NEGATIVE because you are spending more than you earn!</string>
+    <string name="category_name">Category Name</string>
+    <string name="title_activity_rmain">RMainActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+
+    <string-array name="drawerItems">
+        <item>Home</item>
+        <item>Scheduled</item>
+        <item>Categories</item>
+        <item>Payees</item>
+        <item>Projects</item>
+        <item>Closed Accounts</item>
+    </string-array>
+    <string-array name="bottomDrawerItems">
+        <item>Make a suggestion</item>
+        <item>Tell a friend</item>
+        <item>Settings</item>
+        <item>Help</item>
+    </string-array>
+    <string-array name="accountsListDialog">
+        <item>View Account Info</item>
+        <item>New Transaction</item>
+        <item>New Transfer</item>
+        <item>Account History</item>
+        <item>Edit Account</item>
+        <item>Close Account</item>
+        <item>Delete Account</item>
+    </string-array>
+    <string-array name="transactionsListDialog">
+        <item>View Details</item>
+        <item>Edit Transaction</item>
+        <item>Delete Transaction</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="finTxListDialog">
+        <item>View Details</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="pendingTxListDialog">
+        <item>View Details</item>
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="reportsFragmentList">
+        <item>General</item>
+        <item>By Accounts</item>
+        <item>By Categories</item>
+        <item>By Payees</item>
+        <item>By Projects</item>
+        <item>By Account / Period</item>
+        <item>By Category / Period</item>
+        <item>By Payee / Period</item>
+        <item>By Project / Period</item>
+        <item>Full Report (Text)</item>
+        <item>Export to Spreadsheet</item>
+    </string-array>
+    <string-array name="categoryListItems">
+        <item>Rename</item>
+        <item>Delete</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="reportsSpinner2Items">
+        <item>Income</item>
+        <item>Expense</item>
+        <item>Income vs Expense</item>
+    </string-array>
+    <string-array name="reportsSpinner3Items">
+        <item>Bar Graph</item>
+        <item>Pie Chart</item>
+    </string-array>
+    <string-array name="reportsSpinner4Items">
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+    <string-array name="projectListItems">
+        <item>View Project Info</item>
+        <item>Edit Project</item>
+        <item>End Project</item>
+        <item>Delete Project</item>
+    </string-array>
+
+    <string name="deleteDialogTitle">Delete?</string>
+    <string name="deleteDialogMessage">Account will be deleted with all its transactions</string>
+    <string name="proceed">Proceed?</string>
+    <string name="closeDialogTitle">Close?</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="closeDialogMessage">Account transactions will remain in \'History\' but the account will be inaccessible</string>
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="title_activity_test_main">TestMainActivity</string>
+    <string name="title_activity_category_list">CategoryList</string>
+    <string name="action_new_category">New Category</string>
+    <string name="title_activity_payee_list">Payees</string>
+    <string name="calc_dialog_enter_total_button">Enter Total</string>
+    <string name="title_activity_new_transfer">NewTransfer</string>
+    <string name="account_from">From</string>
+    <string name="account_to">To</string>
+    <string name="new_transfer_activity_title">Transfer Funds</string>
+    <string name="include_in_totals">Include account in totals</string>
+    <string name="include_in_totals_details">Include transactions from this account in totals</string>
+    <string name="project_name">Project Name</string>
+    <string name="project_hint">Other details \.\.\.</string>
+    <string name="newPrTitle">New Project</string>
+    <string name="newCatTitle">New Category</string>
+    <string name="cantBeEmpty">can\'t be empty</string>
+    <string name="title_activity_project_list">Projects</string>
+    <string name="calculator">Calculator</string>
+    <string name="title_activity_calculator">Calculator</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button0">0</string>
+    <string name="button1">1</string>
+    <string name="button2">2</string>
+    <string name="button3">3</string>
+    <string name="button4">4</string>
+    <string name="button5">5</string>
+    <string name="button6">6</string>
+    <string name="button7">7</string>
+    <string name="button8">8</string>
+    <string name="button9">9</string>
+    <string name="buttonAdd">+</string>
+    <string name="buttonSubtract">-</string>
+    <string name="buttonMultiply">*</string>
+    <string name="buttonDivide">/</string>
+    <string name="buttonToggleSign">+/-</string>
+    <string name="buttonDecimalPoint">.</string>
+    <string name="buttonEquals">=</string>
+    <string name="buttonClear">C</string>
+    <string name="buttonClearMemory">MC</string>
+    <string name="buttonAddToMemory">M+</string>
+    <string name="buttonSubtractFromMemory">M-</string>
+    <string name="buttonRecallMemory">MR</string>
+    <string name="invalidXter">Invalid character ( \' ) in</string>
+    <string name="payeeField">Payee field</string>
+    <string name="NameField">Name field</string>
+    <string name="title_activity_category_tx_view">Category History</string>
+    <string name="emptyCatTxView">No transactions in this category</string>
+    <string name="history">History: </string>
+    <string name="details">Details</string>
+    <string name="transaction">Transaction</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="delete">Delete</string>
+    <string name="cantDelete">Can\'t delete</string>
+    <string name="title_activity_payee_tx_view">Payee Transactions</string>
+    <string name="currency">Currency</string>
+    <string name="pref_localeInfo_title">LOCALE</string>
+    <string name="pref_country">Select country</string>
+    <string name="pref_currency">Select currency</string>
+    <string name="pref_privacy_title">PRIVACY</string>
+    <string name="pref_PIN_authorisation">PIN Authorisation</string>
+    <string name="pref_PIN_summary">Allow access using PIN</string>
+    <string name="pref_enter_PIN">Enter PIN</string>
+    <string name="pref_enter_PIN_dialog_message">Enter 4 digit PIN</string>
+    <string name="title_activity_practice">Practice Activity</string>
+    <string name="out">Out :</string>
+    <string name="in">In :</string>
+    <string name="currencyAdd">Add Currency</string>
+    <string name="amountField">Amount Field</string>
+    <string name="accountCantBeSame">Can\'t transfer to same account</string>
+    <string name="createAccountFirst">To get started, create atleast one account first by tapping \'+a\' in the top right of the Home screen</string>
+    <string name="title_activity_frag_tab">FragTabActivity</string>
+    <string name="title_activity_login">Enter PIN</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_reports_view">Reports View Activity</string>
+    <string name="pending">PENDING</string>
+    <string name="finished">FINISHED</string>
+    <string name="accounts">ACCOUNTS</string>
+    <string name="history_tab">HISTORY</string>
+    <string name="reports">REPORTS</string>
+    <string name="no_pending">No pending transactions or transfers</string>
+    <string name="no_finished">No completed transactions or transfers</string>
+    <string name="title_activity_nav_drawer_test">NavDrawerTestActivity</string>
+    <string name="title_activity_new_scheduled_transaction">New Scheduled Transaction</string>
+    <string name="start_date">Start Date</string>
+    <string name="repeat">Repeat</string>
+    <string name="end_date">End Date</string>
+    <string name="select_date">Select Date</string>
+    <string name="pen_start_date">Start :</string>
+    <string name="doneOn">Done On :</string>
+    <string name="select_all">select all</string>
+    <string name="delete_selected">delete selection</string>
+    <string name="transaction_details">Transaction Details</string>
+    <string name="start_dates">Start Date :</string>
+    <string name="end_dates">End Date :</string>
+    <string name="delete_scheduled">Delete this pending transaction ?</string>
+    <string name="recur">Recur :</string>
+    <string name="notes">Note :</string>
+    <string name="projects">Project :</string>
+    <string name="title_activity_edit_scheduled_tx">Edit Scheduled Transaction</string>
+    <string name="title_activity_edit_transfer">Edit Transfer</string>
+    <string name="edit">Edit</string>
+    <string name="no_closed_accounts">No closed accounts </string>
+    <string name="reopen">Re-open account</string>
+    <string name="reopenDialog_title">Re-open account?</string>
+    <string name="reopenDialog_message">This account will be made accessible in the \'Accounts\' tab</string>
+    <string name="newTransfer">New Transfer</string>
+    <string name="edited"> edited</string>
+    <string name="deleteCategory">This category will be deleted and all it\'s transactions set to \'Undefined\'</string>
+    <string name="title_activity_project_tx_view">Project History</string>
+    <string name="account_type_icon_description">icon</string>
+    <string name="title_activity_store">Store</string>
+    <string name="deleteProject">This project will be deleted and all it\'s transactions set to \'No Project\'</string>
+    <string name="end">End</string>
+    <string name="closeProjectMessage">This project will be inaccessible BUT it\'s transactions will remain in \'History\'</string>
+    <string name="scheduled_transaction">Scheduled Transaction</string>
+    <string name="pref_general_settings_title">General Settings</string>
+    <string name="pref_daily_reminder">Daily Reminder</string>
+    <string name="pref_daily_reminder_summary">Remind me to enter the day\'s transactions</string>
+    <string name="pref_set_time">Set time</string>
+    <string name="title_activity_finished_transactions">Finished Transactions</string>
+    <string name="pref_history_start_date_title">Set start date for History</string>
+    <string name="pref_set_date">Set Date</string>
+    <string name="pref_history_start_date_summary">Set start date for transaction history</string>
+    <string name="remind_me">Enter today\'s transactions</string>
+    <string name="set">Set</string>
+    <string name="enter_transactions">Reminder</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="group_by">Group By:</string>
+    <string name="default_string">Default</string>
+    <string name="custom_date">Set custom date</string>
+    <string name="expenses">Expenses</string>
+    <string name="income">Income</string>
+    <string name="no_data">No data for graph</string>
+    <string name="tot_income">Total Income</string>
+    <string name="over_time">Over Time</string>
+    <string name="tot_expenses">Total Expenses</string>
+    <string name="income_vs_expenses">INCOME VS EXPENSES</string>
+    <string name="payment_dialog_message">Your full version free trial period expired. Some features are only available in the full version.</string>
+    <string name="unlock_all_features">Would you like to unlock these features</string>
+    <string name="help_title_one">How To Use Money Cradle</string>
+    <string name="help_title_two">FAQs</string>
+    <string name="help_topic_one">About Money Cradle</string>
+    <string name="help_topic_two">Quick Overview</string>
+    <string name="help_topic_three">Additional Features</string>
+    <string name="help_question_one">What is an Account?</string>
+    <string name="help_question_two">How do I change currency used?</string>
+    <string name="help_question_three">What is a payee?</string>
+    <string name="help_question_four">What are account types?</string>
+    <string name="help_question_five">Some features no longer working?</string>
+    <string name="title_activity_help_activity_new">Help</string>
+    <string name="help_topic_about_money_cradle">
+<![CDATA[
+ <p>
+ <b>Money Cradle</b> is a world class <b>finance manager</b> that helps you to have a <b>better</b> grip on your financial wellbeing.
+ This app was designed to suit the <b>needs</b> of many who are interested in keeping their money matters in check even <b>without necessarily having advanced accounting skills</b>.
+ Therefore it is <b>easy to use</b> and gives you the results you want making it a <b>world leader</b>.
+ </p>
+ 
+ <p>
+ With Money Cradle, you are able to open your different financial accounts, track your income and expenses, and view chart reports about your financial performance.
+ Additionally, you can schedule future transactions to suit your needs, start and monitor the performance of your projects, and follow up your transactions according to specific categories and payees.
+ </p>
+ 
+ <p><b>Developed by:</b> Eric Senyonga</p>
+  
+ <p><b>Current Version:</b> 1.3.0</p>
+  
+ <p><b>Libraries and Resources used;</b></p>
+  
+ <p> * AchartEngine for graphs and charts <a href="http://www.achartengine.org">Link</a></p>
+  
+  <p>* Icons8 for some icons <a href="http://icons8.com/">Link</a></p>
+  
+  <p>* Android developers<a href="http://developer.android.com/index.html">Link</a></p>
+  
+  <p>* AppRater<a href="https://github.com/codechimp-org/AppRater">Link</a></p>
+  
+  
+ 
+ 
+ <p><b>Return to the previous screen by touching the Back button.</b>
+ </p>
+ 
+
+ 
+ 
+ ]]>
+    </string>
+    <string name="help_topic_quick_overview">
+<![CDATA[
+<p>Money Cradle has different interactive screens for your <b>easy navigation</b>:</p>
+
+ <h1>
+ The Home Screen
+ </h1>
+ 
+ <h2>
+ Accounts tab
+ </h2>
+ 
+ <p>The Accounts tab shows a list of all your open financial accounts. The list is detailed with the name
+ of each account, the account type and the current account balance.
+ </p>
+ 
+ <h3>
+ Adding an account
+ </h3>
+ 
+ <p>To add an account, tap the <b>+a</b> icon in the top right of the action bar. This will 
+ open a screen for you to fill in the account details.
+ </p>
+ 
+ <h2>
+ History tab
+ </h2>
+ 
+ <p>The History tab shows a detailed list of all your transactions.
+ The details include the date of the transaction, the payee, the category and the account involved plus the trasnsaction amount.
+ 
+ </p>
+ 
+ <h3>
+ Adding a new transaction
+ </h3>
+ 
+ <p>To add a new transaction, tap the <b>+t</b> icon in the top right of the action bar. This will 
+ open a screen for you to fill in the transaction details.
+ </p>
+ 
+ <p>Alternatively, you can tap on any account in the <b>Accounts tab</b> and select <b>New Transaction</b> in the dialog
+ </p>
+ <h2>
+ Reports tab
+ </h2>
+ 
+ <p>The Reports tab shows a list of different chart options that you can use to get a graphical view of your financial performance.
+ </p>
+ 
+
+ 
+ <p><b>Return to the previous screen by touching the Back button.</b>
+ </p>
+ ]]>
+    </string>
+    <string name="help_topic_additional_features">
+<![CDATA[
+ <p>
+ <b>Money Cradle</b> comes fully packed with other useful features on top of the basics.
+ These can be found in the side menu by tapping the three horizontal bars next to the app icon.
+ </p>
+ 
+ <h2>Scheduled</h2>
+ <p>
+ As we carry on with our daily lives there are some things we begin to do as routine.
+ This feature is included to help you <b>reduce the work</b> you have to do by entering future transactions.
+ These transactions can be set to occur <b>once, daily, weekly, monthly or annualy</b>.
+ An example of a recurring transaction could be receiving your salary.
+ </p>
+ 
+ <p>To add a <b>new Scheduled transaction</b>, tap the <b>+</b> in the top right corner of the screen. This will 
+ open a screen where you can fill in the appropriate details.
+ </p>
+ 
+ <h2>Projects</h2>
+ <p>This feature helps you monitor the financial performance and progress of your projects. These projects
+  could be anything that you are involved in like a new business venture, a charity cause etc.
+  </p>
+  <p>To add a new project, tap the <b>+</b> in the top right corner of the <b>Projects screen</b>. To
+   begin tracking project transactions make sure you select the appropriate project while entering a new transaction.
+   </p>
+   
+   <h2>Backup and Restore Database</h2>
+   <p><b>Money Cradle</b> gives you the ability to backup your database and restore it at a later date. This can be found in the menu of the <b>Home screen</b>
+   </p>
+   
+   
+  <h2>Charts and Reports</h2>
+  <p>This feature helps you to have a graphical view of your financial health. The charts are easy to read and understand.
+  These can be found in the <b>Reports tab</b> of the <b>Home Screen</b>
+  </p>
+  
+  <h2>Export to Spreadsheet</h2>
+  <p>With this feature, you can export all your transactions to a spreadsheet in CSV format which can be viewed on your laptop or computer. 
+  The exported reports can be found in the <b>Spreadsheet Reports folder</b> in your <b>Money Cradle folder</b>. 
+  </p>
+  <p>This can be accessed
+   in the <b>Reports tab</b> of the <b>Home Screen</b></p>
+  
+  <h2>Categories and Payees</h2>
+  <p>Money Cradle gives you the ability to view transactions within a specific category or by a specific payee. You can also
+  add your own categories by tapping the <b>+</b> in the top right corner of the <b>Categories screen</b>.
+  </p>
+  
+ <h2>Daily Reminder</h2>
+ <p>To keep you on top of your finances, <b>Money Cradle</b> has a feature to remind you daily to enter your transactions.
+ This feature can be found in the <b>Settings</b>
+ </p>
+ ]]>
+    </string>
+    <string name="help_question_what_is_an_account">
+<![CDATA[
+ <p>
+ An account as used in <b>Money Cradle</b> is any compartment which holds financial value. This could be
+   bank accounts, credit card accounts, debtors, money in cash or in wallet, a piggy bank, a box which you 
+   named emergency money etc. </p><p>Generally anything as long as it has monetary value attached to it.
+</p>
+ ]]>
+    </string>
+    <string name="help_question_currency_change">
+<![CDATA[
+ <p>
+ The currency used in <b>Money Cradle</b> can be changed in the <b>Settings</b> 
+ by specifying your country and the currency in the <b>Locale</b> section.
+ </p>
+ ]]>
+    </string>
+    <string name="help_question_what_is_a_payee">
+<![CDATA[
+ <p>A payee can be an individual, a company or anything to which money is paid or received from.</p>
+ 
+ ]]>
+    </string>
+    <string name="help_question_what_are_account_types">
+<![CDATA[
+ <p>An <b>Account type</b> is a form in which an account holds monetary value. It could be cash, bank, asset, or liability.</b>
+ ]]>
+    </string>
+    <string name="help_question_some_features_no_longer_work">
+<![CDATA[
+	
+	<p>Your<b> full version free trial</b> period has expired.
+	 Some accounts will be closed (available in the <b>Closed Accounts</b>
+	  section) which can be reopened after <b>unlocking all features</b></p>
+	  
+	  <p>Go to the <b>Store</b> section in the side menu to unlock features.
+
+ ]]>
+    </string>
+    <string name="whatsnewDetails">
+<![CDATA[
+
+	<h3>Version 1.3.0</h3>
+	<p>- Updated to support Android 5.1.1
+	<p>- Fixed bug with Upgrade process
+	<p>- Multiple performance improvements
+
+
+	<h3>Version 1.2.0</h3>
+	<p>- Updated to support Lollipop devices
+	<p>- Added some material design features
+	<p>- Multiple bug fixes and performance improvements
+	
+	
+	<h3>Version 1.1.1</h3>
+	<p>- Added function to <b>Export transactions to SpreadSheet </b>in Reports Tab
+	<p>- Crash fixes on some devices
+	
+	
+	<h3>Version 1.1</h3>
+	<p>- Added <b>What\'s new</b> in Help</p>
+	<p>- Added feature to add your own currency in Settings</p>
+	<p>- Fixed \'Unexpected close\' bug on some devices when opening app</p>
+	<p>- Fixed \'Unexpected close\' bug on some devices when trying to open the Settings screen</p>
+	<p>- Changed \'Send feedback\' to \'Make a suggestion\' in side menu</p>
+	
+	<h3>Version 1.0</h3>
+	<p> First version of the app</p>
+
+ ]]>
+    </string>
+    <string name="upgrade">Upgrade</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="unlock_features">Unlock all features ( Ads remain)</string>
+    <string name="full_unlock">Unlock all features AND remove ads</string>
+    <string name="conclusion_negative">Your cashflow is NEGATIVE because you are spending more than you earn!</string>
+    <string name="conclusion_positive">Your cashflow is POSITIVE. Keep it up!</string>
+    <string name="deficit">Deficit :</string>
+    <string name="debt_string">You are in debt !!</string>
+    <string name="no_debt">You are in good financial position.</string>
+    <string name="full_report">Full Report</string>
+    <string name="full_version_free_trial_expired">Full Version free trial has expired</string>
+    <string name="free_trial_expired">Trial Period Expired</string>
+    <string name="message_expired">Your 5 day Full Version FREE trial period has expired. Some features are now locked and Ads have been introduced.</string>
+    <string name="title_activity_ads_test">AdsTestActivity</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad_id">ca-app-pub-8852418671999305/9890924875</string>
+    <string name="banner_ad_id">ca-app-pub-8852418671999305/3844391278</string>
+    <string name="pref_use_custom_currency">Use custom currency</string>
+    <string name="pref_use_custom_currency_summary">Select this if your currency is not available in above currencies</string>
+    <string name="currency_symbol">Currency Code</string>
+    <string name="group_separator">Grouping separator</string>
+    <string name="dec_separator">Decimal separator</string>
+    <string name="dec_number">Number of decimals</string>
+    <string name="custom_currency_dialog_title">Custom Currency</string>
+    <string name="create_custom_currency">Create your currency</string>
+    <string name="comma">comma</string>
+    <string name="dot">dot</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="code">Code</string>
+    <string name="currNotSet">Currency not set</string>
+    <string name="custom_curr_hint">e.g UGX</string>
+    <string name="whatsnew">What\'s new</string>
+    <string name="spreadsheet_reports">Spreadsheet Reports</string>
+    <string name="export_successful">Export Successful!</string>
+    <string name="export_failed">Export Failed!</string>
+    <string name="title_activity_budget">Budgets</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="scheduled">Scheduled</string>
+    <string name="categories">Categories</string>
+    <string name="payees">Payees</string>
+    <string name="projects_drawer">Projects</string>
+    <string name="closed_accounts">Closed Accounts</string>
+    <string name="make_suggestion">Contact Us</string>
+    <string name="tell_a_friend">Tell a friend</string>
+    <string name="help">Help</string>
+    <string name="title_activity_temp_activity">Temp_activity</string>
+    <string name="credLimit">"Limit: "</string>
+    <string name="credit_provider">Credit Provider</string>
+    <string name="credit_limit">Credit Limit</string>
+    <string name="credit_card_issuer">Credit Card Issuer</string>
+    <string name="title_activity_transaction_history">Transaction History Activity</string>
+
+    <string name="details_basic">
+<![CDATA[
+ <ul style="list-style-type:circle">
+        <li><b>Block all Ads</b></li>
+        <li><b>Maximum of 2 accounts</b></li>
+        <li><b>Maximum of 1 project</b></li>
+        </ul>
+
+ ]]>
+    </string>
+
+    <string name="details_gold">
+<![CDATA[
+ <ul>
+
+        <li><b>Unlimited Accounts</b></li>
+        <li><b>Unlimited Projects</b></li>
+        <li><b>Unlimited Scheduled transactions</b></li>
+        <li><b>Unlock all charts and analysis</b></li>
+        <li><b>Unlimited Projects</b></li>
+        </ul>
+
+        <tr><p>Note: Ads remain with this plan</p>
+
+ ]]>
+    </string>
+
+      <string name="details_platinum">
+<![CDATA[
+ <ul style="list-style-type:square">
+
+        <li><b>Unlimited Accounts</b></li>
+        <li><b>Unlimited Projects</b></li>
+        <li><b>Unlimited Scheduled transactions</b></li>
+        <li><b>Unlock all charts and analysis</b></li>
+        <li><b>Unlimited Projects</b></li>
+        <li><b>Block All Ads</b></li>
+        </ul>
+
+
+
+ ]]>
+    </string>
+    <string name="edit_transfer_activity_title">Edit Transfer</string>
+    <string name="overview">Overview</string>
+</resources>

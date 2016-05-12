@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="TypographyDashes">
+
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- The screen names that will appear in reports -->
+    <screenName name="com.sentayzo.app.ReportsViewActivity">ReportsViewActivity
+    </screenName>
+    <screenName name="com.sentayzo.app.StoreActivity">StoreActivity
+    </screenName>
+    <screenName name="com.sentayzo.app.ScheduledFragment">ScheduledFragment
+    </screenName>
+    <screenName name="com.sentayzo.app.ProjectList">ProjectList
+    </screenName>
+    <screenName name="com.sentayzo.app.ProjectTxView">ProjectTxView
+    </screenName>
+    <screenName name="com.sentayzo.app.NewTransaction">NewTransaction
+    </screenName>
+    <screenName name="com.sentayzo.app.NewAccount">NewAccount
+    </screenName>
+    <screenName name="com.sentayzo.app.NewTransfer">NewTransfer
+    </screenName>
+    <screenName name="com.sentayzo.app.NewScheduledTransactionActivity">NewScheduledTransaction
+    </screenName>
+    <screenName name="com.sentayzo.app.EditTransaction">EditTransaction
+    </screenName>
+
+    <screenName name="com.sentayzo.app.EditTransfer">EditTransfer
+    </screenName>
+    <screenName name="com.sentayzo.app.EditScheduledTx">EditScheduledTx
+    </screenName>
+    <screenName name="com.sentayzo.app.CategoryList">CategoryList
+    </screenName>
+    <screenName name="com.sentayzo.app.CategoryTxView">CategoryTxView
+    </screenName>
+    <screenName name="com.sentayzo.app.ClosedAccountsListFragment">ClosedAccountsListFragment
+    </screenName>
+    <screenName name="com.sentayzo.app.ViewAccountHistory">ViewAccountHistory
+    </screenName>
+    <screenName name="com.sentayzo.app.PayeeList">PayeeList
+    </screenName>
+    <screenName name="com.sentayzo.app.PayeeTxView">PayeeTxView
+    </screenName>
+    <screenName name="com.sentayzo.app.HomeFragment">HomeFragment
+    </screenName>
+    <screenName name="com.sentayzo.app.HelpMainFragment">HelpMainFragment
+    </screenName>
+    <screenName name="com.sentayzo.app.HelpDetailsFragment">HelpDetailsFragment
+    </screenName>
+    <screenName name="com.sentayzo.app.FinancialStatement">FinancialStatement
+    </screenName>
+    <screenName name="com.sentayzo.app.LoginActivity">LoginActivity</screenName>
+
+
+    <!-- The following value should be replaced with correct property id. -->
+    <string name="ga_trackingId">UA-57249913-2</string>
+
+</resources>

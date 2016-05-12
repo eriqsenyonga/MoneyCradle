@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:orientation="vertical"
+    tools:context="com.sentayzo.app.StoreActivity" >
+    
+    <include 
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"/>
+
+    <LinearLayout
+        android:id="@+id/linlay_removeAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_item_vert_margin"
+        android:layout_marginRight="@dimen/list_item_vert_margin"
+        android:layout_marginTop="@dimen/list_item_vert_margin"
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="6dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/remove_ads"
+            android:src="@drawable/ic_no_ads_icon_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/remove_ads" 
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <Button
+            android:id="@+id/b_removeAds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="$ 1.99" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linlay_unlockFeatures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_item_vert_margin"
+        android:layout_marginRight="@dimen/list_item_vert_margin"
+        android:layout_marginTop="@dimen/list_item_vert_margin"
+        
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="6dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/unlock_features"
+            android:src="@drawable/ic_unlock_features_icon_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/unlock_features"
+            android:layout_weight="1"
+            android:gravity="center" 
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/b_unlockFeatures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="$ 2.86" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/linlay_fullUnlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_item_vert_margin"
+        android:layout_marginRight="@dimen/list_item_vert_margin"
+        android:layout_marginTop="@dimen/list_item_vert_margin"
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="6dp" >
+
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/unlock_features"
+            android:src="@drawable/ic_unlock_features_icon_1" 
+            />
+        
+          <ImageView
+            android:id="@+id/iv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_1"
+            android:contentDescription="@string/sup"
+            android:src="@drawable/ic_plus_icon_2" />
+
+        <ImageView
+            android:id="@+id/iv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/remove_ads"
+            android:src="@drawable/ic_no_ads_icon_2"
+            android:layout_toRightOf="@id/iv_2"  />
+
+        <Button
+            android:id="@+id/b_boths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:text="$ 2.99" />
+
+      
+
+    </RelativeLayout>
+    
+    
+
+</LinearLayout>

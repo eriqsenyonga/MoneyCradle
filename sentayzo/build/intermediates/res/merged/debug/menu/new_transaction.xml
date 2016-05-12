@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sentayzo.app.NewTransaction" >
+
+    
+    
+     <item 
+        android:id="@+id/ab_saveNewTransaction"
+        android:title="@string/saveNewTransaction"
+        android:icon="@drawable/ic_action_done"
+        app:showAsAction="always"/>
+    
+
+    
+
+</menu>

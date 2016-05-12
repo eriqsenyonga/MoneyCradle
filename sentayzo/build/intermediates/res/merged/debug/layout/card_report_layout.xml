@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/selectable_background" >
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entertainment"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Out: $ 12.94"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/display_red" />
+    
+    <View
+        android:id="@+id/bar_out"
+        android:layout_width="match_parent" 
+        android:layout_height="15dp"
+        android:background="@color/display_red"
+        android:layout_margin="3dp"
+       />
+
+    <TextView
+        android:id="@+id/tv_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In: $  450.00"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/display_green"
+		android:layout_marginTop="2dp"/>
+    
+    <View
+        android:id="@+id/bar_in"
+        android:layout_width="50dp" 
+        android:layout_height="15dp"
+        android:background="@color/display_green"
+         android:layout_margin="3dp"
+       />
+
+</LinearLayout>

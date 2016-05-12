@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+    tools:context="com.sentayzo.app.TestMainActivity" >
+
+    <com.sentayzo.app.PieGraph
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:id="@+id/graph"/>
+    
+    <com.sentayzo.app.LineGraph
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:id="@+id/Lgraph"
+        android:layout_weight="1"/>
+    
+    <com.sentayzo.app.BarGraph
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:id="@+id/Bgraph"
+        android:layout_weight="1"/>
+ 
+
+</LinearLayout>

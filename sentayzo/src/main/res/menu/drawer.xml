@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_home"
+            android:checked="true"
+            android:icon="@drawable/ic_drawer_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/navigation_item_scheduled"
+            android:icon="@drawable/ic_drawer_scheduled"
+            android:title="@string/scheduled" />
+        <item
+            android:id="@+id/navigation_item_categories"
+            android:icon="@drawable/ic_drawer_categories"
+            android:title="@string/categories" />
+
+        <item
+            android:id="@+id/navigation_item_payees"
+            android:icon="@drawable/ic_drawer_payees"
+            android:title="@string/payees" />
+
+        <item
+            android:id="@+id/navigation_item_projects"
+            android:icon="@drawable/ic_drawer_projects"
+            android:title="@string/projects_drawer" />
+
+        <item
+            android:id="@+id/navigation_item_closed_accounts"
+            android:icon="@drawable/ic_drawer_closed_accounts"
+            android:title="@string/closed_accounts" />
+
+        <item
+            android:id="@+id/navigation_item_store"
+            android:icon="@drawable/ic_drawer_shopping"
+            android:title="@string/upgrade" />
+
+
+    </group>
+
+
+
+    <group android:id="@+id/theRest">
+
+
+    <item
+
+        android:id="@+id/navigation_item_make_a_suggestion"
+
+        android:title="@string/make_suggestion" />
+    <item
+        android:id="@+id/navigation_item_tell_a_friend"
+
+        android:title="@string/tell_a_friend" />
+    <item
+        android:id="@+id/navigation_item_settings"
+
+        android:title="@string/settings" />
+    <item
+        android:id="@+id/navigation_item_help"
+
+        android:title="@string/help" />
+
+    </group>
+
+
+</menu>

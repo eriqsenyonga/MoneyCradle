@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/munda"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.sentayzo.app.FinishedTransactions" >
+    
+     <include 
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar"/>
+
+    <fragment
+        android:layout_below="@id/app_bar"
+        android:id="@+id/finishedTxFrag"
+        android:name="com.sentayzo.app.FinishedTxFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:paddingBottom="6dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="6dp" />
+
+</RelativeLayout>

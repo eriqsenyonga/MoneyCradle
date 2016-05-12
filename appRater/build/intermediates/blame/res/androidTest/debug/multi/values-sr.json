@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-sr\\values-sr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\bundles\\debug\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 49,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 41,
+                    "endOffset": 142
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\bundles\\debug\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 41,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 147,
+                    "endColumn": 47,
+                    "endOffset": 190
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\bundles\\debug\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 47,
+                        "endOffset": 190
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 195,
+                    "endColumn": 43,
+                    "endOffset": 234
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\bundles\\debug\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 195,
+                        "endColumn": 43,
+                        "endOffset": 234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 239,
+                    "endColumn": 138,
+                    "endOffset": 373
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\bundles\\debug\\res\\values-sr\\values-sr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 239,
+                        "endColumn": 138,
+                        "endOffset": 373
+                    }
+                }
+            }
+        ]
+    }
+]
