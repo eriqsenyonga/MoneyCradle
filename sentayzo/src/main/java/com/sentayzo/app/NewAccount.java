@@ -137,7 +137,7 @@ public class NewAccount extends AppCompatActivity implements
 
 
         } else {
-            findViewById(R.id.adFragment).setVisibility(View.GONE);
+//            findViewById(R.id.adFragment).setVisibility(View.GONE);
 
         }
 

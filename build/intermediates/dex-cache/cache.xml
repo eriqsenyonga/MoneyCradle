@@ -9,153 +9,6 @@
         <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-8.4.0_23a9302a90cffd8ae53f5421c8e94cfd7b77db2e\classes.dex" />
     </item>
     <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\design\23.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.2.0_287766812ec1f0f533ee67c461aeb77709c25485\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="bc599eb9531da9d18bc58ec4eb0b1a1d895f6839">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.2.0_58c38dd7e73c4c8186335fdae2e63c80f287f816\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-8.4.0_8f6ac5d7dcae8494906619ae977e80b731660af9\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-8.4.0_21692c8279d42de1b67e2e68ad96d21ff6ed863d\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-8.4.0_95aa2deeee2aa3ee9a22442c9d7b7f986cb1d697\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-8.4.0_f1d236d108b494a974ac07dd59b7dcd6acbbd1fb\classes.dex" />
-    </item>
-    <item
-        jar="D:\Professional\SideStuff\android\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.0_5f1b06783adc1095c9939918b81461cf784cde9d\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_41dd7d01875aed3c745e4460336c7d56ff7273e3\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="04de44f90606c77f3b28cf44861f306290505aac">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-8.4.0_0041062af49c3089d8e53a86b311d0f47db54d8f\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="292a9fa091757208efa65e77eef63088247e51f3">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.0_fd68310e4f56926beccc3e11c2ebad64d4c2e616\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-8.4.0_095fb751b8c9d678aa6f69c7334845e1e9134151\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_c19030ed77e021083f4c35eed49d60f0d10aaf46\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-8.4.0_b6d0af37455d44fbc32ff6c75202f430ed777e7e\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-8.4.0_59ebf9e38468e8cce2127323fb3225cf5af0289e\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.0_59e7d878b6cdf5edbc74c74fc80b22bf9957cbfa\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.0_a647798b6b419aea0d18f40c94da47681c5d2fe4\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\eric\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v2.1.5\34b9f39e5343d39e205fb7617e734601dc4868e7\MPAndroidChart-v2.1.5.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="34b9f39e5343d39e205fb7617e734601dc4868e7">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v2.1.5_8c6a3707bba92266ddd0c8b32245a5a50f8b8baa\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-8.4.0_86ef8abecc383144df1e31302cb8685ec43f6858\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.0_fbbc160e16f293c06abd654900baf7f5563203b9\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_42b09eb45f802bdc5cb5ff1eb74dd8377a27a867\classes.dex" />
-    </item>
-    <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.0_d15e143cfcb8f19b2b371ad8cc010e7210f64580\classes.dex" />
-    </item>
-    <item
         jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.2"
@@ -173,8 +26,43 @@
         jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="f0acb4e7a52915e9d3cf846ae4437bf588bcc58d">
+        sha1="8dd188af98ec2485106a40ed70bbae1d62b5ac55">
         <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_80bf7070a5e99c1281d58bce64f75ecd8cedcde0\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_902aeff04bc163bc5e4ab0985bcf49594d8f6f1b\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-8.4.0_8f6ac5d7dcae8494906619ae977e80b731660af9\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-8.4.0_21692c8279d42de1b67e2e68ad96d21ff6ed863d\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.3.0_92ec77e28f670a7d47556cd07590022d3eb71009\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-8.4.0_95aa2deeee2aa3ee9a22442c9d7b7f986cb1d697\classes.dex" />
     </item>
     <item
         jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\libs\achartengine-1.1.0.jar"
@@ -184,6 +72,13 @@
         <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\2\achartengine-1.1.0_f74e1c1bebf2e9c578bbd780c8a3f98ba43f8a39\classes.dex" />
     </item>
     <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-8.4.0_f1d236d108b494a974ac07dd59b7dcd6acbbd1fb\classes.dex" />
+    </item>
+    <item
         jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.2"
@@ -191,11 +86,11 @@
         <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_777c45dd7ba4fce594b11f1b844f7ea861b0cb16\classes.dex" />
     </item>
     <item
-        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="6e239441500605809818997dd63b62a947195f8c">
-        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.0_f1c546075259afcb5d01cd075a46c76802aa20ab\classes.dex" />
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_ef5d882ed22c8667a624738fc974a5868ae15897\classes.dex" />
     </item>
     <item
         jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\jars\classes.jar"
@@ -205,6 +100,13 @@
         <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-8.4.0_be8959c36084f0680c76b06106b6dbecfbfd9310\classes.dex" />
     </item>
     <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.3.0_544bce04222653bcc3f07309c95e912d25c909f8\classes.dex" />
+    </item>
+    <item
         jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.2"
@@ -212,11 +114,25 @@
         <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-measurement-8.4.0_20214c56e708b51515a886aa2d702b56f6de17e5\classes.dex" />
     </item>
     <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_41dd7d01875aed3c745e4460336c7d56ff7273e3\classes.dex" />
+    </item>
+    <item
         jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
         <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-8.4.0_92bbad9de44ae27155c6ad641234101b5dd3676d\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-8.4.0_0041062af49c3089d8e53a86b311d0f47db54d8f\classes.dex" />
     </item>
     <item
         jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\net.i2p.android.ext\floatingactionbutton\1.10.0\jars\classes.jar"
@@ -233,11 +149,60 @@
         <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-8.4.0_789d9061baea94aec9407355e8af89c741dea67f\classes.dex" />
     </item>
     <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-8.4.0_095fb751b8c9d678aa6f69c7334845e1e9134151\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_c19030ed77e021083f4c35eed49d60f0d10aaf46\classes.dex" />
+    </item>
+    <item
         jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
         <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_4493dbc64a2c094707be4301dfc267ded18bbc37\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-8.4.0_b6d0af37455d44fbc32ff6c75202f430ed777e7e\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_8bfaeb1a07444aba9cb6816ec1a6e631f62c6600\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.3.0_6c6cc483543f6fd00a25f92bf70923e46a235579\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-8.4.0_59ebf9e38468e8cce2127323fb3225cf5af0289e\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_f53cc6e51066723157b20916534ac337a03eebde\classes.dex" />
     </item>
     <item
         jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\jars\classes.jar"
@@ -254,11 +219,25 @@
         <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-8.4.0_9e4b0dd0bce2c6dcdad396d197c492bb61cbb4c5\classes.dex" />
     </item>
     <item
+        jar="D:\Professional\SideStuff\android\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_d009e276f8191a1f69546188dfe05976b5dc2913\classes.dex" />
+    </item>
+    <item
         jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="7556a98076cd1a158954f6f70a1f214cca011815">
+        sha1="20a5f8082f3c19ce049fdc2b0655a3ff3ffb99e1">
         <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b85edd4e6b2c27609180c6ba9a3eba4aab07b481\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\eric\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v2.1.5\34b9f39e5343d39e205fb7617e734601dc4868e7\MPAndroidChart-v2.1.5.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="34b9f39e5343d39e205fb7617e734601dc4868e7">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v2.1.5_8c6a3707bba92266ddd0c8b32245a5a50f8b8baa\classes.dex" />
     </item>
     <item
         jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\jars\classes.jar"
@@ -275,6 +254,13 @@
         <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_1f6d4c316bedff44b893fb1b700fa9e7ae91f25c\classes.dex" />
     </item>
     <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-8.4.0_86ef8abecc383144df1e31302cb8685ec43f6858\classes.dex" />
+    </item>
+    <item
         jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\libs\opencsv-3.0.jar"
         jumboMode="true"
         revision="23.0.2"
@@ -287,6 +273,27 @@
         revision="23.0.2"
         sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
         <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-8.4.0_c094111870a8827683e81c5be60aa1ef04973e93\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_80ce18f97be2b037d56c4fcb3937ec1397ef5087\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_42b09eb45f802bdc5cb5ff1eb74dd8377a27a867\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_0064eb0e99a4846c929f584912e1311e55acad1b\classes.dex" />
     </item>
 
 </items>

@@ -216,7 +216,7 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayShowTitleEnabled(true);
 
-        AppRater.app_launched(this);
+//        AppRater.app_launched(this);
 
 
         Intent i = getIntent();

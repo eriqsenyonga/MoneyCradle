@@ -8,6 +8,9 @@ android {
         applicationId "com.sentayzo.app"
         minSdkVersion 9
         targetSdkVersion 23
+
+        // Enabling multidex support.
+        multiDexEnabled true
     }
 
     buildTypes {

@@ -17,6 +17,7 @@ ADDED from D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\And
 		ADDED from D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
 MERGED from [Sentayzo:appRater:unspecified] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\Sentayzo\appRater\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:23.3.0] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\design\23.3.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:23.3.0] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78

@@ -202,6 +202,7 @@ public class DbClass {
     public static final String KEY_TRANSACTION_NOTE = "tx_note";
     public static final String KEY_TRANSACTION_TRANSFER_ID = "tx_tr_id";
     public static final String KEY_TRANSACTION_PROJECT_ID = "pr_id";
+    public static final String KEY_TRANSACTION_PHOTO = "tx_photo";
 
     public static final String DATABASE_TABLE_TRANSACTION = "transactionTable";
 
@@ -214,8 +215,11 @@ public class DbClass {
             + KEY_TRANSACTION_TRANSACTION_TYPE_ID + " INTEGER NOT NULL, "
             + KEY_TRANSACTION_CATEGORY_ID + " INTEGER NOT NULL, "
             + KEY_TRANSACTION_AMOUNT + " INTEGER NOT NULL, "
-            + KEY_TRANSACTION_NOTE + " TEXT, " + KEY_TRANSACTION_TRANSFER_ID
-            + " INTEGER, " + KEY_TRANSACTION_PROJECT_ID + " INTEGER, "
+            + KEY_TRANSACTION_NOTE + " TEXT, "
+            + KEY_TRANSACTION_TRANSFER_ID
+            + " INTEGER, "
+            + KEY_TRANSACTION_PHOTO + " TEXT,"
+            + KEY_TRANSACTION_PROJECT_ID + " INTEGER, "
             + "FOREIGN KEY (" + KEY_TRANSACTION_ACCOUNT_ID + ") REFERENCES "
             + DATABASE_TABLE_ACCOUNT + "(" + KEY_ACCOUNT_ID + ")," + "FOREIGN KEY ("
             + KEY_TRANSACTION_PAYEE_ID + ") REFERENCES " + DATABASE_TABLE_PAYEE
@@ -374,7 +378,7 @@ public class DbClass {
 
     // details of the database that is, database name and version
     private static final String DATABASE_NAME = "sentayzoDb.db";
-    private static final int DATABASE_VERSION = 22;
+    private static final int DATABASE_VERSION = 23;
 
     private DbHelper ourHelper; // instance of the DbHelper class
     private final Context ourContext;
@@ -387,7 +391,7 @@ public class DbClass {
         public DbHelper(Context context) {
             super(context, DATABASE_NAME, null, DATABASE_VERSION);
             ctx = context;
-            // TODO Auto-generated constructor stub
+
         }
 
         @Override
@@ -636,7 +640,7 @@ public class DbClass {
 
         @Override
         public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-            // TODO Auto-generated method stub
+
 
             if (oldVersion == 21) {
                 /*
@@ -722,9 +726,117 @@ public class DbClass {
                 //7.   drop accountTableOld
                 db.execSQL("DROP TABLE " + DATABASE_TABLE_ACCOUNT_OLD);
 
+
+
+
+	/*upgrading to Database Version 23
+
+		version 23 includes a column to save a photo in the transaction table
+
+	*/
+
+                //step 1. rename the transactionTable to transactionTableOld
+
+                String DATABASE_TABLE_TRANSACTION_OLD = "transactionTableOld";
+
+                db.execSQL("ALTER TABLE " + DATABASE_TABLE_TRANSACTION + " RENAME TO " + DATABASE_TABLE_TRANSACTION_OLD + ";");
+
+                //step 2. create new table called transactionTable but with a column called photo with type TEXT
+
+                db.execSQL(CREATE_TRANSACTION_TABLE);
+
+                //step 3. copy all data from transactionTableOld to transactionTable
+
+                db.execSQL("INSERT INTO " + DATABASE_TABLE_TRANSACTION
+                        + "("
+                        + KEY_TRANSACTION_ID + ", "
+                        + KEY_TRANSACTION_DATE + ", "
+                        + KEY_TRANSACTION_ACCOUNT_ID + ", "
+                        + KEY_TRANSACTION_PAYEE_ID + ", "
+                        + KEY_TRANSACTION_TRANSACTION_TYPE_ID + ", "
+                        + KEY_TRANSACTION_CATEGORY_ID + ", "
+                        + KEY_TRANSACTION_AMOUNT + ", "
+                        + KEY_TRANSACTION_NOTE + ", "
+                        + KEY_TRANSACTION_TRANSFER_ID + ", "
+                        + KEY_TRANSACTION_PROJECT_ID + " "
+
+                        + ")"
+
+                        + " SELECT "
+                        + KEY_TRANSACTION_ID + ", "
+                        + KEY_TRANSACTION_DATE + ", "
+                        + KEY_TRANSACTION_ACCOUNT_ID + ", "
+                        + KEY_TRANSACTION_PAYEE_ID + ", "
+                        + KEY_TRANSACTION_TRANSACTION_TYPE_ID + ", "
+                        + KEY_TRANSACTION_CATEGORY_ID + ", "
+                        + KEY_TRANSACTION_AMOUNT + ", "
+                        + KEY_TRANSACTION_NOTE + ", "
+                        + KEY_TRANSACTION_TRANSFER_ID + ", "
+                        + KEY_TRANSACTION_PROJECT_ID + " "
+
+                        + " FROM " + DATABASE_TABLE_TRANSACTION_OLD + ";");
+
+
+                //step 4. Drop transactionTableOld
+
+                db.execSQL("DROP TABLE " + DATABASE_TABLE_TRANSACTION_OLD);
+
+            } else if (oldVersion == 22) {
+
+
+	/*upgrading to Database Version 23 from version 22
+
+		version 23 includes a column to save a photo in the transaction table
+
+	*/
+
+                //step 1. rename the transactionTable to transactionTableOld
+
+                String DATABASE_TABLE_TRANSACTION_OLD = "transactionTableOld";
+
+                db.execSQL("ALTER TABLE " + DATABASE_TABLE_TRANSACTION + " RENAME TO " + DATABASE_TABLE_TRANSACTION_OLD + ";");
+
+                //step 2. create new table called transactionTable but with a column called photo with type TEXT
+
+                db.execSQL(CREATE_TRANSACTION_TABLE);
+
+                //step 3. copy all data from transactionTableOld to transactionTable
+
+                db.execSQL("INSERT INTO " + DATABASE_TABLE_TRANSACTION
+                        + "("
+                        + KEY_TRANSACTION_ID + ", "
+                        + KEY_TRANSACTION_DATE + ", "
+                        + KEY_TRANSACTION_ACCOUNT_ID + ", "
+                        + KEY_TRANSACTION_PAYEE_ID + ", "
+                        + KEY_TRANSACTION_TRANSACTION_TYPE_ID + ", "
+                        + KEY_TRANSACTION_CATEGORY_ID + ", "
+                        + KEY_TRANSACTION_AMOUNT + ", "
+                        + KEY_TRANSACTION_NOTE + ", "
+                        + KEY_TRANSACTION_TRANSFER_ID + ", "
+                        + KEY_TRANSACTION_PROJECT_ID
+
+                        + ")"
+
+                        + " SELECT "
+                        + KEY_TRANSACTION_ID + ", "
+                        + KEY_TRANSACTION_DATE + ", "
+                        + KEY_TRANSACTION_ACCOUNT_ID + ", "
+                        + KEY_TRANSACTION_PAYEE_ID + ", "
+                        + KEY_TRANSACTION_TRANSACTION_TYPE_ID + ", "
+                        + KEY_TRANSACTION_CATEGORY_ID + ", "
+                        + KEY_TRANSACTION_AMOUNT + ", "
+                        + KEY_TRANSACTION_NOTE + ", "
+                        + KEY_TRANSACTION_TRANSFER_ID + ", "
+                        + KEY_TRANSACTION_PROJECT_ID
+
+                        + " FROM " + DATABASE_TABLE_TRANSACTION_OLD + ";");
+
+
+                //step 4. Drop transactionTableOld
+
+                db.execSQL("DROP TABLE " + DATABASE_TABLE_TRANSACTION_OLD);
             } else {
 
-                // onCreate(db);
             }
 
         }
@@ -775,8 +887,6 @@ public class DbClass {
         ourHelper = new DbHelper(ourContext);
         ourDatabase = ourHelper.getWritableDatabase();
 
-
-        Log.d("inside DbClass.java", "DbClass open() successful");
 
         return this;
     }
