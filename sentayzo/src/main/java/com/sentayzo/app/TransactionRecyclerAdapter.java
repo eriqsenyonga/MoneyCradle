@@ -102,6 +102,7 @@ public class TransactionRecyclerAdapter extends CursorRecyclerAdapter<Transactio
                 tvAmount.setTextAppearance(R.style.boldText);
             }
 
+
         }
 
         public void bindData(final Cursor cursor) {

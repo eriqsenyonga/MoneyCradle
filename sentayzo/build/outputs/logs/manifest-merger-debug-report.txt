@@ -847,6 +847,66 @@ MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\M
 MERGED from [com.android.support:recyclerview-v7:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
 MERGED from [net.i2p.android.ext:floatingactionbutton:1.10.0] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\net.i2p.android.ext\floatingactionbutton\1.10.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-ads:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.2.1\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-clearcut:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-gass:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-auth:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-gcm:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-iid:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
@@ -932,6 +992,7 @@ MERGED from [com.google.firebase:firebase-analytics:9.2.1] D:\Android Studio Pro
 MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:20:5-79
 MERGED from [com.google.android.gms:play-services-maps:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.2.1\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:21:5-78
 	android:name
 		ADDED from D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:16:22-76
 uses-permission#android.permission.INTERNET
@@ -971,6 +1032,9 @@ MERGED from [com.google.firebase:firebase-analytics:9.2.1] D:\Android Studio Pro
 MERGED from [com.google.firebase:firebase-analytics-impl:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.2.1\AndroidManifest.xml:21:5-67
 MERGED from [com.google.firebase:firebase-iid:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:21:5-67
 MERGED from [com.google.android.gms:play-services-maps:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.2.1\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.2.1\AndroidManifest.xml:22:5-67
 	android:name
 		ADDED from D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:17:22-64
 uses-permission#android.permission.VIBRATE
@@ -1798,6 +1862,64 @@ MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\Android Stud
 MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
 MERGED from [net.i2p.android.ext:floatingactionbutton:1.10.0] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\net.i2p.android.ext\floatingactionbutton\1.10.0\AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.2.1\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-gass:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.2.1\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-auth:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.1\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-gcm:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.2.1\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.2.1\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.2.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:27:9-41
 	android:allowBackup
@@ -2299,6 +2421,26 @@ MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Stu
 MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.2.1\AndroidManifest.xml:21:9-23:69
 	android:value
 		ADDED from D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:209:13-66
 	android:name
@@ -2317,6 +2459,7 @@ ADDED from D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\And
 		ADDED from D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:214:13-61
 activity#com.google.android.gms.ads.AdActivity
 ADDED from D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:217:9-220:64
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:26:9-29:64
 MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:26:9-29:64
 MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:26:9-29:64
 	android:configChanges
@@ -2358,12 +2501,19 @@ ADDED from D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\And
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
 ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:30:9-31:52
 MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:30:9-31:52
+MERGED from [com.google.android.gms:play-services-ads-lite:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:30:9-31:52
 	android:theme
 		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:31:13-50
 	android:name
 		ADDED from [com.google.android.gms:play-services-ads-lite:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.2.1\AndroidManifest.xml:30:19-91
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:20:9-22:45
 MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:20:9-22:45
 MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:20:9-22:45
 MERGED from [com.google.android.gms:play-services-base:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.2.1\AndroidManifest.xml:20:9-22:45
@@ -2446,6 +2596,7 @@ ADDED from [com.google.android.gms:play-services-appinvite:9.2.1] D:\Android Stu
 		ADDED from [com.google.android.gms:play-services-appinvite:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.2.1\AndroidManifest.xml:27:27-73
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.1\AndroidManifest.xml:21:9-24:46
+MERGED from [com.google.android.gms:play-services-auth:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.1\AndroidManifest.xml:21:9-24:46
 	android:excludeFromRecents
 		ADDED from [com.google.android.gms:play-services-auth:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.1\AndroidManifest.xml:23:19-52
 	android:exported
@@ -2456,6 +2607,7 @@ ADDED from [com.google.android.gms:play-services-auth:9.2.1] D:\Android Studio P
 		ADDED from [com.google.android.gms:play-services-auth:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.1\AndroidManifest.xml:21:19-68
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
 ADDED from [com.google.android.gms:play-services-auth:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.1\AndroidManifest.xml:28:9-31:110
+MERGED from [com.google.android.gms:play-services-auth:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.1\AndroidManifest.xml:28:9-31:110
 	android:exported
 		ADDED from [com.google.android.gms:play-services-auth:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.2.1\AndroidManifest.xml:30:13-36
 	android:permission
@@ -2487,6 +2639,8 @@ MERGED from [com.google.firebase:firebase-iid:9.2.1] D:\Android Studio Projects\
 MERGED from [com.google.firebase:firebase-iid:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:23:5-82
 MERGED from [com.google.firebase:firebase-iid:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:23:5-82
 MERGED from [com.google.firebase:firebase-iid:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-gcm:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.2.1\AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-iid:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.2.1\AndroidManifest.xml:21:5-82
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:9.2.1] D:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.2.1\AndroidManifest.xml:23:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
