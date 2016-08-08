@@ -780,6 +780,10 @@
         "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_media_route_on_2_mono_dark.png"
     },
     {
+        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\coins_bg.jpg",
+        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\drawable-hdpi\\coins_bg.jpg"
+    },
+    {
         "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_card_visa.png",
         "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\drawable-hdpi\\ic_card_visa.png"
     },

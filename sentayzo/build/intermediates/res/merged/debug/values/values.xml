@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <string-array name="accountsListDialog">
         <item>View Account Info</item>
         <item>New Transaction</item>
@@ -1067,7 +1067,10 @@
         <item>Delete Transaction</item>
         <item>Cancel</item>
     </string-array>
+    <attr format="reference" name="datePickerDialogTheme"/>
     <attr format="reference" name="drawerArrowStyle"/>
+    <attr format="color" name="headerBackground"/>
+    <attr format="color" name="headerTextColor"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
     <attr format="reference" name="mediaRouteButtonStyle"/>
@@ -1078,6 +1081,7 @@
     <attr format="reference" name="mediaRoutePauseDrawable"/>
     <attr format="reference" name="mediaRoutePlayDrawable"/>
     <attr format="reference" name="mediaRouteSettingsDrawable"/>
+    <attr format="reference" name="timePickerDialogTheme"/>
     <attr format="string" name="title"/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_allow_stacked_button_bar">true</bool>
@@ -1165,6 +1169,14 @@
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
     <color name="icons">#FFFFFF</color>
+    <color name="label_background_color_dark">#424242</color>
+    <color name="label_background_color_light">#ffffff</color>
+    <color name="label_ripple_color_dark">#33ffffff</color>
+    <color name="label_ripple_color_light">#1f000000</color>
+    <color name="label_shadow_end_color">#03000000</color>
+    <color name="label_shadow_start_color">#37000000</color>
+    <color name="label_text_color_dark">#ffffffff</color>
+    <color name="label_text_color_light">#de000000</color>
     <color name="light_grey">#f0f0f0</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
@@ -1227,6 +1239,7 @@
     <color name="white">#ffffff</color>
     <color name="white_">#fafafa</color>
     <color name="white_pressed">#f1f1f1</color>
+    <declare-styleable name="AccountHeaderView"><attr format="boolean" name="accountHeaderAddEnabled"/><attr format="boolean" name="accountHeaderManageEnabled"/><attr format="boolean" name="accountHeaderCheckableAccountsEnabled"/></declare-styleable>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="contentInsetStartWithNavigation"/><attr format="dimension" name="contentInsetEndWithActions"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
     <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
@@ -1250,6 +1263,7 @@
     <declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/><attr name="android:minWidth"/><attr name="android:minHeight"/></declare-styleable>
     <declare-styleable name="CastIntroOverlay"><attr format="color|reference" name="castBackgroundColor"/><attr format="color|reference" name="castButtonBackgroundColor"/><attr format="reference" name="castButtonTextAppearance"/><attr format="string|reference" name="castButtonText"/><attr format="reference" name="castTitleTextAppearance"/><attr format="dimension|reference" name="castFocusRadius"/></declare-styleable>
     <declare-styleable name="CastMiniController"><attr format="boolean" name="castShowImageThumbnail"/><attr name="castTitleTextAppearance"/><attr format="reference" name="castSubtitleTextAppearance"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="boolean" name="circleImageEnabled"/><attr format="color" name="placeholderCircleColor"/><attr format="dimension" name="placeholderTextSize"/><attr format="color" name="placeholderTextColor"/><attr format="dimension" name="placeholderIconSize"/><attr format="color" name="placeholderIconColor"/></declare-styleable>
     <declare-styleable name="CollapsingToolbarLayout"><attr format="dimension" name="expandedTitleMargin"/><attr format="dimension" name="expandedTitleMarginStart"/><attr format="dimension" name="expandedTitleMarginTop"/><attr format="dimension" name="expandedTitleMarginEnd"/><attr format="dimension" name="expandedTitleMarginBottom"/><attr format="reference" name="expandedTitleTextAppearance"/><attr format="reference" name="collapsedTitleTextAppearance"/><attr format="color" name="contentScrim"/><attr format="color" name="statusBarScrim"/><attr format="reference" name="toolbarId"/><attr format="dimension" name="scrimVisibleHeightTrigger"/><attr format="integer" name="scrimAnimationDuration"/><attr name="collapsedTitleGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="center" value="0x11"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr><attr name="expandedTitleGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="center" value="0x11"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr><attr format="boolean" name="titleEnabled"/><attr name="title"/></declare-styleable>
     <declare-styleable name="CollapsingToolbarLayout_Layout"><attr name="layout_collapseMode"><enum name="none" value="0"/><enum name="pin" value="1"/><enum name="parallax" value="2"/></attr><attr format="float" name="layout_collapseParallaxMultiplier"/></declare-styleable>
     <declare-styleable name="ColorStateListItem"><attr name="android:color"/><attr format="float" name="alpha"/><attr name="android:alpha"/></declare-styleable>
@@ -1259,16 +1273,21 @@
     <declare-styleable name="Corpus"><attr format="string" name="corpusId"/><attr format="string" name="corpusVersion"/><attr format="string" name="contentProviderUri"/><attr format="boolean" name="trimmable"/><attr format="string" name="schemaOrgType"/><attr format="boolean" name="semanticallySearchable"/><attr format="boolean" name="perAccountTemplate"/></declare-styleable>
     <declare-styleable name="CustomCastTheme"><attr format="reference" name="castIntroOverlayStyle"/><attr format="reference" name="castMiniControllerStyle"/></declare-styleable>
     <declare-styleable name="CustomWalletTheme"><attr format="enum" name="windowTransitionStyle"><enum name="slide" value="1"/><enum name="none" value="2"/></attr><attr format="enum" name="toolbarTextColorStyle"><enum name="light" value="1"/><enum name="dark" value="2"/></attr></declare-styleable>
+    <declare-styleable name="DatePickerDialog"><attr format="integer" name="firstDayOfWeek"/><attr format="string" name="minDate"/><attr format="string" name="maxDate"/><attr name="headerBackground"/><attr name="headerTextColor"/><attr format="reference" name="monthTextAppearance"/><attr format="reference" name="weekDayTextAppearance"/><attr format="reference" name="dateTextAppearance"/><attr format="color" name="daySelectorColor"/><attr format="color" name="dayHighlightColor"/></declare-styleable>
     <declare-styleable name="DesignTheme"><attr format="reference" name="bottomSheetDialogTheme"/><attr format="reference" name="bottomSheetStyle"/><attr format="color" name="textColorError"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable>
     <declare-styleable name="FeatureParam"><attr format="string" name="paramName"/><attr format="string" name="paramValue"/></declare-styleable>
-    <declare-styleable name="FloatingActionButton"><attr format="color" name="fab_colorPressed"/><attr format="color" name="fab_colorDisabled"/><attr format="color" name="fab_colorNormal"/><attr format="reference" name="fab_icon"/><attr format="enum" name="fab_size"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr format="string" name="fab_title"/><attr format="boolean" name="fab_stroke_visible"/><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr format="color" name="rippleColor"/><attr name="fabSize"><enum name="auto" value="-1"/><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr name="elevation"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/><attr format="boolean" name="useCompatPadding"/></declare-styleable>
+    <declare-styleable name="FlexibleToolbarLayout"><attr format="dimension" name="expandedMargin"/><attr format="dimension" name="expandedMarginStart"/><attr format="dimension" name="expandedMarginTop"/><attr format="dimension" name="expandedMarginEnd"/><attr format="dimension" name="expandedMarginBottom"/><attr name="expandedGravity"><flag name="top" value="0x30"/><flag name="center_vertical" value="0x10"/><flag name="bottom" value="0x50"/></attr><attr format="reference" name="titleExpandedTextAppearance"/><attr format="reference" name="titleCollapsedTextAppearance"/><attr format="reference" name="subtitleExpandedTextAppearance"/><attr format="reference" name="subtitleCollapsedTextAppearance"/><attr format="dimension" name="iconExpandedSize"/><attr format="dimension" name="iconCollapsedSize"/><attr format="boolean" name="titleFlexibleEnabled"/><attr name="title"/><attr format="boolean" name="subtitleFlexibleEnabled"/><attr name="subtitle"/><attr format="boolean" name="iconFlexibleEnabled"/><attr name="icon"/><attr format="dimension" name="spaceTitleSubtitle"/><attr format="dimension" name="spaceIconTitles"/><attr format="color" name="contentScrimColor"/><attr format="color" name="statusBarScrimColor"/><attr format="reference" name="toolbarRefId"/></declare-styleable>
+    <declare-styleable name="FlexibleToolbarLayout_LayoutParams"><attr name="layout_collapseMode"/><attr name="layout_collapseParallaxMultiplier"/></declare-styleable>
+    <declare-styleable name="FloatingActionButton"><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr format="color" name="rippleColor"/><attr name="fabSize"><enum name="auto" value="-1"/><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr name="elevation"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/><attr format="boolean" name="useCompatPadding"/><attr format="color" name="fab_colorPressed"/><attr format="color" name="fab_colorDisabled"/><attr format="color" name="fab_colorNormal"/><attr format="reference" name="fab_icon"/><attr format="enum" name="fab_size"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr format="string" name="fab_title"/><attr format="boolean" name="fab_stroke_visible"/></declare-styleable>
+    <declare-styleable name="FloatingActionMenu"><attr format="enum" name="fabMenuExpandDirection"><enum name="up" value="0"/><enum name="down" value="1"/><enum name="left" value="2"/><enum name="right" value="3"/></attr><attr format="enum" name="fabMenuLabelPosition"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="fabMenuLabelStyle"/><attr format="reference" name="fabMenuCloseIconSrc"/><attr format="float" name="fabMenuCloseIconAngle"/><attr format="dimension" name="fabMenuSpacing"/></declare-styleable>
     <declare-styleable name="FloatingActionsMenu"><attr format="color" name="fab_addButtonColorPressed"/><attr format="color" name="fab_addButtonColorNormal"/><attr format="enum" name="fab_addButtonSize"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr format="color" name="fab_addButtonPlusIconColor"/><attr format="boolean" name="fab_addButtonStrokeVisible"/><attr format="reference" name="fab_labelStyle"/><attr format="enum" name="fab_labelsPosition"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="enum" name="fab_expandDirection"><enum name="up" value="0"/><enum name="down" value="1"/><enum name="left" value="2"/><enum name="right" value="3"/></attr></declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
     <declare-styleable name="GlobalSearch"><attr format="boolean" name="searchEnabled"/><attr format="string" localization="suggested" name="searchLabel"/><attr format="string" localization="suggested" name="settingsDescription"/><attr format="string" name="defaultIntentAction"/><attr format="string" name="defaultIntentData"/><attr format="string" name="defaultIntentActivity"/></declare-styleable>
     <declare-styleable name="GlobalSearchCorpus"><attr format="boolean" name="allowShortcuts"/></declare-styleable>
     <declare-styleable name="GlobalSearchSection"><attr format="enum" name="sectionType"><enum name="text1" value="0"/><enum name="text2" value="1"/><enum name="icon_uri" value="2"/><enum name="intent_action" value="3"/><enum name="intent_data" value="4"/><enum name="intent_data_id" value="5"/><enum name="intent_extra_data" value="6"/><enum name="large_icon_uri" value="7"/><enum name="intent_activity" value="8"/><enum name="thing_proto" value="9"/></attr><attr format="string" localization="suggested" name="sectionContent"/></declare-styleable>
     <declare-styleable name="IMECorpus"><attr format="boolean" name="inputEnabled"/><attr format="enum" name="sourceClass"><enum name="email" value="0"/><enum name="contact" value="1"/><enum name="instant_message" value="2"/></attr><attr format="string" name="userInputTag"/><attr format="string" name="userInputSection"/><attr format="string" name="userInputValue"/><attr format="string" name="toAddressesSection"/></declare-styleable>
+    <declare-styleable name="LabelView"><attr format="color" name="labelBackgroundColor"/><attr format="color" name="labelRippleColor"/><attr format="dimension" name="labelCornerRadius"/><attr format="dimension" name="labelElevation"/><attr format="dimension" name="labelPaddingHorizontal"/><attr format="dimension" name="labelPaddingVertical"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
@@ -1293,8 +1312,10 @@
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="color" name="thumbTint"/><attr name="thumbTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/><enum name="add" value="16"/></attr><attr format="reference" name="track"/><attr format="color" name="trackTint"/><attr name="trackTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/><enum name="add" value="16"/></attr><attr name="android:textOn"/><attr name="android:textOff"/><attr format="dimension" name="thumbTextPadding"/><attr format="reference" name="switchTextAppearance"/><attr format="dimension" name="switchMinWidth"/><attr format="dimension" name="switchPadding"/><attr format="boolean" name="splitTrack"/><attr format="boolean" name="showText"/></declare-styleable>
     <declare-styleable name="TabItem"><attr name="android:text"/><attr name="android:icon"/><attr name="android:layout"/></declare-styleable>
     <declare-styleable name="TabLayout"><attr format="color" name="tabIndicatorColor"/><attr format="dimension" name="tabIndicatorHeight"/><attr format="dimension" name="tabContentStart"/><attr format="reference" name="tabBackground"/><attr name="tabMode"><enum name="scrollable" value="0"/><enum name="fixed" value="1"/></attr><attr name="tabGravity"><enum name="fill" value="0"/><enum name="center" value="1"/></attr><attr format="dimension" name="tabMinWidth"/><attr format="dimension" name="tabMaxWidth"/><attr format="reference" name="tabTextAppearance"/><attr format="color" name="tabTextColor"/><attr format="color" name="tabSelectedTextColor"/><attr format="dimension" name="tabPaddingStart"/><attr format="dimension" name="tabPaddingTop"/><attr format="dimension" name="tabPaddingEnd"/><attr format="dimension" name="tabPaddingBottom"/><attr format="dimension" name="tabPadding"/></declare-styleable>
-    <declare-styleable name="TextAppearance"><attr name="android:textSize"/><attr name="android:textColor"/><attr name="android:textStyle"/><attr name="android:typeface"/><attr name="textAllCaps"/><attr name="android:shadowColor"/><attr name="android:shadowDy"/><attr name="android:shadowDx"/><attr name="android:shadowRadius"/></declare-styleable>
+    <declare-styleable name="TextAppearance"><attr name="android:textSize"/><attr name="android:textColor"/><attr name="android:textStyle"/><attr name="android:typeface"/><attr name="textAllCaps"/><attr name="android:shadowColor"/><attr name="android:shadowDy"/><attr name="android:shadowDx"/><attr name="android:shadowRadius"/><attr name="android:fontFamily"/><attr name="android:textColorHighlight"/><attr name="android:textColorHint"/><attr name="android:textColorLink"/></declare-styleable>
     <declare-styleable name="TextInputLayout"><attr format="reference" name="hintTextAppearance"/><attr name="android:hint"/><attr format="boolean" name="hintEnabled"/><attr format="boolean" name="errorEnabled"/><attr format="reference" name="errorTextAppearance"/><attr format="boolean" name="counterEnabled"/><attr format="integer" name="counterMaxLength"/><attr format="reference" name="counterTextAppearance"/><attr format="reference" name="counterOverflowTextAppearance"/><attr name="android:textColorHint"/><attr format="boolean" name="hintAnimationEnabled"/></declare-styleable>
+    <declare-styleable name="TextViewAppearance"><attr name="android:textAppearance"/></declare-styleable>
+    <declare-styleable name="TimePickerDialog"><attr name="headerBackground"/><attr name="headerTextColor"/><attr format="color" name="numbersTextColor"/><attr format="color" name="numbersInnerTextColor"/><attr format="color" name="numbersSelectorColor"/><attr format="color" name="numbersBackgroundColor"/></declare-styleable>
     <declare-styleable name="Toolbar"><attr format="reference" name="titleTextAppearance"/><attr format="reference" name="subtitleTextAppearance"/><attr name="title"/><attr name="subtitle"/><attr name="android:gravity"/><attr format="dimension" name="titleMargin"/><attr format="dimension" name="titleMarginStart"/><attr format="dimension" name="titleMarginEnd"/><attr format="dimension" name="titleMarginTop"/><attr format="dimension" name="titleMarginBottom"/><attr format="dimension" name="titleMargins"/><attr name="contentInsetStart"/><attr name="contentInsetEnd"/><attr name="contentInsetLeft"/><attr name="contentInsetRight"/><attr name="contentInsetStartWithNavigation"/><attr name="contentInsetEndWithActions"/><attr format="dimension" name="maxButtonHeight"/><attr name="buttonGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/></attr><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="logo"/><attr format="string" name="logoDescription"/><attr format="color" name="titleTextColor"/><attr format="color" name="subtitleTextColor"/><attr name="android:minHeight"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/></declare-styleable>
     <declare-styleable name="ViewBackgroundHelper"><attr name="android:background"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
@@ -1366,12 +1387,26 @@
     <dimen name="abc_text_size_large_material">22sp</dimen>
     <dimen name="abc_text_size_medium_material">18sp</dimen>
     <dimen name="abc_text_size_menu_header_material">14sp</dimen>
-    <dimen name="abc_text_size_menu_material">16sp</dimen>
+    <dimen name="abc_text_size_menu_material">14sp</dimen>
     <dimen name="abc_text_size_small_material">14sp</dimen>
     <dimen name="abc_text_size_subhead_material">16sp</dimen>
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="account_header_height">148dp</dimen>
+    <dimen name="account_header_icon_internal_margin">24dp</dimen>
+    <dimen name="account_header_icon_margin">16dp</dimen>
+    <dimen name="account_header_padding_top">0dp</dimen>
+    <dimen name="account_header_primary_icon_size">64dp</dimen>
+    <dimen name="account_header_secondary_icon_size">40dp</dimen>
+    <dimen name="account_header_section_height">56dp</dimen>
+    <dimen name="account_header_text_padding">16dp</dimen>
+    <dimen name="account_header_text_size">14sp</dimen>
+    <dimen name="account_list_item_height">64dp</dimen>
+    <dimen name="account_list_item_icon_size">40dp</dimen>
+    <dimen name="account_list_item_info_icon_size">16dp</dimen>
+    <dimen name="account_list_item_margin">16dp</dimen>
+    <dimen name="account_list_item_text_size">14sp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="calc_dialog_button_height">50dp</dimen>
@@ -1401,6 +1436,32 @@
     <dimen name="cast_notification_image_size">75dp</dimen>
     <dimen name="cast_tracks_chooser_dialog_no_message_text_size">18sp</dimen>
     <dimen name="cast_tracks_chooser_dialog_row_text_size">18sp</dimen>
+    <dimen name="date_picker_date_label_size">34dp</dimen>
+    <dimen name="date_picker_day_height">40dp</dimen>
+    <dimen name="date_picker_day_of_week_height">36dp</dimen>
+    <dimen name="date_picker_day_of_week_text_size">12sp</dimen>
+    <dimen name="date_picker_day_selector_radius">20dp</dimen>
+    <dimen name="date_picker_day_text_size">12sp</dimen>
+    <dimen name="date_picker_day_width">44dp</dimen>
+    <dimen name="date_picker_month_height">56dp</dimen>
+    <dimen name="date_picker_month_text_size">14sp</dimen>
+    <dimen name="date_picker_year_label_size">16sp</dimen>
+    <dimen name="datepicker_component_width">260dp</dimen>
+    <dimen name="datepicker_dialog_width">520dp</dimen>
+    <dimen name="datepicker_header_height">30dp</dimen>
+    <dimen name="datepicker_header_text_size">14dp</dimen>
+    <dimen name="datepicker_list_year_activated_label_size">26sp</dimen>
+    <dimen name="datepicker_list_year_label_size">16sp</dimen>
+    <dimen name="datepicker_selected_date_day_size">88dp</dimen>
+    <dimen name="datepicker_selected_date_month_size">24dp</dimen>
+    <dimen name="datepicker_selected_date_year_size">24dp</dimen>
+    <dimen name="datepicker_view_animator_height">226dp</dimen>
+    <dimen name="datepicker_year_label_height">64dp</dimen>
+    <dimen name="day_picker_button_margin_top">0dp</dimen>
+    <dimen name="day_picker_padding_horizontal">20dp</dimen>
+    <dimen name="day_picker_padding_top">6dp</dimen>
+    <dimen name="defaultPlaceholderImageSize">24dp</dimen>
+    <dimen name="defaultPlaceholderTextSize">24sp</dimen>
     <dimen name="description_textview_textsize">14sp</dimen>
     <dimen name="design_appbar_elevation">4dp</dimen>
     <dimen name="design_bottom_sheet_modal_elevation">16dp</dimen>
@@ -1431,6 +1492,7 @@
     <dimen name="design_tab_scrollable_min_width">72dp</dimen>
     <dimen name="design_tab_text_size">14sp</dimen>
     <dimen name="design_tab_text_size_2line">12sp</dimen>
+    <dimen name="dim_elevation">5dp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <dimen name="fab_actions_spacing">16dp</dimen>
@@ -1444,6 +1506,8 @@
     <dimen name="fab_size_mini">40dp</dimen>
     <dimen name="fab_size_normal">56dp</dimen>
     <dimen name="fab_stroke_width">1dp</dimen>
+    <dimen name="fam_label_spacing">16dp</dimen>
+    <dimen name="fam_spacing">16dp</dimen>
     <dimen name="forms_textview_textsize">17sp</dimen>
     <dimen name="graph_text_size">15sp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
@@ -1452,6 +1516,14 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="label_inset_shadow">1dp</dimen>
+    <dimen name="line_spacing_extra_body_1_material">6sp</dimen>
+    <dimen name="line_spacing_extra_body_2_material">10sp</dimen>
+    <dimen name="line_spacing_extra_display_1_material">6sp</dimen>
+    <dimen name="line_spacing_extra_display_2_material">3sp</dimen>
+    <dimen name="line_spacing_extra_headline_material">8sp</dimen>
+    <dimen name="line_spacing_extra_subhead_1_material">8sp</dimen>
+    <dimen name="line_spacing_extra_subhead_2_material">12sp</dimen>
     <dimen name="list_item_vert_margin">8dp</dimen>
     <dimen name="mr_media_route_controller_art_max_height">320dp</dimen>
     <dimen name="nav_drawer_width">240dp</dimen>
@@ -1470,6 +1542,27 @@
     <dimen name="place_autocomplete_progress_horizontal_margin">16dp</dimen>
     <dimen name="place_autocomplete_progress_size">24dp</dimen>
     <dimen name="place_autocomplete_separator_start">72dp</dimen>
+    <dimen name="timepicker_am_top_padding">4dp</dimen>
+    <dimen name="timepicker_ampm_horizontal_padding">16dp</dimen>
+    <dimen name="timepicker_ampm_label_size">16dp</dimen>
+    <dimen name="timepicker_center_dot_radius">3dp</dimen>
+    <dimen name="timepicker_header_height">96dp</dimen>
+    <dimen name="timepicker_pm_top_padding">4dp</dimen>
+    <dimen name="timepicker_radial_picker_dimen">296dp</dimen>
+    <dimen name="timepicker_radial_picker_horizontal_margin">16dp</dimen>
+    <dimen name="timepicker_radial_picker_preferred_height">322dp</dimen>
+    <dimen name="timepicker_radial_picker_preferred_width">316dp</dimen>
+    <dimen name="timepicker_radial_picker_top_margin">16dp</dimen>
+    <dimen name="timepicker_selector_dot_radius">2dp</dimen>
+    <dimen name="timepicker_selector_radius">20dp</dimen>
+    <dimen name="timepicker_selector_stroke">2dp</dimen>
+    <dimen name="timepicker_separator_padding">2dp</dimen>
+    <dimen name="timepicker_text_inset_inner">58dp</dimen>
+    <dimen name="timepicker_text_inset_normal">22dp</dimen>
+    <dimen name="timepicker_text_size_inner">12sp</dimen>
+    <dimen name="timepicker_text_size_normal">16sp</dimen>
+    <dimen name="timepicker_time_label_size">60dp</dimen>
+    <dimen name="toolbar_layout_height">128dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
@@ -1480,6 +1573,7 @@
     <item name="cast_featurehighlight_view" type="id"/>
     <item name="cast_notification_id" type="id"/>
     <item name="crash_reporting_present" type="id"/>
+    <item name="date_picker_year_item_is_selected" type="id"/>
     <item name="fab_expand_menu_button" type="id"/>
     <item name="fab_label" type="id"/>
     <item name="home" type="id"/>
@@ -1540,6 +1634,8 @@
     <string name="accountType">Account Type</string>
     <string name="accountType2">Account Type:  </string>
     <string name="account_from">From</string>
+    <string name="account_header_list_item_add_account">Add account</string>
+    <string name="account_header_list_item_manage_accounts">Manage accounts</string>
     <string name="account_to">To</string>
     <string name="account_type_icon_description">icon</string>
     <string name="accountbal">Current Bal:</string>
@@ -1689,6 +1785,11 @@
     <string name="custom_date">Set custom date</string>
     <string name="date">Date</string>
     <string name="dateCreated">Date Created:  </string>
+    <string name="date_picker_day_of_week_typeface">sans-serif-medium</string>
+    <string name="date_picker_day_typeface">sans-serif-medium</string>
+    <string name="date_picker_month_typeface">sans-serif-medium</string>
+    <string name="date_picker_next_month_button">Next month</string>
+    <string name="date_picker_prev_month_button">Previous month</string>
     <string name="debt_string">You are in debt !!</string>
     <string name="dec_number">Number of decimals</string>
     <string name="dec_separator">Decimal separator</string>
@@ -1703,6 +1804,7 @@
     <string name="deleteProject">This project will be deleted and all it\'s transactions set to \'No Project\'</string>
     <string name="delete_scheduled">Delete this pending transaction ?</string>
     <string name="delete_selected">delete selection</string>
+    <string name="deleted_key">%1$s deleted</string>
     <string name="details">Details</string>
     <string name="details_basic">
 
@@ -1763,6 +1865,18 @@
     <string name="export_successful">Export Successful!</string>
     <string name="fPosition">Financial Position</string>
     <string name="finished">FINISHED</string>
+    <string name="font_family_body_1_material" translatable="false">sans-serif</string>
+    <string name="font_family_body_2_material" translatable="false">sans-serif-medium</string>
+    <string name="font_family_button_material" translatable="false">sans-serif-medium</string>
+    <string name="font_family_caption_material" translatable="false">sans-serif</string>
+    <string name="font_family_display_1_material" translatable="false">sans-serif</string>
+    <string name="font_family_display_2_material" translatable="false">sans-serif</string>
+    <string name="font_family_display_3_material" translatable="false">sans-serif</string>
+    <string name="font_family_display_4_material" translatable="false">sans-serif-light</string>
+    <string name="font_family_headline_material" translatable="false">sans-serif</string>
+    <string name="font_family_menu_material" translatable="false">sans-serif-medium</string>
+    <string name="font_family_subhead_material" translatable="false">sans-serif</string>
+    <string name="font_family_title_material" translatable="false">sans-serif-medium</string>
     <string name="free_trial_expired">Trial Period Expired</string>
     <string name="from">From:</string>
     <string name="full_report">Full Report</string>
@@ -2086,6 +2200,10 @@
     <string name="scheduled_transaction">Scheduled Transaction</string>
     <string name="select_all">select all</string>
     <string name="select_date">Select Date</string>
+    <string name="select_day">Select month and day</string>
+    <string name="select_hours">Select hours</string>
+    <string name="select_minutes">Select minutes</string>
+    <string name="select_year">Select year</string>
     <string name="set">Set</string>
     <string name="settings">Settings</string>
     <string name="spreadsheet_reports">Spreadsheet Reports</string>
@@ -2100,6 +2218,7 @@
     <string name="tagmanager_preview_dialog_title">Preview</string>
     <string name="tell_a_friend">Tell a friend</string>
     <string name="temporary">New account form goes here</string>
+    <string name="time_placeholder">--</string>
     <string name="title_activity_ads_test">AdsTestActivity</string>
     <string name="title_activity_budget">Budgets</string>
     <string name="title_activity_calculator">Calculator</string>
@@ -2263,42 +2382,53 @@
         <item name="android:textColorHighlight">?android:textColorHighlight</item>
         <item name="android:textColorLink">?android:textColorLink</item>
         <item name="android:textSize">@dimen/abc_text_size_body_1_material</item>
+        <item name="android:fontFamily" ns2:ignore="NewApi">@string/font_family_body_1_material</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Body1">
         <item name="android:textSize">@dimen/abc_text_size_body_1_material</item>
+        <item name="android:fontFamily" ns2:ignore="NewApi">@string/font_family_body_1_material</item>
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Body2">
         <item name="android:textSize">@dimen/abc_text_size_body_2_material</item>
+        <item name="android:fontFamily" ns2:ignore="NewApi">@string/font_family_body_2_material</item>
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Button">
         <item name="android:textSize">@dimen/abc_text_size_button_material</item>
-        <item name="textAllCaps">true</item>
+        <item name="android:fontFamily" ns2:ignore="NewApi">@string/font_family_button_material</item>
+        <item name="android:textAllCaps" ns2:ignore="NewApi">true</item>
         <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="textAllCaps">true</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Caption">
         <item name="android:textSize">@dimen/abc_text_size_caption_material</item>
+        <item name="android:fontFamily" ns2:ignore="NewApi">@string/font_family_caption_material</item>
         <item name="android:textColor">?android:textColorSecondary</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Display1">
         <item name="android:textSize">@dimen/abc_text_size_display_1_material</item>
+        <item name="android:fontFamily" ns2:ignore="NewApi">@string/font_family_display_1_material</item>
         <item name="android:textColor">?android:textColorSecondary</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Display2">
         <item name="android:textSize">@dimen/abc_text_size_display_2_material</item>
+        <item name="android:fontFamily" ns2:ignore="NewApi">@string/font_family_display_2_material</item>
         <item name="android:textColor">?android:textColorSecondary</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Display3">
         <item name="android:textSize">@dimen/abc_text_size_display_3_material</item>
+        <item name="android:fontFamily" ns2:ignore="NewApi">@string/font_family_display_3_material</item>
         <item name="android:textColor">?android:textColorSecondary</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Display4">
         <item name="android:textSize">@dimen/abc_text_size_display_4_material</item>
+        <item name="android:fontFamily" ns2:ignore="NewApi">@string/font_family_display_4_material</item>
         <item name="android:textColor">?android:textColorSecondary</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Headline">
         <item name="android:textSize">@dimen/abc_text_size_headline_material</item>
+        <item name="android:fontFamily" ns2:ignore="NewApi">@string/font_family_headline_material</item>
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Inverse">
@@ -2323,6 +2453,7 @@
     </style>
     <style name="Base.TextAppearance.AppCompat.Menu">
         <item name="android:textSize">@dimen/abc_text_size_menu_material</item>
+        <item name="android:fontFamily" ns2:ignore="NewApi">@string/font_family_menu_material</item>
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.SearchResult" parent="">
@@ -2347,19 +2478,25 @@
     </style>
     <style name="Base.TextAppearance.AppCompat.Subhead">
         <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
+        <item name="android:fontFamily" ns2:ignore="NewApi">@string/font_family_subhead_material</item>
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Subhead.Inverse">
-        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
         <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Title">
         <item name="android:textSize">@dimen/abc_text_size_title_material</item>
+        <item name="android:fontFamily" ns2:ignore="NewApi">@string/font_family_title_material</item>
         <item name="android:textColor">?android:textColorPrimary</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Title.Inverse">
         <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
         <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
+        <item name="android:textColorHighlight">?android:attr/textColorHighlightInverse</item>
+        <item name="android:textColorLink">?android:attr/textColorLinkInverse</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="TextAppearance.AppCompat.Button">
         <item name="android:textColor">?attr/actionMenuTextColor</item>
@@ -3493,6 +3630,16 @@
     <style name="TextAppearance.Design.Error" parent="TextAppearance.AppCompat.Caption">
         <item name="android:textColor">?attr/textColorError</item>
     </style>
+    <style name="TextAppearance.Design.FlexibleToolbarLayout.CollapsedTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Design.FlexibleToolbarLayout.ExpandedTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="TextAppearance.Design.FlexibleToolbarLayout.Subtitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
     <style name="TextAppearance.Design.Hint" parent="TextAppearance.AppCompat.Caption">
         <item name="android:textColor">?attr/colorControlActivated</item>
     </style>
@@ -3505,6 +3652,36 @@
         <item name="android:textColor">?android:textColorSecondary</item>
         <item name="textAllCaps">true</item>
     </style>
+    <style name="TextAppearance.Material.DatePicker.DateLabel" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/date_picker_date_label_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.Material.DatePicker.List.YearLabel" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">@dimen/datepicker_list_year_label_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TextAppearance.Material.DatePicker.List.YearLabel.Selected">
+        <item name="android:textColor">?attr/colorControlActivated</item>
+        <item name="android:textSize">@dimen/datepicker_list_year_activated_label_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.Material.DatePicker.YearLabel" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/date_picker_year_label_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.Material.TimePicker.AmPmLabel" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/timepicker_ampm_label_size</item>
+    </style>
+    <style name="TextAppearance.Material.TimePicker.TimeLabel" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/timepicker_time_label_size</item>
+    </style>
+    <style name="TextAppearance.Material.Widget.Calendar.Day" parent="Base.TextAppearance.AppCompat.Caption">
+        <!-- We need to build the stateful ColorStateList at runtime -->
+        <item name="android:textColor">@null</item>
+    </style>
+    <style name="TextAppearance.Material.Widget.Calendar.DayOfWeek" parent="Base.TextAppearance.AppCompat.Caption"/>
+    <style name="TextAppearance.Material.Widget.Calendar.Month" parent="Base.TextAppearance.AppCompat.Body2"/>
     <style name="TextAppearance.StatusBar.EventContent" parent=""/>
     <style name="TextAppearance.StatusBar.EventContent.Info" parent=""/>
     <style name="TextAppearance.StatusBar.EventContent.Line2" parent=""/>
@@ -3518,6 +3695,10 @@
     </style>
     <style name="Theme.AppCompat" parent="Base.Theme.AppCompat"/>
     <style name="Theme.AppCompat.CompactMenu" parent="Base.Theme.AppCompat.CompactMenu"/>
+    <style name="Theme.AppCompat.DatePickerDialog" parent="Theme.AppCompat.Dialog">
+        <item name="headerBackground">#ff555555</item>
+        <item name="colorAccent">#80CBC4</item>
+    </style>
     <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat.Light"/>
     <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="Theme.AppCompat.Light.DarkActionBar"/>
     <style name="Theme.AppCompat.DayNight.Dialog" parent="Theme.AppCompat.Light.Dialog"/>
@@ -3532,6 +3713,9 @@
     </style>
     <style name="Theme.AppCompat.Light" parent="Base.Theme.AppCompat.Light"/>
     <style name="Theme.AppCompat.Light.DarkActionBar" parent="Base.Theme.AppCompat.Light.DarkActionBar"/>
+    <style name="Theme.AppCompat.Light.DatePickerDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#009688</item>
+    </style>
     <style name="Theme.AppCompat.Light.Dialog" parent="Base.Theme.AppCompat.Light.Dialog"/>
     <style name="Theme.AppCompat.Light.Dialog.Alert" parent="Base.Theme.AppCompat.Light.Dialog.Alert"/>
     <style name="Theme.AppCompat.Light.Dialog.MinWidth" parent="Base.Theme.AppCompat.Light.Dialog.MinWidth"/>
@@ -3541,9 +3725,18 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <style name="Theme.AppCompat.Light.TimePickerDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#009688</item>
+        <item name="numbersBackgroundColor">#ffeeeeee</item>
+    </style>
     <style name="Theme.AppCompat.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.AppCompat.TimePickerDialog" parent="Theme.AppCompat.Dialog">
+        <item name="headerBackground">#ff555555</item>
+        <item name="colorAccent">#80CBC4</item>
+        <item name="numbersBackgroundColor">#ff555555</item>
     </style>
     <style name="Theme.AppInvite.Preview" parent="Theme.AppInvite.Preview.Base">
         <item name="android:colorBackground">@android:color/white</item>
@@ -3757,6 +3950,10 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
+    <style name="Widget.Design.AccountHeaderView" parent="android:Widget">
+        <item name="android:paddingTop">@dimen/account_header_padding_top</item>
+        <item name="android:clickable">true</item>
+    </style>
     <style name="Widget.Design.AppBarLayout" parent="Base.Widget.Design.AppBarLayout">
     </style>
     <style name="Widget.Design.BottomSheet.Modal" parent="android:Widget">
@@ -3772,6 +3969,14 @@
     </style>
     <style name="Widget.Design.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">?attr/colorPrimaryDark</item>
+    </style>
+    <style name="Widget.Design.FlexibleToolbarLayout" parent="android:Widget">
+        <item name="expandedMargin">16dp</item>
+        <item name="spaceTitleSubtitle">4dp</item>
+        <item name="spaceIconTitles">16dp</item>
+        <item name="iconCollapsedSize">40dp</item>
+        <item name="iconExpandedSize">56dp</item>
+        <item name="statusBarScrim">?attr/colorPrimaryDark</item>
     </style>
     <style name="Widget.Design.FloatingActionButton" parent="android:Widget">
         <item name="android:background">@drawable/design_fab_background</item>
@@ -3829,6 +4034,24 @@
     </style>
     <style name="boldText">
         <item name="android:textStyle">bold</item>
+    </style>
+    <style name="label_style_dark">
+        <item name="android:textColor">@color/label_text_color_dark</item>
+        <item name="labelBackgroundColor">@color/label_background_color_dark</item>
+        <item name="labelRippleColor">@color/label_ripple_color_dark</item>
+        <item name="labelCornerRadius">2dp</item>
+        <item name="labelElevation">6dp</item>
+        <item name="labelPaddingHorizontal">16dp</item>
+        <item name="labelPaddingVertical">4dp</item>
+    </style>
+    <style name="label_style_light">
+        <item name="android:textColor">@color/label_text_color_light</item>
+        <item name="labelBackgroundColor">@color/label_background_color_light</item>
+        <item name="labelRippleColor">@color/label_ripple_color_light</item>
+        <item name="labelCornerRadius">2dp</item>
+        <item name="labelElevation">6dp</item>
+        <item name="labelPaddingHorizontal">16dp</item>
+        <item name="labelPaddingVertical">4dp</item>
     </style>
     <style name="mDetailTextStyle">
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>

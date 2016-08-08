@@ -12,6 +12,10 @@
         "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.1.1\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
+        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\anim\\date_picker_fade_out_material.xml",
+        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\anim\\date_picker_fade_out_material.xml"
+    },
+    {
         "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
         "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.1.1\\res\\anim\\design_fab_in.xml"
     },
@@ -34,6 +38,10 @@
     {
         "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
         "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\anim\\date_picker_fade_in_material.xml",
+        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\anim\\date_picker_fade_in_material.xml"
     },
     {
         "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",

@@ -83,9 +83,448 @@
                     "startLine": 6,
                     "startColumn": 4,
                     "startOffset": 328,
-                    "endLine": 9,
+                    "endColumn": 53,
+                    "endOffset": 377
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 53,
+                        "endOffset": 104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 382,
+                    "endColumn": 61,
+                    "endOffset": 439
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 61,
+                        "endOffset": 166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 444,
+                    "endColumn": 62,
+                    "endOffset": 502
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 171,
+                        "endColumn": 62,
+                        "endOffset": 229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 507,
+                    "endColumn": 52,
+                    "endOffset": 555
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 234,
+                        "endColumn": 52,
+                        "endOffset": 282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 560,
+                    "endColumn": 55,
+                    "endOffset": 611
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 287,
+                        "endColumn": 55,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 616,
+                    "endColumn": 59,
+                    "endOffset": 671
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 59,
+                        "endOffset": 398
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 676,
+                    "endColumn": 60,
+                    "endOffset": 732
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 403,
+                        "endColumn": 60,
+                        "endOffset": 459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 737,
+                    "endColumn": 52,
+                    "endOffset": 785
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 464,
+                        "endColumn": 52,
+                        "endOffset": 512
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 790,
+                    "endColumn": 55,
+                    "endOffset": 841
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 517,
+                        "endColumn": 55,
+                        "endOffset": 568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 846,
+                    "endColumn": 57,
+                    "endOffset": 899
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 573,
+                        "endColumn": 57,
+                        "endOffset": 626
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 904,
+                    "endColumn": 55,
+                    "endOffset": 955
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 631,
+                        "endColumn": 55,
+                        "endOffset": 682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 960,
+                    "endColumn": 62,
+                    "endOffset": 1018
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 687,
+                        "endColumn": 62,
+                        "endOffset": 745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1023,
+                    "endColumn": 73,
+                    "endOffset": 1092
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 750,
+                        "endColumn": 73,
+                        "endOffset": 819
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1097,
+                    "endColumn": 73,
+                    "endOffset": 1166
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 824,
+                        "endColumn": 73,
+                        "endOffset": 893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1171,
+                    "endColumn": 72,
+                    "endOffset": 1239
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 898,
+                        "endColumn": 72,
+                        "endOffset": 966
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1244,
+                    "endColumn": 66,
+                    "endOffset": 1306
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 971,
+                        "endColumn": 66,
+                        "endOffset": 1033
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1311,
+                    "endColumn": 58,
+                    "endOffset": 1365
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1038,
+                        "endColumn": 58,
+                        "endOffset": 1092
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1370,
+                    "endColumn": 59,
+                    "endOffset": 1425
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1097,
+                        "endColumn": 59,
+                        "endOffset": 1152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1430,
+                    "endColumn": 57,
+                    "endOffset": 1483
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1157,
+                        "endColumn": 57,
+                        "endOffset": 1210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1488,
+                    "endColumn": 58,
+                    "endOffset": 1542
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1215,
+                        "endColumn": 58,
+                        "endOffset": 1269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1547,
+                    "endColumn": 57,
+                    "endOffset": 1600
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1274,
+                        "endColumn": 57,
+                        "endOffset": 1327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1605,
+                    "endColumn": 53,
+                    "endOffset": 1654
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1332,
+                        "endColumn": 53,
+                        "endOffset": 1381
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1659,
+                    "endLine": 31,
                     "endColumn": 12,
-                    "endOffset": 505
+                    "endOffset": 1928
+                },
+                "from": {
+                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\values-land\\values-land.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1386,
+                        "endLine": 27,
+                        "endColumn": 12,
+                        "endOffset": 1655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1933,
+                    "endLine": 35,
+                    "endColumn": 12,
+                    "endOffset": 2110
                 },
                 "from": {
                     "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.1.1\\res\\values-land\\values-land.xml",
