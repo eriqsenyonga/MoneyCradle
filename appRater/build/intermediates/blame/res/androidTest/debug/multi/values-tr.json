@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-tr\\values-tr.xml",
+        "outputFile": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-tr\\values-tr.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 107
                 },
                 "from": {
-                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\bundles\\debug\\res\\values-tr\\values-tr.xml",
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\bundles\\debug\\res\\values-tr\\values-tr.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 147
                 },
                 "from": {
-                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\bundles\\debug\\res\\values-tr\\values-tr.xml",
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\bundles\\debug\\res\\values-tr\\values-tr.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 191
                 },
                 "from": {
-                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\bundles\\debug\\res\\values-tr\\values-tr.xml",
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\bundles\\debug\\res\\values-tr\\values-tr.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 230
                 },
                 "from": {
-                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\bundles\\debug\\res\\values-tr\\values-tr.xml",
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\bundles\\debug\\res\\values-tr\\values-tr.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 351
                 },
                 "from": {
-                    "file": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\bundles\\debug\\res\\values-tr\\values-tr.xml",
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\appRater\\build\\intermediates\\bundles\\debug\\res\\values-tr\\values-tr.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

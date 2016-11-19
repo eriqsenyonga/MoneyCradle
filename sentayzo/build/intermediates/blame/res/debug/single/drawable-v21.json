@@ -1,42 +1,42 @@
 [
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\btn_checkbox_circle.xml",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\drawable-v21\\btn_checkbox_circle.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_checkbox_circle_unchecked_to_checked_animation.xml",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\drawable-v21\\ic_checkbox_circle_unchecked_to_checked_animation.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_checkbox_circle_checked_to_unchecked_animation.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\drawable-v21\\ic_checkbox_circle_checked_to_unchecked_animation.xml"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\date_picker_nav_background.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\drawable-v21\\date_picker_nav_background.xml"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_checkbox_circle_checked.xml",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\drawable-v21\\ic_checkbox_circle_checked.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_checkbox_circle_unchecked.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\drawable-v21\\ic_checkbox_circle_unchecked.xml"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_checkbox_circle_checked_to_unchecked_animation.xml",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\drawable-v21\\ic_checkbox_circle_checked_to_unchecked_animation.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_checkbox_circle_checked.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\drawable-v21\\ic_checkbox_circle_checked.xml"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_checkbox_circle_unchecked.xml",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\drawable-v21\\ic_checkbox_circle_unchecked.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\btn_checkbox_circle.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\drawable-v21\\btn_checkbox_circle.xml"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\btn_checkbox_circle_background.xml",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\drawable-v21\\btn_checkbox_circle_background.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_checkbox_circle_unchecked_to_checked_animation.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\drawable-v21\\ic_checkbox_circle_unchecked_to_checked_animation.xml"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\date_picker_nav_background.xml",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\drawable-v21\\date_picker_nav_background.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\btn_checkbox_circle_background.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.github.TR4Android\\AppCompat-Extension-Library\\v0.4.0\\res\\drawable-v21\\btn_checkbox_circle_background.xml"
     }
 ]

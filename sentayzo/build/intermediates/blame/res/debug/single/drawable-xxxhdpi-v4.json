@@ -1,206 +1,186 @@
 [
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_launcher.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\powered_by_google_dark.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.1\\res\\drawable-xxxhdpi-v4\\powered_by_google_dark.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_cast_white_36.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_cast_white_36.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_stop_white_24.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_stop_white_24.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_replay_10_white_24.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_replay_10_white_24.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_clear_white_24.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_clear_white_24.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_play_arrow_grey600_48.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_play_arrow_grey600_48.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\places_ic_clear.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.1\\res\\drawable-xxxhdpi-v4\\places_ic_clear.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_replay_10_white_24.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_replay_10_white_24.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_action_navigation_menu.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\drawable-xxxhdpi\\ic_action_navigation_menu.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_replay_30_white_24.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_replay_30_white_24.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_cast_connected_white_24.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_cast_connected_white_24.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_clear_white_24.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_clear_white_24.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_pause_grey600_48.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_pause_grey600_48.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_action_done.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\drawable-xxxhdpi\\ic_action_done.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_replay_30_white_24.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_replay_30_white_24.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_stop_grey600_48.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_stop_grey600_48.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\fab_bg_normal.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\net.i2p.android.ext\\floatingactionbutton\\1.10.0\\res\\drawable-xxxhdpi-v4\\fab_bg_normal.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_forward_30_white_24.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_forward_30_white_24.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_pause_white_24.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_pause_white_24.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_skip_next_white_24.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_skip_next_white_24.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_stop_white_24.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_stop_white_24.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_play_arrow_white_24.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_play_arrow_white_24.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_view_more.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\drawable-xxxhdpi\\ic_view_more.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_pause_grey600_48.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_pause_grey600_48.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_skip_previous_white_24.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_skip_previous_white_24.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_forward_10_white_24.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_forward_10_white_24.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\fab_bg_mini.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\net.i2p.android.ext\\floatingactionbutton\\1.10.0\\res\\drawable-xxxhdpi-v4\\fab_bg_mini.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_replay_white_24.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_replay_white_24.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_play_arrow_grey600_48.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_play_arrow_grey600_48.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_refresh_white_24.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_refresh_white_24.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\fab_bg_normal.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\net.i2p.android.ext\\floatingactionbutton\\1.10.0\\res\\drawable-xxxhdpi-v4\\fab_bg_normal.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_action_content_clear.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\drawable-xxxhdpi\\ic_action_content_clear.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\places_ic_search.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.1\\res\\drawable-xxxhdpi-v4\\places_ic_search.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_skip_previous_white_24.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_skip_previous_white_24.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_skip_next_white_24.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_skip_next_white_24.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\bg.xml",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\drawable-xxxhdpi\\bg.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\powered_by_google_dark.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.1\\res\\drawable-xxxhdpi-v4\\powered_by_google_dark.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\places_ic_search.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.1\\res\\drawable-xxxhdpi-v4\\places_ic_search.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_stop_grey600_48.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_stop_grey600_48.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_cast_connected_white_24.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_cast_connected_white_24.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_forward_30_white_24.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_forward_30_white_24.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_refresh_white_24.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_refresh_white_24.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_play_arrow_white_24.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_play_arrow_white_24.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\bg.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\drawable-xxxhdpi\\bg.xml"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\fab_bg_mini.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\net.i2p.android.ext\\floatingactionbutton\\1.10.0\\res\\drawable-xxxhdpi-v4\\fab_bg_mini.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\powered_by_google_light.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.1\\res\\drawable-xxxhdpi-v4\\powered_by_google_light.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\places_ic_clear.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.1\\res\\drawable-xxxhdpi-v4\\places_ic_clear.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_replay_white_24.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_replay_white_24.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_pause_white_24.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_pause_white_24.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_forward_10_white_24.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_forward_10_white_24.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\powered_by_google_light.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.2.1\\res\\drawable-xxxhdpi-v4\\powered_by_google_light.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_cast_white_36.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.2.1\\res\\drawable-xxxhdpi-v4\\quantum_ic_cast_white_36.png"
-    },
-    {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "D:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     }
 ]
