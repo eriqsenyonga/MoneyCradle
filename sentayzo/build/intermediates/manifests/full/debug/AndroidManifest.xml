@@ -5,8 +5,8 @@
     android:versionName="1.4.0" >
 
     <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="24" />
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
@@ -248,13 +248,6 @@
                 android:value=".OverviewActivity" />
         </activity>
         <activity
-            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
-            android:theme="@style/Theme.IAPTheme" />
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity
             android:name="com.google.android.gms.appinvite.PreviewActivity"
             android:exported="true"
             android:theme="@style/Theme.AppInvite.Preview" >
@@ -264,24 +257,58 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-            android:excludeFromRecents="true"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <!--
-Service handling Google Sign-In user revocation. For apps that do not integrate with
-            Google Sign-In, this service will never be started.
-        -->
-        <service
-            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-            android:exported="true"
-            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
 
         <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
 
         <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
         <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.gms.tagmanager.TagManagerService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+            <intent-filter>
+                <data android:scheme="tagmanager.c.com.sentayzo.app" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
 
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
@@ -319,53 +346,27 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:exported="false"
             android:initOrder="100" />
 
-        <service
-            android:name="com.google.firebase.crash.internal.service.FirebaseCrashReceiverService"
-            android:process=":background_crash" />
-        <service
-            android:name="com.google.firebase.crash.internal.service.FirebaseCrashSenderService"
-            android:process=":background_crash" />
-
-        <receiver
-            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-            android:enabled="true" >
-            <intent-filter>
-                <action android:name="com.google.android.gms.measurement.UPLOAD" />
-            </intent-filter>
-        </receiver>
-
-        <service
-            android:name="com.google.android.gms.measurement.AppMeasurementService"
-            android:enabled="true"
-            android:exported="false" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <!--
- FirebaseMessagingService performs security checks at runtime,
-             no need for explicit permissions despite exported="true"
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
         -->
         <service
-            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-            android:exported="true" >
-            <intent-filter android:priority="-500" >
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
-        <service
-            android:name="com.google.android.gms.tagmanager.TagManagerService"
-            android:enabled="true"
-            android:exported="false" />
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
 
         <activity
-            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
-            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
-            <intent-filter>
-                <data android:scheme="tagmanager.c.com.sentayzo.app" />
-
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-            </intent-filter>
-        </activity>
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
     </application>
 
 </manifest>

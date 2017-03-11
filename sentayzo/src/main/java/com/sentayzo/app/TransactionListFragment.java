@@ -1,34 +1,21 @@
 package com.sentayzo.app;
 
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.database.Cursor;
 import android.graphics.Color;
-import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.ListFragment;
-import android.support.v4.app.LoaderManager;
-import android.support.v4.app.LoaderManager.LoaderCallbacks;
-import android.support.v4.content.CursorLoader;
-import android.support.v4.content.Loader;
-import android.support.v4.widget.SimpleCursorAdapter;
-import android.support.v4.widget.SimpleCursorAdapter.ViewBinder;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.FrameLayout;
-import android.widget.ListView;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
+
+import net.i2p.android.ext.floatingactionbutton.FloatingActionButton;
+import net.i2p.android.ext.floatingactionbutton.FloatingActionsMenu;
 
 /**
  * A simple {@link android.support.v4.app.Fragment} subclass.
@@ -38,11 +25,13 @@ public class TransactionListFragment extends Fragment {
     RecyclerView txList;
     TransactionRecyclerAdapter adapter;
     TxListInteraction txListInteraction;
-
     TextView tv_totalAmount;
     String tag = "txList";
     DbClass mDbClass;
     ConversionClass mCC;
+    FloatingActionsMenu fam;
+    FloatingActionButton fab;
+    Animation animScaleUp, animScaleDown;
 
     public TransactionListFragment() {
         // Required empty public constructor
@@ -69,6 +58,22 @@ public class TransactionListFragment extends Fragment {
 
         mCC = new ConversionClass(getActivity());
 
+        fam = (FloatingActionsMenu) getActivity().findViewById(R.id.fam_fab);
+        fab = (FloatingActionButton) getActivity().findViewById(R.id.fab);
+
+
+        fab.setVisibility(View.GONE);
+
+        if (fam.getVisibility() == View.GONE) {
+
+            fam.setVisibility(View.VISIBLE);
+            fam.startAnimation(AnimationUtils.loadAnimation(getActivity(), R.anim.scale_up));
+        }
+
+
+        animScaleDown = AnimationUtils.loadAnimation(getActivity(), R.anim.scale_down);
+        animScaleUp = AnimationUtils.loadAnimation(getActivity(), R.anim.scale_up);
+
         txListInteraction = new TxListInteraction(getActivity(), TxListInteraction.ALL_TRANSACTIONS);
 
         adapter = new TransactionRecyclerAdapter(getActivity().getContentResolver().query(Uri.parse("content://"
@@ -87,6 +92,30 @@ public class TransactionListFragment extends Fragment {
         txList.addItemDecoration(new ListDividerDecoration(getActivity()));
 
         getTotal();
+
+        txList.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+
+                if (dy > 0) {
+
+                    if (fam.getVisibility() == View.GONE) {
+                    } else {
+                        fam.collapse();
+                        fam.startAnimation(animScaleDown);
+                        fam.setVisibility(View.GONE);
+                    }
+                } else if (dy < 0) {
+
+                    if (fam.getVisibility() == View.VISIBLE) {
+                    } else {
+                        fam.setVisibility(View.VISIBLE);
+                        fam.startAnimation(animScaleUp);
+                    }
+                }
+            }
+        });
 
 
     }

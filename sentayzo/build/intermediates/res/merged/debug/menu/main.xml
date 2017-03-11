@@ -26,23 +26,7 @@
         android:icon="@drawable/ic_action_help"
         app:showAsAction="never"
         />
-    <item
-        android:id="@+id/ab_newAccount"
-        android:icon="@drawable/ic_new_trn"
-        android:title="@string/newAccountIcon"
-        app:showAsAction="always"/>
-    <item
-        android:id="@+id/ab_newTransaction"
-        android:icon="@drawable/ic_new_ac"
-        android:title="@string/newTransaction"
-        app:showAsAction="always"/>
-    
-    <item
-        android:id="@+id/ab_newTranfer"
-        android:icon="@drawable/ic_action_money_transfer"
-        android:title="@string/newTransfer"
-        app:showAsAction="ifRoom"
-        />
+
 
 
     

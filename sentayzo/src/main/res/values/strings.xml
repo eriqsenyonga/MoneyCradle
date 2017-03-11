@@ -651,4 +651,8 @@
     </string>
     <string name="edit_transfer_activity_title">Edit Transfer</string>
     <string name="overview">Overview</string>
+    <string name="ac_type_cash">Cash</string>
+    <string name="ac_type_bank">Bank</string>
+    <string name="ac_type_asset">Asset</string>
+    <string name="ac_type_liability">Liability</string>
 </resources>

@@ -132,7 +132,7 @@
                     "endOffset": 1417
                 },
                 "from": {
-                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v14\\values-v14.xml",
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -152,7 +152,7 @@
                     "endOffset": 1488
                 },
                 "from": {
-                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v14\\values-v14.xml",
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -171,7 +171,7 @@
                     "endOffset": 1571
                 },
                 "from": {
-                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v14\\values-v14.xml",
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -191,7 +191,7 @@
                     "endOffset": 1981
                 },
                 "from": {
-                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v14\\values-v14.xml",
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -212,7 +212,7 @@
                     "endOffset": 2403
                 },
                 "from": {
-                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v14\\values-v14.xml",
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -232,7 +232,7 @@
                     "endOffset": 2523
                 },
                 "from": {
-                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v14\\values-v14.xml",
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -247,17 +247,17 @@
                     "startLine": 38,
                     "startColumn": 4,
                     "startOffset": 2528,
-                    "endColumn": 62,
-                    "endOffset": 2586
+                    "endColumn": 131,
+                    "endOffset": 2655
                 },
                 "from": {
-                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v14\\values-v14.xml",
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
                         "startOffset": 1437,
-                        "endColumn": 62,
-                        "endOffset": 1495
+                        "endColumn": 131,
+                        "endOffset": 1564
                     }
                 }
             },
@@ -265,58 +265,58 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 2591,
-                    "endLine": 41,
-                    "endColumn": 12,
-                    "endOffset": 2740
+                    "startOffset": 2660,
+                    "endColumn": 119,
+                    "endOffset": 2775
                 },
                 "from": {
-                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v14\\values-v14.xml",
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 1500,
-                        "endLine": 25,
-                        "endColumn": 12,
-                        "endOffset": 1649
+                        "startOffset": 1569,
+                        "endColumn": 119,
+                        "endOffset": 1684
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 2745,
+                    "startOffset": 2780,
                     "endColumn": 62,
-                    "endOffset": 2803
+                    "endOffset": 2838
                 },
                 "from": {
-                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v14\\values-v14.xml",
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v14\\values-v14.xml",
                     "position": {
-                        "startLine": 26,
+                        "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 1654,
+                        "startOffset": 1689,
                         "endColumn": 62,
-                        "endOffset": 1712
+                        "endOffset": 1747
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 2808,
-                    "endColumn": 131,
-                    "endOffset": 2935
+                    "startOffset": 2843,
+                    "endLine": 43,
+                    "endColumn": 12,
+                    "endOffset": 2992
                 },
                 "from": {
-                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\values-v14\\values-v14.xml",
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v14\\values-v14.xml",
                     "position": {
-                        "startLine": 27,
+                        "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 1717,
-                        "endColumn": 131,
-                        "endOffset": 1844
+                        "startOffset": 1752,
+                        "endLine": 27,
+                        "endColumn": 12,
+                        "endOffset": 1901
                     }
                 }
             },
@@ -324,10 +324,48 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 2940,
-                    "endLine": 58,
+                    "startOffset": 2997,
+                    "endColumn": 62,
+                    "endOffset": 3055
+                },
+                "from": {
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1906,
+                        "endColumn": 62,
+                        "endOffset": 1964
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3060,
+                    "endColumn": 131,
+                    "endOffset": 3187
+                },
+                "from": {
+                    "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.1\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1969,
+                        "endColumn": 131,
+                        "endOffset": 2096
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3192,
+                    "endLine": 60,
                     "endColumn": 12,
-                    "endOffset": 4019
+                    "endOffset": 4271
                 },
                 "from": {
                     "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\values-v14\\styles_myabstyle.xml",
@@ -343,12 +381,12 @@
             },
             {
                 "to": {
-                    "startLine": 59,
+                    "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 4024,
-                    "endLine": 62,
+                    "startOffset": 4276,
+                    "endLine": 64,
                     "endColumn": 12,
-                    "endOffset": 4276
+                    "endOffset": 4528
                 },
                 "from": {
                     "file": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\values-v14\\styles_myabstyle.xml",

@@ -6,7 +6,7 @@
        
     
      <item
-        android:id="@id/ab_newTransaction"
+        android:id="@+id/ab_newTransaction"
         android:icon="@drawable/ic_action_new_tx"
         android:title="@string/newTransaction"
         app:showAsAction="always"/>

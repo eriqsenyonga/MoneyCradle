@@ -123,8 +123,8 @@ public class EditScheduledTx extends AppCompatActivity implements LoaderCallback
 
 
         } else {
-            Log.d("2222nnnnnnddddd", "2222222nnnnnnddddd");
-            findViewById(R.id.adFragment).setVisibility(View.GONE);
+
+//            findViewById(R.id.adFragment).setVisibility(View.GONE);
 
         }
 

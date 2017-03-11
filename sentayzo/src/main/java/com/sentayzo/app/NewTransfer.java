@@ -117,7 +117,7 @@ public class NewTransfer extends AppCompatActivity implements
 
         } else {
             Log.d("2222nnnnnnddddd", "2222222nnnnnnddddd");
-            findViewById(R.id.adFragment).setVisibility(View.GONE);
+//            findViewById(R.id.adFragment).setVisibility(View.GONE);
 
         }
         c = Calendar.getInstance();

@@ -22,6 +22,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
@@ -33,6 +34,9 @@ import android.widget.Toast;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 
+import net.i2p.android.ext.floatingactionbutton.FloatingActionButton;
+import net.i2p.android.ext.floatingactionbutton.FloatingActionsMenu;
+
 public class ProjectList extends ListFragment implements
         LoaderCallbacks<Cursor>, OnItemClickListener, OnItemLongClickListener {
 
@@ -43,19 +47,13 @@ public class ProjectList extends ListFragment implements
     View rootView;
     SharedPreferences billingPrefs;
     Tracker t;
+    FloatingActionsMenu fam;
+    FloatingActionButton fab;
 
     public ProjectList() {
         // required empty constructor
     }
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        // TODO Auto-generated method stub
-        super.onCreate(savedInstanceState);
-
-        setHasOptionsMenu(true);
-
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -74,7 +72,7 @@ public class ProjectList extends ListFragment implements
 
         t = ((ApplicationClass) getActivity().getApplication()).getTracker(ApplicationClass.TrackerName.APP_TRACKER);
 
-        t.setScreenName("CategoryList");
+        t.setScreenName("ProjectList");
         t.send(new HitBuilders.ScreenViewBuilder().build());
 
         billingPrefs = getActivity()
@@ -95,61 +93,59 @@ public class ProjectList extends ListFragment implements
 
         projectList.setOnItemClickListener(this);
         projectList.setOnItemLongClickListener(this);
-    }
 
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        menu.clear();
-        inflater.inflate(R.menu.project_list, menu);
+        fam = (FloatingActionsMenu) getActivity().findViewById(R.id.fam_fab);
+        fam.setVisibility(View.GONE);
 
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-
-        Boolean freePeriod = billingPrefs.getBoolean("KEY_FREE_TRIAL_PERIOD",
-                true);
-        Boolean unlocked = billingPrefs.getBoolean("KEY_PURCHASED_UNLOCK",
-                false);
+        fab = (FloatingActionButton) getActivity().findViewById(R.id.fab);
 
 
-        int id = item.getItemId();
-        if (id == R.id.action_new_project) {
+        if (fab.getVisibility() == View.GONE) {
 
-            Log.d("munda", "munca");
+            fab.setVisibility(View.VISIBLE);
+            fab.startAnimation(AnimationUtils.loadAnimation(getActivity(), R.anim.scale_up));
 
-            if (freePeriod == true || unlocked == true) {
-                Log.d("if free trial or unlocked",
-                        "in if free trial or unlocked");
-                newProjectDialog();
-                return true;
-            } else {
+        }
 
-                // if free trial has expired and nigga hasnt paid for shit
-                int numberOfProjects = new DbClass(getActivity())
-                        .getNumberOfProjects();
 
-                if (numberOfProjects < 2) {
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
-                    Log.d("if NOT free trial or unlocked BUT LESS THAN 2",
-                            "in if NOT free trial or unlocked BUT LESS THAN 2");
+                Boolean freePeriod = billingPrefs.getBoolean("KEY_FREE_TRIAL_PERIOD",
+                        true);
+                Boolean unlocked = billingPrefs.getBoolean("KEY_PURCHASED_UNLOCK",
+                        false);
+
+
+                if (freePeriod == true || unlocked == true) {
+                    //      Log.d("if free trial or unlocked",
+                    //             "in if free trial or unlocked");
                     newProjectDialog();
 
                 } else {
-                    Log.d("if NOT free trial or unlocked AT ALL",
-                            "in if NOT free trial or unlocked AT ALL");
-                    showPaymentDialog(getActivity());
+
+                    // if free trial has expired and nigga hasnt paid for shit
+                    int numberOfProjects = new DbClass(getActivity())
+                            .getNumberOfProjects();
+
+                    if (numberOfProjects < 2) {
+
+                        //        Log.d("if NOT free trial or unlocked BUT LESS THAN 2",
+                        //                "in if NOT free trial or unlocked BUT LESS THAN 2");
+                        newProjectDialog();
+
+                    } else {
+                        //      Log.d("if NOT free trial or unlocked AT ALL",
+                        //              "in if NOT free trial or unlocked AT ALL");
+                        showPaymentDialog(getActivity());
+
+                    }
+
 
                 }
-
-
             }
-        }
-        return super.onOptionsItemSelected(item);
+        });
     }
 
     @Override

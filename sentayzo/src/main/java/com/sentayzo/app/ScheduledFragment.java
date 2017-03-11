@@ -16,9 +16,13 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
 
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
+
+import net.i2p.android.ext.floatingactionbutton.FloatingActionButton;
+import net.i2p.android.ext.floatingactionbutton.FloatingActionsMenu;
 
 public class ScheduledFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
@@ -32,6 +36,7 @@ public class ScheduledFragment extends Fragment {
 
     SharedPreferences billingPrefs;
 
+
     public static ScheduledFragment newInstance() {
         // Required empty public constructor
         return new ScheduledFragment();
@@ -42,7 +47,6 @@ public class ScheduledFragment extends Fragment {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
 
-        setHasOptionsMenu(true);
 
     }
 
@@ -82,92 +86,8 @@ public class ScheduledFragment extends Fragment {
         billingPrefs = getActivity()
                 .getSharedPreferences("my_billing_prefs", 0);
 
-    }
-
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        // TODO Auto-generated method stub
-        super.onCreateOptionsMenu(menu, inflater);
-
-        menu.clear();
-
-        inflater.inflate(R.menu.category_list, menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // TODO Auto-generated method stub
-        Boolean freePeriod = billingPrefs.getBoolean("KEY_FREE_TRIAL_PERIOD",
-                true);
-        Boolean unlocked = billingPrefs.getBoolean("KEY_PURCHASED_UNLOCK",
-                false);
-
-        int id = item.getItemId();
-        if (id == R.id.action_new_category) {
-
-            if (freePeriod == true || unlocked == true) {
-                Intent i = new Intent(getActivity(),
-                        NewScheduledTransactionActivity.class);
-                startActivity(i);
-            } else {
-                // if free trial has expired and nigga hasnt paid for shit
-                int numberOfSch = new DbClass(getActivity())
-                        .getNumberOfProjects();
-
-                if (numberOfSch < 1) {
-                    Intent i = new Intent(getActivity(),
-                            NewScheduledTransactionActivity.class);
-                    startActivity(i);
-
-                } else {
-
-                    showPaymentDialog(getActivity());
-
-                }
-
-            }
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    private void showPaymentDialog(final Context context) {
-        // TODO Auto-generated method stub
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-
-        builder.setMessage(context.getResources().getString(
-                R.string.payment_dialog_message)
-                + "\n\n"
-                + context.getResources()
-                .getString(R.string.unlock_all_features) + " ?");
-
-        builder.setNegativeButton(
-                context.getResources().getString(R.string.no),
-                new DialogInterface.OnClickListener() {
-
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        // TODO Auto-generated method stub
-
-                    }
-                });
-
-        builder.setPositiveButton(context.getResources()
-                        .getString(R.string.yes),
-                new DialogInterface.OnClickListener() {
-
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        // TODO Auto-generated method stub
-
-                        Intent i = new Intent(context, StoreActivity.class);
-                        startActivity(i);
-                    }
-                });
-
-        Dialog paymentDialog = builder.create();
-        paymentDialog.show();
 
     }
+
 
 }

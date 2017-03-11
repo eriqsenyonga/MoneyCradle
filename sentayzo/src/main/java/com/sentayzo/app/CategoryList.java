@@ -19,6 +19,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
@@ -29,6 +30,9 @@ import android.widget.Toast;
 
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
+
+import net.i2p.android.ext.floatingactionbutton.FloatingActionButton;
+import net.i2p.android.ext.floatingactionbutton.FloatingActionsMenu;
 
 public class CategoryList extends ListFragment implements
         LoaderCallbacks<Cursor>, OnItemLongClickListener, OnItemClickListener {
@@ -43,6 +47,9 @@ public class CategoryList extends ListFragment implements
     View rootView;
     Tracker t;
 
+    FloatingActionsMenu fam;
+    FloatingActionButton fab;
+
     public CategoryList() {
         // Required empty public constructor
     }
@@ -52,7 +59,7 @@ public class CategoryList extends ListFragment implements
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
 
-        setHasOptionsMenu(true);
+
 
     }
 
@@ -97,92 +104,94 @@ public class CategoryList extends ListFragment implements
 
         catList.setOnItemClickListener(this);
 
-    }
+        fam = (FloatingActionsMenu) getActivity().findViewById(R.id.fam_fab);
+        fam.setVisibility(View.GONE);
 
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        super.onCreateOptionsMenu(menu, inflater);
+        fab = (FloatingActionButton) getActivity().findViewById(R.id.fab);
 
-        menu.clear();
 
-        inflater.inflate(R.menu.category_list, menu);
-    }
+        if (fab.getVisibility() == View.GONE) {
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+            fab.setVisibility(View.VISIBLE);
+            fab.startAnimation(AnimationUtils.loadAnimation(getActivity(), R.anim.scale_up));
 
-        if (id == R.id.action_new_category) {
-
-            LayoutInflater inflater = getActivity().getLayoutInflater();
-            View v = inflater.inflate(R.layout.new_category_dialog, null);
-
-            final EditText catEt = (EditText) v.findViewById(R.id.et_cat_Name);
-
-            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-            builder.setTitle(getResources().getString(R.string.newCatTitle));
-
-            builder.setView(v);
-
-            builder.setNegativeButton(
-                    getResources().getString(R.string.cancel),
-                    new DialogInterface.OnClickListener() {
-
-                        @Override
-                        public void onClick(DialogInterface arg0, int arg1) {
-                            // TODO Auto-generated method stub
-
-                        }
-                    });
-
-            builder.setPositiveButton(getResources().getString(R.string.save),
-                    new DialogInterface.OnClickListener() {
-
-                        @Override
-                        public void onClick(DialogInterface arg0, int arg1) {
-                            // TODO Auto-generated method stub
-                            String catName = catEt.getText().toString();
-
-                            if (catEt.getText().length() <= 0) {
-
-                                Toast.makeText(
-                                        getActivity(),
-                                        getResources().getString(
-                                                R.string.category_name)
-                                                + " "
-                                                + getResources().getString(
-                                                R.string.cantBeEmpty),
-                                        Toast.LENGTH_LONG).show();
-
-                            } else {
-
-                                DbClass mDbClasss = new DbClass(getActivity());
-                                mDbClasss.open();
-
-                                mDbClasss.addNewCat(catEt.getText().toString());
-
-                                mDbClasss.close();
-
-                                loaderManager.restartLoader(catLoaderId, null,
-                                        CategoryList.this);
-
-                                Toast.makeText(getActivity(),
-                                        "Category: " + catName + " added ",
-                                        Toast.LENGTH_LONG).show();
-                            }
-                        }
-                    });
-
-            Dialog newCatDialog = builder.create();
-            newCatDialog.show();
         }
 
-        return super.onOptionsItemSelected(item);
+
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                LayoutInflater inflater = getActivity().getLayoutInflater();
+                View newCatView = inflater.inflate(R.layout.new_category_dialog, null);
+
+                final EditText catEt = (EditText) newCatView.findViewById(R.id.et_cat_Name);
+
+                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+                builder.setTitle(getResources().getString(R.string.newCatTitle));
+
+                builder.setView(newCatView);
+
+                builder.setNegativeButton(
+                        getResources().getString(R.string.cancel),
+                        new DialogInterface.OnClickListener() {
+
+                            @Override
+                            public void onClick(DialogInterface arg0, int arg1) {
+                                // TODO Auto-generated method stub
+
+                            }
+                        });
+
+                builder.setPositiveButton(getResources().getString(R.string.save),
+                        new DialogInterface.OnClickListener() {
+
+                            @Override
+                            public void onClick(DialogInterface arg0, int arg1) {
+                                // TODO Auto-generated method stub
+                                String catName = catEt.getText().toString();
+
+                                if (catEt.getText().length() <= 0) {
+
+                                    Toast.makeText(
+                                            getActivity(),
+                                            getResources().getString(
+                                                    R.string.category_name)
+                                                    + " "
+                                                    + getResources().getString(
+                                                    R.string.cantBeEmpty),
+                                            Toast.LENGTH_LONG).show();
+
+                                } else {
+
+                                    DbClass mDbClasss = new DbClass(getActivity());
+                                    mDbClasss.open();
+
+                                    mDbClasss.addNewCat(catEt.getText().toString());
+
+                                    mDbClasss.close();
+
+                                    loaderManager.restartLoader(catLoaderId, null,
+                                            CategoryList.this);
+
+                                    Toast.makeText(getActivity(),
+                                            "Category: " + catName + " added ",
+                                            Toast.LENGTH_LONG).show();
+                                }
+                            }
+                        });
+
+                Dialog newCatDialog = builder.create();
+                newCatDialog.show();
+            }
+        });
+
     }
+
+
+
+
 
     @Override
     public Loader<Cursor> onCreateLoader(int arg0, Bundle arg1) {

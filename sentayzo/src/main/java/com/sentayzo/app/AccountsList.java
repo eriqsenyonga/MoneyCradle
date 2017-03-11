@@ -6,27 +6,19 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.database.Cursor;
 import android.graphics.Color;
-import android.graphics.Typeface;
-import android.os.Build;
+import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.ListFragment;
-import android.support.v4.app.LoaderManager;
-import android.support.v4.widget.CursorAdapter;
-import android.support.v4.widget.SimpleCursorAdapter;
+import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.AlphaAnimation;
-import android.widget.AbsListView;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ImageView;
-import android.widget.ListView;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import net.i2p.android.ext.floatingactionbutton.FloatingActionButton;
 import net.i2p.android.ext.floatingactionbutton.FloatingActionsMenu;
@@ -34,27 +26,24 @@ import net.i2p.android.ext.floatingactionbutton.FloatingActionsMenu;
 /**
  * A simple {@link android.support.v4.app.Fragment} subclass.
  */
-public class AccountsList extends ListFragment {
+public class AccountsList extends Fragment {
 
-    FloatingActionsMenu fab;
+    RecyclerView rvAccounts;
+    FloatingActionsMenu fam;
     FloatingActionButton fabNewAccount;
     FloatingActionButton fabNewTrn;
     FloatingActionButton fabNewTransfer;
-    ListView accountsListView;
-    LoaderManager mLoaderManager;
-    SimpleCursorAdapter mAdapter;
+    FloatingActionButton fab;
     String tag = "AccountsList Fragment";
     TextView tv_totalAmount;
     DbClass mDbClass;
     View rootView;
-    int accountsLoaderId = 1;
     String proceed;
     ConversionClass mCC;
-    MyAdapter myAdapter;
-    Cursor mCursor;
-    Typeface robotoMedium;
-    Typeface robotoThin;
+
     SharedPreferences billingPrefs;
+    Animation animScaleUp, animScaleDown;
+    AccountsRecyclerAdapter myAdapter;
 
     public AccountsList() {
         // Required empty public constructor
@@ -68,218 +57,55 @@ public class AccountsList extends ListFragment {
         rootView = inflater.inflate(R.layout.fragment_accounts_list, container,
                 false);
 
-        fab = (FloatingActionsMenu) rootView.findViewById(R.id.fam_fab);
-        fabNewAccount = (FloatingActionButton) rootView.findViewById(R.id.fab_newAccount);
-        fabNewTrn = (FloatingActionButton) rootView.findViewById(R.id.fab_newTransaction);
-        fabNewTransfer = (FloatingActionButton) rootView.findViewById(R.id.fab_newTransfer);
         tv_totalAmount = (TextView) rootView.findViewById(R.id.tv_totalView);
+        rvAccounts = (RecyclerView) rootView.findViewById(R.id.rv_tx_list);
 
         return rootView;
     }
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
-        // TODO Auto-generated method stub
+
         super.onActivityCreated(savedInstanceState);
 
-        //  Toolbar toolbar = (Toolbar) rootView.findViewById(R.id.app_bar);
-        //  ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-
-        accountsListView = getListView();
         mCC = new ConversionClass(getActivity());
         mDbClass = new DbClass(getActivity());
         proceed = getResources().getString(R.string.proceed);
 
+
+        fam = (FloatingActionsMenu) getActivity().findViewById(R.id.fam_fab);
+        fabNewAccount = (FloatingActionButton) getActivity().findViewById(R.id.fab_newAccount);
+        fabNewTrn = (FloatingActionButton) getActivity().findViewById(R.id.fab_newTransaction);
+        fabNewTransfer = (FloatingActionButton) getActivity().findViewById(R.id.fab_newTransfer);
+        fab = (FloatingActionButton) getActivity().findViewById(R.id.fab);
+
+
+        //   fab.setVisibility(View.GONE);
+
+        if (fam.getVisibility() == View.GONE) {
+
+            fam.setVisibility(View.VISIBLE);
+            fam.startAnimation(AnimationUtils.loadAnimation(getActivity(), R.anim.scale_up));
+        }
+
+
         billingPrefs = getActivity().getSharedPreferences("my_billing_prefs", 0);
 
-
-        robotoThin = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Roboto-Thin.ttf");
-        robotoMedium = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Roboto-Medium.ttf");
-
-        mCursor = mDbClass.getAllAccounts();
+        animScaleDown = AnimationUtils.loadAnimation(getActivity(), R.anim.scale_down);
+        animScaleUp = AnimationUtils.loadAnimation(getActivity(), R.anim.scale_up);
 
 
-        myAdapter = new MyAdapter(getActivity(), mCursor, 0);
-
-        accountsListView.setAdapter(myAdapter);
+        // mCursor = mDbClass.getAllAccounts();
 
 
-        // accountsListView.setAdapter(mAdapter);
-        Log.d(tag, "16");
-        // procedure for the total
-        getTotal();
-        Log.d(tag, "17");
-
-
-        accountsListView.setOnScrollListener(new AbsListView.OnScrollListener() {
-            private int mLastFirstVisibleItem;
-
+        myAdapter = new AccountsRecyclerAdapter(getActivity().getContentResolver().query(Uri.parse("content://"
+                        + "SentayzoDbAuthority" + "/accounts"), null, null, null,
+                null), new CustomItemClickListener() {
             @Override
-            public void onScrollStateChanged(AbsListView view, int scrollState) {
+            public void onItemClick(View v, int position, final long accountId) {
+                //  txListInteraction.start(id, myAdapter);
 
-            }
-
-            @Override
-            public void onScroll(AbsListView view, int firstVisibleItem,
-                                 int visibleItemCount, int totalItemCount) {
-
-                if (mLastFirstVisibleItem < firstVisibleItem) {
-
-                    //   fab.animate().translationY(fab.getHeight() + 16).setInterpolator(new AccelerateInterpolator(2)).start();
-                    if (fab.getVisibility() == View.GONE) {
-                    } else {
-                        if (fab.isExpanded()) fab.collapse();
-
-                        AlphaAnimation alpha = new AlphaAnimation(1.0F, 0.0F);
-                        alpha.setDuration(500); // Make animation instant
-                        alpha.setFillAfter(false); // Tell it to persist after the animation ends
-                        fab.startAnimation(alpha);
-
-                        fab.setVisibility(View.GONE);
-                        //  fab.clearAnimation();
-                    }
-
-                }
-                if (mLastFirstVisibleItem > firstVisibleItem) {
-                    // fab.animate().translationY(0).setInterpolator(new DecelerateInterpolator(2)).start();
-
-                    if (fab.getVisibility() == View.VISIBLE) {
-                    } else {
-                        fab.setVisibility(View.VISIBLE);
-                        AlphaAnimation alpha = new AlphaAnimation(0.0F, 1.0F);
-                        alpha.setDuration(500); // Make animation instant
-                        alpha.setFillAfter(true); // Tell it to persist after the animation ends
-                        fab.startAnimation(alpha);
-
-
-                    }
-
-
-                }
-                mLastFirstVisibleItem = firstVisibleItem;
-
-            }
-        });
-
-
-        fabNewAccount.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Boolean freePeriod = billingPrefs.getBoolean(
-                        "KEY_FREE_TRIAL_PERIOD", true);
-                Boolean unlocked = billingPrefs.getBoolean("KEY_PURCHASED_UNLOCK",
-                        false);
-
-                if (freePeriod == true || unlocked == true) {
-
-                    Intent i = new Intent(getActivity(), NewAccount.class);
-                    startActivity(i);
-                } else if (freePeriod == false && unlocked == false) {
-                    // if free trial has expired and nigga hasnt paid for shit
-                    int numberOfAccounts = new DbClass(getActivity())
-                            .getNumberOfAccounts();
-
-                    if (numberOfAccounts < 2) {
-                        Intent i = new Intent(getActivity(), NewAccount.class);
-                        startActivity(i);
-
-                    } else {
-
-                        showPaymentDialog(getActivity());
-
-                    }
-
-                }
-
-            }
-        });
-
-        fabNewTrn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                DbClass mDbClass = new DbClass(getActivity());
-                mDbClass.open();
-                Boolean accountsAvailable = mDbClass.checkForAccounts();
-                mDbClass.close();
-
-                if (accountsAvailable == false) {
-
-                    String createAccountFirst = getResources().getString(
-                            R.string.createAccountFirst);
-                    // TODO Auto-generated method stub
-
-                    AlertDialog.Builder builder = new AlertDialog.Builder(
-                            getActivity());
-                    builder.setMessage(createAccountFirst);
-                    builder.setNeutralButton(getResources().getString(R.string.ok),
-                            new DialogInterface.OnClickListener() {
-
-                                @Override
-                                public void onClick(DialogInterface dialog,
-                                                    int which) {
-                                    // TODO Auto-generated method stub
-
-                                }
-                            });
-
-                    Dialog d = builder.create();
-                    d.show();
-
-                } else {
-                    Intent i = new Intent(getActivity(), NewTransaction.class);
-                    startActivity(i);
-                }
-            }
-        });
-
-        fabNewTransfer.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int numberOfAccounts = new DbClass(getActivity())
-                        .getNumberOfAccounts();
-
-
-                fab.collapse();
-
-                if (numberOfAccounts < 2) {
-
-                    // String msg = getResources().getString(R.string.accounts_two);
-
-                    AlertDialog.Builder builder = new AlertDialog.Builder(
-                            getActivity());
-                    builder.setMessage("You need to have atleast 2 accounts open to use this feature.");
-
-                    builder.setNeutralButton(getResources().getString(R.string.ok),
-                            new DialogInterface.OnClickListener() {
-
-                                @Override
-                                public void onClick(DialogInterface dialog,
-                                                    int which) {
-                                    // TODO Auto-generated method stub
-
-                                }
-                            });
-
-                    Dialog d = builder.create();
-                    d.show();
-                } else {
-
-                    Intent i = new Intent(getActivity(), NewTransfer.class);
-                    startActivity(i);
-                }
-            }
-        });
-
-
-        accountsListView.setOnItemClickListener(new OnItemClickListener() {
-
-            @Override
-            public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
-                                    final long accountId) {
-
-
-                if (fab.isExpanded()) fab.collapse();
+                if (fam.isExpanded()) fam.collapse();
                 final String[] dialogList = getResources().getStringArray(
                         R.array.accountsListDialog);
 
@@ -355,16 +181,16 @@ public class AccountsList extends ListFragment {
                                     // values 1,2,3,4 below represent the _id of
                                     // the account type table in the Database
                                     if (infoBundle.getInt("acType") == 1) {
-                                        tvType.setText("Cash");
+                                        tvType.setText(R.string.ac_type_cash);
                                     }
                                     if (infoBundle.getInt("acType") == 2) {
-                                        tvType.setText("Bank");
+                                        tvType.setText(R.string.ac_type_bank);
                                     }
                                     if (infoBundle.getInt("acType") == 3) {
-                                        tvType.setText("Asset");
+                                        tvType.setText(R.string.ac_type_asset);
                                     }
                                     if (infoBundle.getInt("acType") == 4) {
-                                        tvType.setText("Liability");
+                                        tvType.setText(R.string.ac_type_liability);
                                     }
 
                                     builder3.setView(view);
@@ -377,7 +203,7 @@ public class AccountsList extends ListFragment {
                                                 public void onClick(
                                                         DialogInterface dialog,
                                                         int which) {
-                                                    // TODO Auto-generated
+
                                                     // method stub
                                                     if (getAccountType(accountId) == 5) {
                                                         //if the accountType is Credit Card
@@ -426,8 +252,6 @@ public class AccountsList extends ListFragment {
                                                 public void onClick(
                                                         DialogInterface arg0,
                                                         int arg1) {
-                                                    // TODO Auto-generated
-                                                    // method stub
 
                                                 }
                                             });
@@ -518,9 +342,7 @@ public class AccountsList extends ListFragment {
                                                         public void onClick(
                                                                 DialogInterface arg0,
                                                                 int arg1) {
-                                                            // TODO
-                                                            // Auto-generated
-                                                            // method stub
+
 
                                                         }
                                                     });
@@ -535,9 +357,7 @@ public class AccountsList extends ListFragment {
                                                         public void onClick(
                                                                 DialogInterface arg0,
                                                                 int arg1) {
-                                                            // TODO
-                                                            // Auto-generated
-                                                            // method stub
+
 
                                                             DbClass mDbClass = new DbClass(
                                                                     getActivity());
@@ -548,9 +368,13 @@ public class AccountsList extends ListFragment {
 
                                                             mDbClass.close();
 
-                                                            myAdapter
-                                                                    .swapCursor(mDbClass
-                                                                            .getAllAccounts());
+                                                            // myAdapter.swapCursor(mDbClass.getAllAccounts());
+
+                                                            myAdapter.changeCursor(getActivity().getContentResolver().query(Uri.parse("content://"
+                                                                            + "SentayzoDbAuthority" + "/accounts"), null, null, null,
+                                                                    null));
+
+                                                            myAdapter.notifyDataSetChanged();
                                                         }
                                                     });
 
@@ -582,7 +406,7 @@ public class AccountsList extends ListFragment {
                                                 public void onClick(
                                                         DialogInterface arg0,
                                                         int arg1) {
-                                                    // TODO Auto-generated
+
                                                     // method stub
 
                                                 }
@@ -597,8 +421,7 @@ public class AccountsList extends ListFragment {
                                                 public void onClick(
                                                         DialogInterface arg0,
                                                         int arg1) {
-                                                    // TODO Auto-generated
-                                                    // method stub
+
 
                                                     DbClass aDbClass = new DbClass(
                                                             getActivity());
@@ -607,9 +430,11 @@ public class AccountsList extends ListFragment {
                                                     aDbClass.close();
 
                                                     getTotal();
-                                                    myAdapter
-                                                            .swapCursor(mDbClass
-                                                                    .getAllAccounts());
+                                                    myAdapter.changeCursor(getActivity().getContentResolver().query(Uri.parse("content://"
+                                                                    + "SentayzoDbAuthority" + "/accounts"), null, null, null,
+                                                            null));
+
+                                                    myAdapter.notifyDataSetChanged();
 
 //                                                    Snackbar.make(rootView.findViewById(R.id.coordinator), "Account deleted", Snackbar.LENGTH_SHORT).show();
                                                 }
@@ -636,27 +461,163 @@ public class AccountsList extends ListFragment {
                 Dialog d = builder.create();
 
                 d.show();
+            }
+        });
+
+        rvAccounts.setAdapter(myAdapter);
+
+        rvAccounts.setLayoutManager(new LinearLayoutManager(getActivity()));
+
+
+        // procedure for the total
+        getTotal();
+
+        rvAccounts.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+
+                if (dy > 0) {
+
+                    if (fam.getVisibility() == View.GONE) {
+                    } else {
+                        fam.collapse();
+                        fam.startAnimation(animScaleDown);
+                        fam.setVisibility(View.GONE);
+                    }
+                } else if (dy < 0) {
+
+                    if (fam.getVisibility() == View.VISIBLE) {
+                    } else {
+                        fam.setVisibility(View.VISIBLE);
+                        fam.startAnimation(animScaleUp);
+                    }
+                }
+            }
+        });
+
+
+        fabNewAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Boolean freePeriod = billingPrefs.getBoolean(
+                        "KEY_FREE_TRIAL_PERIOD", true);
+                Boolean unlocked = billingPrefs.getBoolean("KEY_PURCHASED_UNLOCK",
+                        false);
+
+                if (freePeriod || unlocked) {
+
+                    Intent i = new Intent(getActivity(), NewAccount.class);
+                    startActivity(i);
+                } else if (freePeriod == false && unlocked == false) {
+                    // if free trial has expired and nigga hasnt paid for shit
+                    int numberOfAccounts = new DbClass(getActivity())
+                            .getNumberOfAccounts();
+
+                    if (numberOfAccounts < 2) {
+                        Intent i = new Intent(getActivity(), NewAccount.class);
+                        startActivity(i);
+
+                    } else {
+
+                        showPaymentDialog(getActivity());
+
+                    }
+
+                }
 
             }
         });
 
+
+        fabNewTrn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DbClass mDbClass = new DbClass(getActivity());
+                mDbClass.open();
+                Boolean accountsAvailable = mDbClass.checkForAccounts();
+                mDbClass.close();
+
+                if (accountsAvailable == false) {
+
+                    String createAccountFirst = getResources().getString(
+                            R.string.createAccountFirst);
+
+
+                    AlertDialog.Builder builder = new AlertDialog.Builder(
+                            getActivity());
+                    builder.setMessage(createAccountFirst);
+                    builder.setNeutralButton(getResources().getString(R.string.ok),
+                            new DialogInterface.OnClickListener() {
+
+                                @Override
+                                public void onClick(DialogInterface dialog,
+                                                    int which) {
+
+
+                                }
+                            });
+
+                    Dialog d = builder.create();
+                    d.show();
+
+                } else {
+                    Intent i = new Intent(getActivity(), NewTransaction.class);
+                    startActivity(i);
+                }
+            }
+        });
+
+        fabNewTransfer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int numberOfAccounts = new DbClass(getActivity())
+                        .getNumberOfAccounts();
+
+
+                fam.collapse();
+
+                if (numberOfAccounts < 2) {
+
+                    // String msg = getResources().getString(R.string.accounts_two);
+
+                    AlertDialog.Builder builder = new AlertDialog.Builder(
+                            getActivity());
+                    builder.setMessage("You need to have atleast 2 accounts open to use this feature.");
+
+                    builder.setNeutralButton(getResources().getString(R.string.ok),
+                            new DialogInterface.OnClickListener() {
+
+                                @Override
+                                public void onClick(DialogInterface dialog,
+                                                    int which) {
+
+
+                                }
+                            });
+
+                    Dialog d = builder.create();
+                    d.show();
+                } else {
+
+                    Intent i = new Intent(getActivity(), NewTransfer.class);
+                    startActivity(i);
+                }
+            }
+        });
+
+
     }
 
     private void getTotal() {
-        // TODO Auto-generated method stub
+
 
         Long totalAmount = mDbClass.totalTransactionAmount();
 
         ConversionClass mCC = new ConversionClass(getActivity());
 
-        Log.d(tag, "totalAmount = " + totalAmount);
-
         String totAmt = mCC.valueConverter(totalAmount);
-
-        // totAmt =
-        // NumberFormat.getNumberInstance(Locale.US).format(totalAmount);
-
-        Log.d(tag, totAmt);
 
         if (totalAmount < 0) {
 
@@ -676,13 +637,6 @@ public class AccountsList extends ListFragment {
         }
     }
 
-    public void listItemPositionClick(int position) {
-        // TODO Auto-generated method stub
-        Log.d("in accountsList", "here");
-        Toast.makeText(getActivity(), "Position clicked: " + position,
-                Toast.LENGTH_SHORT).show();
-
-    }
 
     public long getAccountType(long accountId) {
 
@@ -696,207 +650,8 @@ public class AccountsList extends ListFragment {
         return accountTypeId;
     }
 
-    private class MyAdapter extends CursorAdapter {
-
-        private LayoutInflater inflater;
-        private ConversionClass mCC;
-
-
-        public MyAdapter(Context context, Cursor c, int flags) {
-            super(context, c, flags);
-            // TODO Auto-generated constructor stub
-            inflater = (LayoutInflater) context
-                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            mCC = new ConversionClass(context);
-        }
-
-        @Override
-        public void bindView(View view, Context context, Cursor cursor) {
-            // TODO Auto-generated method stub
-
-
-            ImageView accountTypeImage = (ImageView) view
-                    .findViewById(R.id.account_type_icon);
-            TextView tv_accountTypeName = (TextView) view
-                    .findViewById(R.id.ac_type);
-            TextView tv_accountName = (TextView) view
-                    .findViewById(R.id.ac_name);
-            TextView tv_accountBalance = (TextView) view
-                    .findViewById(R.id.ac_balance);
-            TextView tv_creditLimit = (TextView) view.findViewById(R.id.tv_creditLimit);
-
-            if (Build.VERSION.SDK_INT < 23) {
-                //if api below 23
-
-                tv_accountTypeName.setTypeface(robotoMedium);
-                tv_accountTypeName.setTextAppearance(context, R.style.normalText);
-                tv_accountName.setTypeface(robotoMedium);
-                tv_accountName.setTextAppearance(context, R.style.boldText);
-                tv_accountBalance.setTypeface(robotoThin);
-                tv_accountBalance.setTextAppearance(context, R.style.boldText);
-                tv_creditLimit.setTypeface(robotoMedium);
-                tv_creditLimit.setTextAppearance( context, R.style.boldText);
-            } else {
-                //if api above 23
-                tv_accountTypeName.setTypeface(robotoMedium);
-                tv_accountTypeName.setTextAppearance( R.style.normalText);
-                tv_accountName.setTypeface(robotoMedium);
-                tv_accountName.setTextAppearance(R.style.boldText);
-                tv_accountBalance.setTypeface(robotoThin);
-                tv_accountBalance.setTextAppearance(R.style.boldText);
-                tv_creditLimit.setTypeface(robotoMedium);
-                tv_creditLimit.setTextAppearance( R.style.boldText);
-            }
-
-            String accountTypeName = cursor.getString(cursor
-                    .getColumnIndex(DbClass.DATABASE_TABLE_ACCOUNT_TYPE + "."
-                            + DbClass.KEY_ACCOUNT_TYPE_NAME));
-
-            String accountName = cursor.getString(cursor
-                    .getColumnIndex(DbClass.KEY_ACCOUNT_NAME));
-
-            Long amount = cursor.getLong(cursor.getColumnIndex("acTotal"));
-
-            String amountString = mCC.valueConverter(amount);
-
-            tv_accountTypeName.setText(accountTypeName);
-
-            if (accountTypeName.equals("Cash")) {
-
-                accountTypeImage.setImageDrawable(context.getResources()
-                        .getDrawable(R.drawable.ic_cash_coins));
-
-                tv_creditLimit.setVisibility(View.GONE);
-            } else if (accountTypeName.equals("Bank")) {
-
-                accountTypeImage.setImageDrawable(context.getResources()
-                        .getDrawable(R.drawable.ic_bank_icon_6));
-
-                tv_creditLimit.setVisibility(View.GONE);
-            } else if (accountTypeName.equals("Asset")) {
-
-                accountTypeImage.setImageDrawable(context.getResources()
-                        .getDrawable(R.drawable.ic_asset));
-                tv_creditLimit.setVisibility(View.GONE);
-            } else if (accountTypeName.equals("Liability")) {
-
-                accountTypeImage.setImageDrawable(context.getResources()
-                        .getDrawable(R.drawable.ic_liability));
-
-                tv_creditLimit.setVisibility(View.GONE);
-            } else if (accountTypeName.equals("Credit Card")) {
-
-                String cardIssuer = cursor.getString(cursor
-                        .getColumnIndex(DbClass.KEY_CARD_ISSUER_NAME));
-
-                String creditProvider = cursor.getString(cursor
-                        .getColumnIndex(DbClass.KEY_ACCOUNT_CREDIT_PROVIDER));
-
-                Long creditLimit = cursor.getLong(cursor.getColumnIndex(DbClass.KEY_ACCOUNT_CREDIT_LIMIT));
-
-                String limitAmountString = mCC.valueConverter(creditLimit);
-
-                tv_creditLimit.setVisibility(View.VISIBLE);
-
-                tv_creditLimit.setText(context.getString(R.string.credLimit) + limitAmountString);  //set credit limit
-
-                if (creditProvider == "") {
-
-                    tv_accountTypeName.setText(accountTypeName);
-
-                } else {
-
-                    tv_accountTypeName.setText(creditProvider);
-
-                }
-
-
-                if (cardIssuer.equals("Visa")) {
-
-                    accountTypeImage.setImageDrawable(context.getResources()
-                            .getDrawable(R.drawable.ic_card_visa));
-                }
-
-                if (cardIssuer.equals("MasterCard")) {
-
-                    accountTypeImage.setImageDrawable(context.getResources()
-                            .getDrawable(R.drawable.ic_mastercard));
-                }
-
-                if (cardIssuer.equals("American Express")) {
-
-                    accountTypeImage.setImageDrawable(context.getResources()
-                            .getDrawable(R.drawable.ic_card_amex));
-                }
-
-                if (cardIssuer.equals("Discover")) {
-
-                    accountTypeImage.setImageDrawable(context.getResources()
-                            .getDrawable(R.drawable.ic_card_discover));
-                }
-
-                if (cardIssuer.equals("Diners Club")) {
-
-                    accountTypeImage.setImageDrawable(context.getResources()
-                            .getDrawable(R.drawable.ic_card_diners_club));
-                }
-
-                if (cardIssuer.equals("Union Pay")) {
-
-                    accountTypeImage.setImageDrawable(context.getResources()
-                            .getDrawable(R.drawable.ic_card_union_pay));
-                }
-
-                if (cardIssuer.equals("JCB")) {
-
-                    accountTypeImage.setImageDrawable(context.getResources()
-                            .getDrawable(R.drawable.ic_card_jcb));
-                }
-
-                if (cardIssuer.equals("Maestro")) {
-
-                    accountTypeImage.setImageDrawable(context.getResources()
-                            .getDrawable(R.drawable.ic_card_maestro));
-                }
-
-                if (cardIssuer.equals("Other")) {
-
-                    accountTypeImage.setImageDrawable(context.getResources()
-                            .getDrawable(R.drawable.ic_card_visa));
-                }
-
-            }
-
-
-            tv_accountName.setText(accountName);
-
-            tv_accountBalance.setText(amountString);
-
-            if (amount < 0) {
-
-                tv_accountBalance.setTextColor(Color.RED);
-
-            }
-
-            if (amount > 0) {
-
-                tv_accountBalance.setTextColor(Color.rgb(49, 144, 4));
-            }
-        }
-
-        @Override
-        public View newView(Context arg0, Cursor cursor, ViewGroup parent) {
-            // TODO Auto-generated method stub
-
-            View view = inflater.inflate(R.layout.single_account_row_new,
-                    parent, false);
-
-            return view;
-        }
-    }
-
     private void showPaymentDialog(final Context context) {
-        // TODO Auto-generated method stub
+
 
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
 
@@ -912,7 +667,7 @@ public class AccountsList extends ListFragment {
 
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        // TODO Auto-generated method stub
+
 
                     }
                 });
@@ -923,7 +678,7 @@ public class AccountsList extends ListFragment {
 
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        // TODO Auto-generated method stub
+
 
                         Intent i = new Intent(context, StoreActivity.class);
                         startActivity(i);

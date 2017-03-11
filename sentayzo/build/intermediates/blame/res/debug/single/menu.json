@@ -44,12 +44,12 @@
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\menu\\payee_tx_view.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\menu\\edit_transfer.xml",
-        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\menu\\edit_transfer.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\menu\\login.xml",
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\menu\\login.xml"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\menu\\edit_transfer.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\menu\\edit_transfer.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\menu\\payee_list.xml",
@@ -88,12 +88,12 @@
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\menu\\practice.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\menu\\ads_test.xml",
-        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\menu\\ads_test.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\menu\\help.xml",
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\menu\\help.xml"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\menu\\ads_test.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\menu\\ads_test.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\menu\\reports_view.xml",

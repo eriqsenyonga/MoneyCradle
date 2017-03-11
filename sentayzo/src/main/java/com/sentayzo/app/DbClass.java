@@ -3505,7 +3505,8 @@ public class DbClass {
                 + " ON " + DATABASE_TABLE_ACCOUNT + "." + KEY_ACCOUNT_ID + "="
                 + DATABASE_TABLE_TRANSACTION + "." + KEY_TRANSACTION_ACCOUNT_ID
                 + " WHERE " + DATABASE_TABLE_ACCOUNT + "." + KEY_ACCOUNT_OPEN
-                + " = 0" + " GROUP BY " + DATABASE_TABLE_ACCOUNT + "." + KEY_ACCOUNT_ID;
+                + " = 0" + " GROUP BY " + DATABASE_TABLE_ACCOUNT + "." + KEY_ACCOUNT_ID
+                + " ORDER BY " + DATABASE_TABLE_ACCOUNT + "." + KEY_ACCOUNT_NAME;
 
         open();
 

@@ -1,7 +1,5 @@
 package com.sentayzo.app;
 
-import org.codechimp.apprater.AppRater;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -18,15 +16,18 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
+
+import net.i2p.android.ext.floatingactionbutton.FloatingActionButton;
+import net.i2p.android.ext.floatingactionbutton.FloatingActionsMenu;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,6 +42,12 @@ public class MainActivity extends AppCompatActivity {
     SharedPreferences sharedPrefs, billingPrefs, mPositionSavedPrefs;
     SharedPreferences.Editor editor, billingEditor, posSavedEditor;
     private InterstitialAd interstitial;
+
+    FloatingActionsMenu fam;
+    FloatingActionButton fabNewAccount;
+    FloatingActionButton fabNewTrn;
+    FloatingActionButton fabNewTransfer;
+    FloatingActionButton fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +65,13 @@ public class MainActivity extends AppCompatActivity {
         actionBar.setHomeAsUpIndicator(R.drawable.ic_action_navigation_menu);
         actionBar.setDisplayShowHomeEnabled(true);
         actionBar.setDisplayHomeAsUpEnabled(true);
+
+        fam = (FloatingActionsMenu) findViewById(R.id.fam_fab);
+        fabNewAccount = (FloatingActionButton) findViewById(R.id.fab_newAccount);
+        fabNewTrn = (FloatingActionButton) findViewById(R.id.fab_newTransaction);
+        fabNewTransfer = (FloatingActionButton) findViewById(R.id.fab_newTransfer);
+        fab = (FloatingActionButton) findViewById(R.id.fab);
+
 
         mPositionSavedPrefs = getSharedPreferences("mPositionSaved",
                 Context.MODE_PRIVATE);
@@ -180,6 +194,7 @@ public class MainActivity extends AppCompatActivity {
 
         billingPrefs = getSharedPreferences("my_billing_prefs", 0);
 
+        billingEditor.putBoolean("KEY_FREE_TRIAL_PERIOD", true).apply();
         if ((billingPrefs.getBoolean("KEY_FREE_TRIAL_PERIOD", true) == false)
                 && (billingPrefs.getBoolean("KEY_PURCHASED_ADS", false) == false)) {
 
@@ -350,74 +365,6 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-        if (id == R.id.ab_newAccount) {
-            // open the new account form when the new account button is clicked
-
-            Boolean freePeriod = billingPrefs.getBoolean(
-                    "KEY_FREE_TRIAL_PERIOD", true);
-            Boolean unlocked = billingPrefs.getBoolean("KEY_PURCHASED_UNLOCK",
-                    false);
-
-            if (freePeriod == true || unlocked == true) {
-
-                Intent i = new Intent(this, NewAccount.class);
-                startActivity(i);
-            } else if (freePeriod == false && unlocked == false) {
-                // if free trial has expired and nigga hasnt paid for shit
-                int numberOfAccounts = new DbClass(MainActivity.this)
-                        .getNumberOfAccounts();
-
-                if (numberOfAccounts < 2) {
-                    Intent i = new Intent(this, NewAccount.class);
-                    startActivity(i);
-
-                } else {
-
-                    showPaymentDialog(MainActivity.this);
-
-                }
-
-            }
-        }
-
-        if (id == R.id.ab_newTransaction) {
-            // open the New Transaction Form when the new Transaction button is
-            // clicked
-
-            DbClass mDbClass = new DbClass(MainActivity.this);
-            mDbClass.open();
-            accountsAvailable = mDbClass.checkForAccounts();
-            mDbClass.close();
-
-            if (accountsAvailable == false) {
-
-                String createAccountFirst = getResources().getString(
-                        R.string.createAccountFirst);
-                // TODO Auto-generated method stub
-
-                AlertDialog.Builder builder = new AlertDialog.Builder(
-                        MainActivity.this);
-                builder.setMessage(createAccountFirst);
-                builder.setNeutralButton(getResources().getString(R.string.ok),
-                        new DialogInterface.OnClickListener() {
-
-                            @Override
-                            public void onClick(DialogInterface dialog,
-                                                int which) {
-                                // TODO Auto-generated method stub
-
-                            }
-                        });
-
-                Dialog d = builder.create();
-                d.show();
-
-            } else {
-                Intent i = new Intent(MainActivity.this, NewTransaction.class);
-                startActivity(i);
-            }
-
-        }
 
         if (id == R.id.action_Backup) {
 
@@ -443,38 +390,6 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-        if (id == R.id.ab_newTranfer) {
-            int numberOfAccounts = new DbClass(MainActivity.this)
-                    .getNumberOfAccounts();
-
-            if (numberOfAccounts < 2) {
-
-                // String msg = getResources().getString(R.string.accounts_two);
-
-                AlertDialog.Builder builder = new AlertDialog.Builder(
-                        MainActivity.this);
-                builder.setMessage("You need to have atleast 2 accounts open to use this feature.");
-
-                builder.setNeutralButton(getResources().getString(R.string.ok),
-                        new DialogInterface.OnClickListener() {
-
-                            @Override
-                            public void onClick(DialogInterface dialog,
-                                                int which) {
-                                // TODO Auto-generated method stub
-
-                            }
-                        });
-
-                Dialog d = builder.create();
-                d.show();
-            } else {
-
-                Intent i = new Intent(this, NewTransfer.class);
-                startActivity(i);
-            }
-
-        }
 
         return super.onOptionsItemSelected(item);
     }

@@ -3,8 +3,8 @@
     package="com.sentayzo.app.test" >
 
     <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="24" />
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
 
     <instrumentation
         android:name="com.android.test.runner.MultiDexTestRunner"

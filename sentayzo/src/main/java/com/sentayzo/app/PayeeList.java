@@ -16,6 +16,7 @@ import android.support.v4.widget.SimpleCursorAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
@@ -27,6 +28,9 @@ import android.widget.Toast;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 
+import net.i2p.android.ext.floatingactionbutton.FloatingActionButton;
+import net.i2p.android.ext.floatingactionbutton.FloatingActionsMenu;
+
 public class PayeeList extends ListFragment implements LoaderCallbacks<Cursor>,
 		OnItemClickListener, OnItemLongClickListener {
 
@@ -37,6 +41,8 @@ public class PayeeList extends ListFragment implements LoaderCallbacks<Cursor>,
 	DbClass mDbClass;
 	View rootView;
 	Tracker t;
+	FloatingActionsMenu fam;
+	FloatingActionButton fab;
 
 	public PayeeList() {
 		// Required empty public constructor
@@ -81,6 +87,14 @@ t = ((ApplicationClass) getActivity().getApplication()).getTracker(ApplicationCl
 		payeeList.setOnItemClickListener(this);
 
 		payeeList.setOnItemLongClickListener(this);
+
+		fam = (FloatingActionsMenu) getActivity().findViewById(R.id.fam_fab);
+		fam.setVisibility(View.GONE);
+
+		fab = (FloatingActionButton) getActivity().findViewById(R.id.fab);
+
+
+		fab.setVisibility(View.GONE);
 	}
 
 	@Override

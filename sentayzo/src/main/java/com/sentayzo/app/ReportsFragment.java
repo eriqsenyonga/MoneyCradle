@@ -10,156 +10,148 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import net.i2p.android.ext.floatingactionbutton.FloatingActionsMenu;
+
 public class ReportsFragment extends ListFragment {
 
-	String[] options;
-	ListView listView;
-	
+    String[] options;
+    ListView listView;
+    FloatingActionsMenu fam;
 
-	public ReportsFragment() {
-		// Required empty public constructor
-	}
 
-	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
+    public ReportsFragment() {
+        // Required empty public constructor
+    }
 
-		View rootView = inflater.inflate(R.layout.fragment_reports, container,
-				false);
-		
-		
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // TODO Auto-generated method stub
 
-		return rootView;
-	}
+        View rootView = inflater.inflate(R.layout.fragment_reports, container,
+                false);
 
-	@Override
-	public void onActivityCreated(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
-		super.onActivityCreated(savedInstanceState);
 
-		listView = getListView();
-		
-		options = getResources().getStringArray(R.array.reportsFragmentList);
+        return rootView;
+    }
 
-		ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(getActivity(),
-				android.R.layout.simple_list_item_1, options);
-		
-		
-		listView.setAdapter(adapter1);
-		
-		
-		
-		
-		
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        // TODO Auto-generated method stub
+        super.onActivityCreated(savedInstanceState);
 
-		listView.setAdapter(adapter1);
+ /*       fam = (FloatingActionsMenu) getActivity().findViewById(R.id.fam_fab);
 
-		listView.setOnItemClickListener(new OnItemClickListener() {
+        if (fam.getVisibility() == View.VISIBLE) {
+            fam.collapse();
+            fam.startAnimation(AnimationUtils.loadAnimation(getActivity(), R.anim.scale_down));
+            fam.setVisibility(View.GONE);
+        }
+*/
+        listView = getListView();
 
-			@Override
-			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
-					long arg3) {
-				// TODO Auto-generated method stub
+        options = getResources().getStringArray(R.array.reportsFragmentList);
 
-				
-				
-				if(arg2 == 0){
-					//if general is clicked
-					
-					Intent i =  new Intent(getActivity(), ReportsViewActivity.class);
-					i.putExtra("configNumber", arg2);
-					startActivity(i);
-					
-					
-					
-				}
+        ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(getActivity(),
+                android.R.layout.simple_list_item_1, options);
 
-				if (arg2 == 1) {
-					// if "By Account is clicked"
-					
-					Intent i =  new Intent(getActivity(), ReportsViewActivity.class);
-					i.putExtra("configNumber", arg2);
-					startActivity(i);
-					
-					
 
-				}
+        listView.setAdapter(adapter1);
 
-				else if (arg2 == 2) {
-					// if "By Category" is clicked
-					Intent i =  new Intent(getActivity(), ReportsViewActivity.class);
-					i.putExtra("configNumber", arg2);
-					startActivity(i);
-				}
+        listView.setAdapter(adapter1);
 
-				else if (arg2 == 3) {
-					// if Payee is clicked
-					Intent i =  new Intent(getActivity(), ReportsViewActivity.class);
-					i.putExtra("configNumber", arg2);
-					startActivity(i);
-				}
-				
-				else if (arg2 == 4 ) {
-					// if Payee is clicked
-					Intent i =  new Intent(getActivity(), ReportsViewActivity.class);
-					i.putExtra("configNumber", arg2);
-					startActivity(i);
-				}
-				
-				else if (arg2 == 9) {
-					// if Full Report is clicked
-					Intent i = new Intent(getActivity(),
-							FinancialStatement.class);
+        listView.setOnItemClickListener(new OnItemClickListener() {
 
-					startActivity(i);
+            @Override
+            public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
+                                    long arg3) {
+                // TODO Auto-generated method stub
 
-				}
-				
-				else if(arg2 == 10){
-					File moneyCradleFolder = new File(Environment.getExternalStorageDirectory(), "Money Cradle");
-					
-					if(!moneyCradleFolder.exists()){
-						
-						moneyCradleFolder.mkdirs(); 
-						Log.d("folder created", "folder created");
-					}
-					
-					File csv = new File(moneyCradleFolder, "CSV Reports");
-					 if(!csv.exists()){
-						 
-						 csv.mkdirs();
-					 }
-					 
-					 File database = new File(moneyCradleFolder, "Database backup");
-					 if(!database.exists()){
-						 
-						 database.mkdirs();
-					 }
-					
-					 ExportToCSV csvExp = new ExportToCSV(getActivity());
-					 
-					 csvExp.execute();
-					
-					
-				}
-				else{
-					Intent i =  new Intent(getActivity(), ReportsViewActivity.class);
-					i.putExtra("configNumber", arg2);
-					startActivity(i);
-					
-					
-				}
 
-			}
-		});
-		
-		
-	}
+                if (arg2 == 0) {
+                    //if general is clicked
+
+                    Intent i = new Intent(getActivity(), ReportsViewActivity.class);
+                    i.putExtra("configNumber", arg2);
+                    startActivity(i);
+
+
+                }
+
+                if (arg2 == 1) {
+                    // if "By Account is clicked"
+
+                    Intent i = new Intent(getActivity(), ReportsViewActivity.class);
+                    i.putExtra("configNumber", arg2);
+                    startActivity(i);
+
+
+                } else if (arg2 == 2) {
+                    // if "By Category" is clicked
+                    Intent i = new Intent(getActivity(), ReportsViewActivity.class);
+                    i.putExtra("configNumber", arg2);
+                    startActivity(i);
+                } else if (arg2 == 3) {
+                    // if Payee is clicked
+                    Intent i = new Intent(getActivity(), ReportsViewActivity.class);
+                    i.putExtra("configNumber", arg2);
+                    startActivity(i);
+                } else if (arg2 == 4) {
+                    // if Payee is clicked
+                    Intent i = new Intent(getActivity(), ReportsViewActivity.class);
+                    i.putExtra("configNumber", arg2);
+                    startActivity(i);
+                } else if (arg2 == 9) {
+                    // if Full Report is clicked
+                    Intent i = new Intent(getActivity(),
+                            FinancialStatement.class);
+
+                    startActivity(i);
+
+                } else if (arg2 == 10) {
+                    File moneyCradleFolder = new File(Environment.getExternalStorageDirectory(), "Money Cradle");
+
+                    if (!moneyCradleFolder.exists()) {
+
+                        moneyCradleFolder.mkdirs();
+                        Log.d("folder created", "folder created");
+                    }
+
+                    File csv = new File(moneyCradleFolder, "CSV Reports");
+                    if (!csv.exists()) {
+
+                        csv.mkdirs();
+                    }
+
+                    File database = new File(moneyCradleFolder, "Database backup");
+                    if (!database.exists()) {
+
+                        database.mkdirs();
+                    }
+
+                    ExportToCSV csvExp = new ExportToCSV(getActivity());
+
+                    csvExp.execute();
+
+
+                } else {
+                    Intent i = new Intent(getActivity(), ReportsViewActivity.class);
+                    i.putExtra("configNumber", arg2);
+                    startActivity(i);
+
+
+                }
+
+            }
+        });
+
+
+    }
 
 }
