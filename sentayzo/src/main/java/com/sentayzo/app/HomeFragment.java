@@ -77,6 +77,8 @@ public class HomeFragment extends Fragment {
         //	mSlidingTabLayout.setViewPager(mViewPager);
         setRetainInstance(true);
 
+
+
     }
 
 }

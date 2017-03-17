@@ -20,6 +20,9 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
+import com.getkeepsafe.taptargetview.TapTarget;
+import com.getkeepsafe.taptargetview.TapTargetView;
+
 import net.i2p.android.ext.floatingactionbutton.FloatingActionButton;
 import net.i2p.android.ext.floatingactionbutton.FloatingActionsMenu;
 
@@ -88,6 +91,7 @@ public class AccountsList extends Fragment {
             fam.startAnimation(AnimationUtils.loadAnimation(getActivity(), R.anim.scale_up));
         }
 
+     //   TapTargetView.showFor(getActivity(), TapTarget.forView(fabNewTrn, "Quick Start", "Begin by creating account by tapping here"));
 
         billingPrefs = getActivity().getSharedPreferences("my_billing_prefs", 0);
 

@@ -1,18 +1,18 @@
 [
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
-        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.2.0\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\224f34d28d09bf38f3043470730f9a791cb21336\\output\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
-        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.2.0\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\224f34d28d09bf38f3043470730f9a791cb21336\\output\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
-        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.2.0\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\224f34d28d09bf38f3043470730f9a791cb21336\\output\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
-        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\10.2.0\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\224f34d28d09bf38f3043470730f9a791cb21336\\output\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
     }
 ]

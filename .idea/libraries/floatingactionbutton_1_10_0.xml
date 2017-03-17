@@ -4,8 +4,8 @@
       <root url="jar://$PROJECT_DIR$/sentayzo/build/intermediates/exploded-aar/net.i2p.android.ext/floatingactionbutton/1.10.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/sentayzo/build/intermediates/exploded-aar/net.i2p.android.ext/floatingactionbutton/1.10.0/res" />
-      <root url="jar://$PROJECT_DIR$/sentayzo/build/intermediates/exploded-aar/net.i2p.android.ext/floatingactionbutton/1.10.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/f14d83ec3ec064866201d078571b7bd5b355bdbb/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/f14d83ec3ec064866201d078571b7bd5b355bdbb/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

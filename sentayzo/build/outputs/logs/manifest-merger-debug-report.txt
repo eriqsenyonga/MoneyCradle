@@ -17,76 +17,77 @@ ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\And
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:multidex:1.0.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
-MERGED from [Sentayzo:appRater:unspecified] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\Sentayzo\appRater\unspecified\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:cardview-v7:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services\10.2.0\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-cast-framework:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.2.0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-cast:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:mediarouter-v7:24.0.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:palette-v7:24.0.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-config:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-awareness:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-crash:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-auth:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-database:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.2.0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-database-connection:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.2.0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-messaging:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-storage:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.2.0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-storage-common:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.2.0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-fitness:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-games:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-drive:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-appindexing:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-instantapps:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.2.0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-location:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.2.0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-nearby:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.2.0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-panorama:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-places:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-plus:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-safetynet:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tagmanager:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-common:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-vision:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.2.0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-wallet:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.2.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-identity:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.2.0\AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-wearable:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [net.i2p.android.ext:floatingactionbutton:1.10.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\net.i2p.android.ext\floatingactionbutton\1.10.0\AndroidManifest.xml:8:5-10:41
-MERGED from [com.google.android.gms:play-services-ads:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.2.0\AndroidManifest.xml:22:5-43
-MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-gass:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.2.0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-auth:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-auth-base:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.2.0\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.0\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.0\AndroidManifest.xml:17:5-43
-MERGED from [com.github.TR4Android:AppCompat-Extension-Library:v0.4.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.github.TR4Android\AppCompat-Extension-Library\v0.4.0\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:design:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\design\25.1.1\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Eric\.android\build-cache\f8b00c54ea8c5d0b26eed23f45db395abdfc8e51\output\AndroidManifest.xml:18:5-42
+MERGED from [Sentayzo:appRater:unspecified] E:\Android Studio Projects\MoneyCradle\Sentayzo\appRater\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\Eric\.android\build-cache\4a26cc39cb0f6f56a0bf4503b87cc8ed56a06d48\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services:10.2.0] C:\Users\Eric\.android\build-cache\e90c7995a484b43e786248ab62d8097f49f84b8b\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Eric\.android\build-cache\197136c49af27287e3937d8fdb67de96cbbb29e4\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Eric\.android\build-cache\582099eea7507d036f1b9e49a45a06875642b529\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Eric\.android\build-cache\023a29542041468217c90c7db1feef67a767a787\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:10.2.0] C:\Users\Eric\.android\build-cache\b600d16e3a7cb2b0169dcce0de4e45c8d6d1f563\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:25.3.0] C:\Users\Eric\.android\build-cache\a8d5e913922faa3a770fdae5d503cacd33763173\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.3.0] C:\Users\Eric\.android\build-cache\520555067597f5653911fbd3c5fb19564eb839b7\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-config:10.2.0] C:\Users\Eric\.android\build-cache\a73429213956fafa493153e0fb1f47dc53f4542f\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:10.2.0] C:\Users\Eric\.android\build-cache\243f3d9906d2a15ee70cb062bbeff2f9be858bc2\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.0] C:\Users\Eric\.android\build-cache\3e350926df685a539108f1b9ca2173962468f7b2\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.0] C:\Users\Eric\.android\build-cache\a845715e9a327be2bd065a003f33de58b600e205\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.0] C:\Users\Eric\.android\build-cache\c7f496328030e4d51817c9618134151aa0689ba2\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.0] C:\Users\Eric\.android\build-cache\923449145eef27f6b9045fd343c584f0df7ce93f\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Eric\.android\build-cache\c2876b2d36fd58153f813206a223630a555f690c\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.0] C:\Users\Eric\.android\build-cache\803bec62a29bb3dc3b083e6bd640bbfe5df37e23\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.0] C:\Users\Eric\.android\build-cache\9bd4379e7f08f0f4af0254b205b33cc0f9c999a2\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-fitness:10.2.0] C:\Users\Eric\.android\build-cache\deca89f791f0fc5ea2f89880ef235e90c1148fd9\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:10.2.0] C:\Users\Eric\.android\build-cache\451a14cea5e0e23753d7b5ffadc3906e2fcda960\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:10.2.0] C:\Users\Eric\.android\build-cache\ee750775faafa25a641e7a65da2a0691d8fd7928\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:10.2.0] C:\Users\Eric\.android\build-cache\6957229a5f8cb70c6d5192fa7d7d0944f8101667\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:10.2.0] C:\Users\Eric\.android\build-cache\553727e1d7fcac6308109c42bae6f9a266713f0a\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.0] C:\Users\Eric\.android\build-cache\8f9a72c28177ad376d58a15905d78cd365e9da69\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:10.2.0] C:\Users\Eric\.android\build-cache\bd8cba514b076afbbbacc6d1d7f1502a497b211d\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:10.2.0] C:\Users\Eric\.android\build-cache\bba57e1c163d373bff5bbb0415e7f41a31b90d29\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:10.2.0] C:\Users\Eric\.android\build-cache\a77aae57dde695bf9287affebab97c34dd17e27c\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:10.2.0] C:\Users\Eric\.android\build-cache\224f34d28d09bf38f3043470730f9a791cb21336\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.0] C:\Users\Eric\.android\build-cache\540fc837d236085b4deeccb49d13381ecdea2930\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:10.2.0] C:\Users\Eric\.android\build-cache\42e4d0c76569b720bbdf6769b222ed085da3a543\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Eric\.android\build-cache\fe415157e9ad4bc1407d3bfbab076281cb6ce920\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Eric\.android\build-cache\1086aad74dd17006c9d586af3977a1e50f818870\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.0] C:\Users\Eric\.android\build-cache\25119748a811ec173ae684eba67b7f2b7031abc0\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] C:\Users\Eric\.android\build-cache\0a3cd4f57706721523a20caa40b78ec8146a5a46\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:10.2.0] C:\Users\Eric\.android\build-cache\14c65df7750ee246b4cfd12fadda6190feca8cd8\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wallet:10.2.0] C:\Users\Eric\.android\build-cache\b20ba9013e18fbb8c2055ca173a5bf5313eefe09\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:10.2.0] C:\Users\Eric\.android\build-cache\ed29af10731f088c16a02e71cc3462f3cd0eaa38\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Eric\.android\build-cache\76aed39a246fa291168c6058bd1c9a4c139efcd8\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-wearable:10.2.0] C:\Users\Eric\.android\build-cache\d853bf72c524f558422bc6597eb76f7b3bdedb0d\output\AndroidManifest.xml:17:5-43
+MERGED from [net.i2p.android.ext:floatingactionbutton:1.10.0] C:\Users\Eric\.android\build-cache\f14d83ec3ec064866201d078571b7bd5b355bdbb\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-ads:10.2.0] C:\Users\Eric\.android\build-cache\ad28534bc29d46e03377a975e4d966838421969d\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Eric\.android\build-cache\93076b813d15d091871e21d183221078e9df6c5e\output\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] C:\Users\Eric\.android\build-cache\2e84c08a7fac4c9e1ac2b0d01832114a4cc5ad81\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.0] C:\Users\Eric\.android\build-cache\213c31ab0efb0cacc9113b040110caff3459fdec\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Eric\.android\build-cache\2ed1e281f56dec50e5e32bddd4dbb7c8912dfea3\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.0] C:\Users\Eric\.android\build-cache\3a11f9b7b11a137bc27af6f17869ea14b102d174\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Eric\.android\build-cache\f80b7e06cf7f0a515ab7fd98e8778be0a06918cb\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Eric\.android\build-cache\5cc67d52e9098fe64ef1976d494badf49548baf0\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Eric\.android\build-cache\c97a5ac6f9b8b0d61a2966b63f72628c8d952d69\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\Eric\.android\build-cache\6c4225345c10145906a29e8ba4803106eebb559e\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Eric\.android\build-cache\4f1371e86eb4b108f08d36c1237bf7e9ae3f4040\output\AndroidManifest.xml:17:5-43
+MERGED from [com.github.TR4Android:AppCompat-Extension-Library:v0.4.0] C:\Users\Eric\.android\build-cache\2705397380f135617d8414e07bd3a1e5ed022aca\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:25.3.0] C:\Users\Eric\.android\build-cache\505f2279d0853c10e4703a07178e838f8478bec6\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\Eric\.android\build-cache\814c0b92125d3b42a31b91777e9f86f8660a0863\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.0] C:\Users\Eric\.android\build-cache\e7ce07ee74a55b444cc9dfbc9d0bf92950eb2430\output\AndroidManifest.xml:20:5-44
+MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.8.0] C:\Users\Eric\.android\build-cache\6d1f56ce9649b8ba7f0d9c541de1ba8f2b8dda6a\output\AndroidManifest.xml:8:5-44
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Eric\.android\build-cache\5a0df2291a469d3406ba92ecf3523debbce3250c\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Eric\.android\build-cache\72a056a9daf79c588ee70b05930f2324fc25e748\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Eric\.android\build-cache\23eaadd912706cec1f78caf5830f3ffefa0e5b75\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Eric\.android\build-cache\2c8b0344fda2c80e0afe696b07e8184384cbbb19\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Eric\.android\build-cache\59966306977f0ab16ef9a7d2e898a0690f2dd713\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Eric\.android\build-cache\64190e363722bebadcbf6cfa09b134f39f4c7f8c\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Eric\.android\build-cache\de3a2b1c03814c1c595b59ba8a06e9f593226947\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Eric\.android\build-cache\b16d8ff13053181504788dd58a9df594e1db3893\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Eric\.android\build-cache\cf4eb282623d7a46275cfe6838ecc637e0de5cd4\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\design\25.1.1\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.0] C:\Users\Eric\.android\build-cache\505f2279d0853c10e4703a07178e838f8478bec6\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml
@@ -109,11 +110,11 @@ ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\And
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:13:22-78
 uses-permission#android.permission.WAKE_LOCK
 ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:14:5-68
-MERGED from [com.google.android.gms:play-services-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.2.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.0\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.2.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Eric\.android\build-cache\197136c49af27287e3937d8fdb67de96cbbb29e4\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Eric\.android\build-cache\fe415157e9ad4bc1407d3bfbab076281cb6ce920\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] C:\Users\Eric\.android\build-cache\0a3cd4f57706721523a20caa40b78ec8146a5a46\output\AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:14:22-65
 uses-permission#com.android.vending.BILLING
@@ -122,31 +123,31 @@ ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\And
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:15:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:16:5-79
-MERGED from [com.google.android.gms:play-services-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.2.0\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-nearby:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.2.0\AndroidManifest.xml:4:5-78
-MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.0\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:19:5-78
-MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.2.0\AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.2.0\AndroidManifest.xml:19:5-78
-MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.2.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Eric\.android\build-cache\197136c49af27287e3937d8fdb67de96cbbb29e4\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.2.0] C:\Users\Eric\.android\build-cache\bd8cba514b076afbbbacc6d1d7f1502a497b211d\output\AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Eric\.android\build-cache\fe415157e9ad4bc1407d3bfbab076281cb6ce920\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] C:\Users\Eric\.android\build-cache\0a3cd4f57706721523a20caa40b78ec8146a5a46\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Eric\.android\build-cache\76aed39a246fa291168c6058bd1c9a4c139efcd8\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Eric\.android\build-cache\93076b813d15d091871e21d183221078e9df6c5e\output\AndroidManifest.xml:20:5-78
 	android:name
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:16:22-76
 uses-permission#android.permission.INTERNET
 ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:17:5-67
-MERGED from [com.google.android.gms:play-services-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.2.0\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.0\AndroidManifest.xml:18:5-66
-MERGED from [com.google.firebase:firebase-crash:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.2.0\AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.0\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.2.0\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.2.0\AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.2.0\AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.2.0\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.2.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Eric\.android\build-cache\197136c49af27287e3937d8fdb67de96cbbb29e4\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Eric\.android\build-cache\582099eea7507d036f1b9e49a45a06875642b529\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.0] C:\Users\Eric\.android\build-cache\3e350926df685a539108f1b9ca2173962468f7b2\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Eric\.android\build-cache\fe415157e9ad4bc1407d3bfbab076281cb6ce920\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] C:\Users\Eric\.android\build-cache\0a3cd4f57706721523a20caa40b78ec8146a5a46\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Eric\.android\build-cache\76aed39a246fa291168c6058bd1c9a4c139efcd8\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Eric\.android\build-cache\93076b813d15d091871e21d183221078e9df6c5e\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Eric\.android\build-cache\f80b7e06cf7f0a515ab7fd98e8778be0a06918cb\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Eric\.android\build-cache\5cc67d52e9098fe64ef1976d494badf49548baf0\output\AndroidManifest.xml:21:5-66
 	android:name
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:17:22-64
 uses-permission#android.permission.VIBRATE
@@ -163,62 +164,62 @@ ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\And
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:21:22-77
 application
 ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:23:5-240:19
-MERGED from [com.android.support:cardview-v7:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services\10.2.0\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.2.0\AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.0\AndroidManifest.xml:19:5-26:19
-MERGED from [com.google.android.gms:play-services-cast-framework:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.2.0\AndroidManifest.xml:4:5-8:19
-MERGED from [com.google.android.gms:play-services-cast:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.2.0\AndroidManifest.xml:18:5-19
-MERGED from [com.android.support:mediarouter-v7:24.0.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:palette-v7:24.0.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-config:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.2.0\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-awareness:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.2.0\AndroidManifest.xml:18:5-19
-MERGED from [com.google.firebase:firebase-crash:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.2.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-auth:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.2.0\AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-messaging:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.2.0\AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.android.gms:play-services-fitness:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.2.0\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-games:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.2.0\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-drive:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.2.0\AndroidManifest.xml:18:5-19
-MERGED from [com.google.firebase:firebase-appindexing:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.2.0\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-location:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.2.0\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-nearby:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.2.0\AndroidManifest.xml:5:5-19
-MERGED from [com.google.android.gms:play-services-panorama:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.2.0\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-places:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.2.0\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-plus:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.2.0\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-safetynet:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.2.0\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.0\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-common:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.0\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.2.0\AndroidManifest.xml:19:5-19
-MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.2.0\AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-vision:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.2.0\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-identity:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.2.0\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-maps:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.2.0\AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-wearable:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.2.0\AndroidManifest.xml:18:5-19
-MERGED from [net.i2p.android.ext:floatingactionbutton:1.10.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\net.i2p.android.ext\floatingactionbutton\1.10.0\AndroidManifest.xml:12:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.2.0\AndroidManifest.xml:23:5-27:19
-MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.2.0\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-gass:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.2.0\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-auth:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.0\AndroidManifest.xml:19:5-25:19
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.2.0\AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.2.0\AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-base:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.0\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.0\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.0\AndroidManifest.xml:19:5-21:19
-MERGED from [com.github.TR4Android:AppCompat-Extension-Library:v0.4.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.github.TR4Android\AppCompat-Extension-Library\v0.4.0\AndroidManifest.xml:12:5-20
-MERGED from [com.android.support:design:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\design\25.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.1.1] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\Eric\.android\build-cache\4a26cc39cb0f6f56a0bf4503b87cc8ed56a06d48\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services:10.2.0] C:\Users\Eric\.android\build-cache\e90c7995a484b43e786248ab62d8097f49f84b8b\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Eric\.android\build-cache\197136c49af27287e3937d8fdb67de96cbbb29e4\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Eric\.android\build-cache\582099eea7507d036f1b9e49a45a06875642b529\output\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Eric\.android\build-cache\023a29542041468217c90c7db1feef67a767a787\output\AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.2.0] C:\Users\Eric\.android\build-cache\b600d16e3a7cb2b0169dcce0de4e45c8d6d1f563\output\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:25.3.0] C:\Users\Eric\.android\build-cache\a8d5e913922faa3a770fdae5d503cacd33763173\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:palette-v7:25.3.0] C:\Users\Eric\.android\build-cache\520555067597f5653911fbd3c5fb19564eb839b7\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-config:10.2.0] C:\Users\Eric\.android\build-cache\a73429213956fafa493153e0fb1f47dc53f4542f\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.2.0] C:\Users\Eric\.android\build-cache\243f3d9906d2a15ee70cb062bbeff2f9be858bc2\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:10.2.0] C:\Users\Eric\.android\build-cache\3e350926df685a539108f1b9ca2173962468f7b2\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:10.2.0] C:\Users\Eric\.android\build-cache\a845715e9a327be2bd065a003f33de58b600e205\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Eric\.android\build-cache\c2876b2d36fd58153f813206a223630a555f690c\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.2.0] C:\Users\Eric\.android\build-cache\deca89f791f0fc5ea2f89880ef235e90c1148fd9\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.2.0] C:\Users\Eric\.android\build-cache\451a14cea5e0e23753d7b5ffadc3906e2fcda960\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.2.0] C:\Users\Eric\.android\build-cache\ee750775faafa25a641e7a65da2a0691d8fd7928\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.2.0] C:\Users\Eric\.android\build-cache\6957229a5f8cb70c6d5192fa7d7d0944f8101667\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.0] C:\Users\Eric\.android\build-cache\8f9a72c28177ad376d58a15905d78cd365e9da69\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.2.0] C:\Users\Eric\.android\build-cache\bd8cba514b076afbbbacc6d1d7f1502a497b211d\output\AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.2.0] C:\Users\Eric\.android\build-cache\bba57e1c163d373bff5bbb0415e7f41a31b90d29\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.2.0] C:\Users\Eric\.android\build-cache\a77aae57dde695bf9287affebab97c34dd17e27c\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.2.0] C:\Users\Eric\.android\build-cache\224f34d28d09bf38f3043470730f9a791cb21336\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.0] C:\Users\Eric\.android\build-cache\540fc837d236085b4deeccb49d13381ecdea2930\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Eric\.android\build-cache\fe415157e9ad4bc1407d3bfbab076281cb6ce920\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Eric\.android\build-cache\1086aad74dd17006c9d586af3977a1e50f818870\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.0] C:\Users\Eric\.android\build-cache\25119748a811ec173ae684eba67b7f2b7031abc0\output\AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] C:\Users\Eric\.android\build-cache\0a3cd4f57706721523a20caa40b78ec8146a5a46\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.2.0] C:\Users\Eric\.android\build-cache\14c65df7750ee246b4cfd12fadda6190feca8cd8\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.2.0] C:\Users\Eric\.android\build-cache\ed29af10731f088c16a02e71cc3462f3cd0eaa38\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Eric\.android\build-cache\76aed39a246fa291168c6058bd1c9a4c139efcd8\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.2.0] C:\Users\Eric\.android\build-cache\d853bf72c524f558422bc6597eb76f7b3bdedb0d\output\AndroidManifest.xml:18:5-19
+MERGED from [net.i2p.android.ext:floatingactionbutton:1.10.0] C:\Users\Eric\.android\build-cache\f14d83ec3ec064866201d078571b7bd5b355bdbb\output\AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Eric\.android\build-cache\93076b813d15d091871e21d183221078e9df6c5e\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] C:\Users\Eric\.android\build-cache\2e84c08a7fac4c9e1ac2b0d01832114a4cc5ad81\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.0] C:\Users\Eric\.android\build-cache\213c31ab0efb0cacc9113b040110caff3459fdec\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Eric\.android\build-cache\2ed1e281f56dec50e5e32bddd4dbb7c8912dfea3\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Eric\.android\build-cache\f80b7e06cf7f0a515ab7fd98e8778be0a06918cb\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Eric\.android\build-cache\5cc67d52e9098fe64ef1976d494badf49548baf0\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Eric\.android\build-cache\c97a5ac6f9b8b0d61a2966b63f72628c8d952d69\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\Eric\.android\build-cache\6c4225345c10145906a29e8ba4803106eebb559e\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Eric\.android\build-cache\4f1371e86eb4b108f08d36c1237bf7e9ae3f4040\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.github.TR4Android:AppCompat-Extension-Library:v0.4.0] C:\Users\Eric\.android\build-cache\2705397380f135617d8414e07bd3a1e5ed022aca\output\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:design:25.3.0] C:\Users\Eric\.android\build-cache\505f2279d0853c10e4703a07178e838f8478bec6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.0] C:\Users\Eric\.android\build-cache\e7ce07ee74a55b444cc9dfbc9d0bf92950eb2430\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Eric\.android\build-cache\5a0df2291a469d3406ba92ecf3523debbce3250c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Eric\.android\build-cache\72a056a9daf79c588ee70b05930f2324fc25e748\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Eric\.android\build-cache\23eaadd912706cec1f78caf5830f3ffefa0e5b75\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Eric\.android\build-cache\2c8b0344fda2c80e0afe696b07e8184384cbbb19\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Eric\.android\build-cache\59966306977f0ab16ef9a7d2e898a0690f2dd713\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Eric\.android\build-cache\64190e363722bebadcbf6cfa09b134f39f4c7f8c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Eric\.android\build-cache\de3a2b1c03814c1c595b59ba8a06e9f593226947\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Eric\.android\build-cache\b16d8ff13053181504788dd58a9df594e1db3893\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Eric\.android\build-cache\cf4eb282623d7a46275cfe6838ecc637e0de5cd4\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:27:9-41
 	android:allowBackup
@@ -457,7 +458,7 @@ ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\And
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:199:13-44
 meta-data#com.google.android.gms.version
 ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:207:9-209:69
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.0\AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Eric\.android\build-cache\4f1371e86eb4b108f08d36c1237bf7e9ae3f4040\output\AndroidManifest.xml:20:9-121
 	android:value
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:209:13-66
 	android:name
@@ -476,7 +477,7 @@ ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\And
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:214:13-61
 activity#com.google.android.gms.ads.AdActivity
 ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:217:9-220:64
-MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.2.0\AndroidManifest.xml:25:9-232
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Eric\.android\build-cache\93076b813d15d091871e21d183221078e9df6c5e\output\AndroidManifest.xml:25:9-232
 	android:configChanges
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:219:13-122
 	android:theme
@@ -513,213 +514,233 @@ ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\And
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:235:13-44
 	android:name
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:232:13-55
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\Eric\.android\build-cache\4a26cc39cb0f6f56a0bf4503b87cc8ed56a06d48\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:mediarouter-v7:25.3.0] C:\Users\Eric\.android\build-cache\a8d5e913922faa3a770fdae5d503cacd33763173\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:palette-v7:25.3.0] C:\Users\Eric\.android\build-cache\520555067597f5653911fbd3c5fb19564eb839b7\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.0] C:\Users\Eric\.android\build-cache\505f2279d0853c10e4703a07178e838f8478bec6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\Eric\.android\build-cache\814c0b92125d3b42a31b91777e9f86f8660a0863\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] C:\Users\Eric\.android\build-cache\e7ce07ee74a55b444cc9dfbc9d0bf92950eb2430\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\Eric\.android\build-cache\5a0df2291a469d3406ba92ecf3523debbce3250c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\Eric\.android\build-cache\72a056a9daf79c588ee70b05930f2324fc25e748\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\Eric\.android\build-cache\23eaadd912706cec1f78caf5830f3ffefa0e5b75\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\Eric\.android\build-cache\2c8b0344fda2c80e0afe696b07e8184384cbbb19\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\Eric\.android\build-cache\59966306977f0ab16ef9a7d2e898a0690f2dd713\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Eric\.android\build-cache\64190e363722bebadcbf6cfa09b134f39f4c7f8c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Eric\.android\build-cache\de3a2b1c03814c1c595b59ba8a06e9f593226947\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Eric\.android\build-cache\b16d8ff13053181504788dd58a9df594e1db3893\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Eric\.android\build-cache\cf4eb282623d7a46275cfe6838ecc637e0de5cd4\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\Eric\.android\build-cache\4a26cc39cb0f6f56a0bf4503b87cc8ed56a06d48\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\Eric\.android\build-cache\4a26cc39cb0f6f56a0bf4503b87cc8ed56a06d48\output\AndroidManifest.xml:23:9-47
 activity#com.google.android.gms.appinvite.PreviewActivity
-ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.0\AndroidManifest.xml:20:9-25:20
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Eric\.android\build-cache\582099eea7507d036f1b9e49a45a06875642b529\output\AndroidManifest.xml:20:9-25:20
 	android:exported
-		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.0\AndroidManifest.xml:20:51-74
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Eric\.android\build-cache\582099eea7507d036f1b9e49a45a06875642b529\output\AndroidManifest.xml:20:51-74
 	android:theme
-		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.0\AndroidManifest.xml:20:75-121
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Eric\.android\build-cache\582099eea7507d036f1b9e49a45a06875642b529\output\AndroidManifest.xml:20:75-121
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.0\AndroidManifest.xml:20:19-50
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Eric\.android\build-cache\582099eea7507d036f1b9e49a45a06875642b529\output\AndroidManifest.xml:20:19-50
 intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.0\AndroidManifest.xml:21:13-24:29
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Eric\.android\build-cache\582099eea7507d036f1b9e49a45a06875642b529\output\AndroidManifest.xml:21:13-24:29
 action#com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.0\AndroidManifest.xml:22:17-89
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Eric\.android\build-cache\582099eea7507d036f1b9e49a45a06875642b529\output\AndroidManifest.xml:22:17-89
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.0\AndroidManifest.xml:22:25-87
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Eric\.android\build-cache\582099eea7507d036f1b9e49a45a06875642b529\output\AndroidManifest.xml:22:25-87
 category#android.intent.category.DEFAULT
-ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.0\AndroidManifest.xml:23:17-75
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Eric\.android\build-cache\582099eea7507d036f1b9e49a45a06875642b529\output\AndroidManifest.xml:23:17-75
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.0\AndroidManifest.xml:23:27-73
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Eric\.android\build-cache\582099eea7507d036f1b9e49a45a06875642b529\output\AndroidManifest.xml:23:27-73
 receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
-ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.2.0\AndroidManifest.xml:5:9-99
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Eric\.android\build-cache\023a29542041468217c90c7db1feef67a767a787\output\AndroidManifest.xml:5:9-99
 	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.2.0\AndroidManifest.xml:5:19-97
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Eric\.android\build-cache\023a29542041468217c90c7db1feef67a767a787\output\AndroidManifest.xml:5:19-97
 service#com.google.android.gms.cast.framework.media.MediaNotificationService
-ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.2.0\AndroidManifest.xml:6:9-103
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Eric\.android\build-cache\023a29542041468217c90c7db1feef67a767a787\output\AndroidManifest.xml:6:9-103
 	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.2.0\AndroidManifest.xml:6:18-101
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Eric\.android\build-cache\023a29542041468217c90c7db1feef67a767a787\output\AndroidManifest.xml:6:18-101
 service#com.google.android.gms.cast.framework.ReconnectionService
-ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.2.0\AndroidManifest.xml:7:9-92
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Eric\.android\build-cache\023a29542041468217c90c7db1feef67a767a787\output\AndroidManifest.xml:7:9-92
 	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.2.0\AndroidManifest.xml:7:18-90
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Eric\.android\build-cache\023a29542041468217c90c7db1feef67a767a787\output\AndroidManifest.xml:7:18-90
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.2.0\AndroidManifest.xml:23:9-27:19
+ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Eric\.android\build-cache\c2876b2d36fd58153f813206a223630a555f690c\output\AndroidManifest.xml:23:9-27:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.2.0\AndroidManifest.xml:23:88-111
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Eric\.android\build-cache\c2876b2d36fd58153f813206a223630a555f690c\output\AndroidManifest.xml:23:88-111
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.2.0\AndroidManifest.xml:23:18-87
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Eric\.android\build-cache\c2876b2d36fd58153f813206a223630a555f690c\output\AndroidManifest.xml:23:18-87
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.2.0\AndroidManifest.xml:24:13-26:29
+ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Eric\.android\build-cache\c2876b2d36fd58153f813206a223630a555f690c\output\AndroidManifest.xml:24:13-26:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.2.0\AndroidManifest.xml:24:28-51
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Eric\.android\build-cache\c2876b2d36fd58153f813206a223630a555f690c\output\AndroidManifest.xml:24:28-51
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.2.0\AndroidManifest.xml:25:17-77
+ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Eric\.android\build-cache\c2876b2d36fd58153f813206a223630a555f690c\output\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.2.0\AndroidManifest.xml:25:25-75
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Eric\.android\build-cache\c2876b2d36fd58153f813206a223630a555f690c\output\AndroidManifest.xml:25:25-75
 service#com.google.android.gms.tagmanager.TagManagerService
-ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:24:9-134
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:24:9-134
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:24:110-132
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:24:110-132
 	android:exported
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:24:85-109
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:24:85-109
 	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:24:18-84
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:24:18-84
 activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
-ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:25:9-32:20
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:25:9-32:20
 	android:noHistory
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:25:94-118
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:25:94-118
 	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:25:19-93
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:25:19-93
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:26:13-31:29
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:26:13-31:29
 data
-ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:27:17-71
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:27:17-71
 	android:scheme
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:27:23-69
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:27:23-69
 action#android.intent.action.VIEW
-ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:28:17-68
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:28:17-68
 	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:28:25-66
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:28:25-66
 category#android.intent.category.BROWSABLE
-ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:30:17-77
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\AndroidManifest.xml:30:27-75
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\AndroidManifest.xml:30:27-75
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.0\AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Eric\.android\build-cache\fe415157e9ad4bc1407d3bfbab076281cb6ce920\output\AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:27:162-184
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.0\AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Eric\.android\build-cache\fe415157e9ad4bc1407d3bfbab076281cb6ce920\output\AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\AndroidManifest.xml:32:16-87
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:22:5-81
-MERGED from [com.google.android.gms:play-services-gcm:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.2.0\AndroidManifest.xml:20:5-81
-MERGED from [com.google.android.gms:play-services-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.2.0\AndroidManifest.xml:20:5-81
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:22:5-81
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Eric\.android\build-cache\f80b7e06cf7f0a515ab7fd98e8778be0a06918cb\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Eric\.android\build-cache\5cc67d52e9098fe64ef1976d494badf49548baf0\output\AndroidManifest.xml:20:5-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:22:22-79
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:22:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:30:9-36:20
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:30:9-36:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:31:13-35:29
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:31:13-35:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:32:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:33:17-85
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:33:17-85
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:33:25-83
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:33:25-83
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:34:17-60
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:34:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:34:27-58
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:34:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:40:9-119
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:40:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:40:93-117
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:40:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:40:19-92
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:40:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:44:9-48:19
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:44:9-48:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:44:83-106
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:44:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:44:18-82
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:44:18-82
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:45:13-47:29
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:45:13-47:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:45:28-51
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:45:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:46:17-79
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:46:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\AndroidManifest.xml:46:25-77
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\AndroidManifest.xml:46:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.0\AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Eric\.android\build-cache\1086aad74dd17006c9d586af3977a1e50f818870\output\AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.0\AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Eric\.android\build-cache\1086aad74dd17006c9d586af3977a1e50f818870\output\AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.0\AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Eric\.android\build-cache\1086aad74dd17006c9d586af3977a1e50f818870\output\AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.0\AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Eric\.android\build-cache\1086aad74dd17006c9d586af3977a1e50f818870\output\AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.0\AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Eric\.android\build-cache\1086aad74dd17006c9d586af3977a1e50f818870\output\AndroidManifest.xml:6:79-143
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.2.0\AndroidManifest.xml:21:5-77
+ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Eric\.android\build-cache\76aed39a246fa291168c6058bd1c9a4c139efcd8\output\AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.2.0\AndroidManifest.xml:21:19-51
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Eric\.android\build-cache\76aed39a246fa291168c6058bd1c9a4c139efcd8\output\AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.2.0\AndroidManifest.xml:21:52-75
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Eric\.android\build-cache\76aed39a246fa291168c6058bd1c9a4c139efcd8\output\AndroidManifest.xml:21:52-75
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.2.0\AndroidManifest.xml:26:9-131
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Eric\.android\build-cache\93076b813d15d091871e21d183221078e9df6c5e\output\AndroidManifest.xml:26:9-131
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.2.0\AndroidManifest.xml:26:92-129
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Eric\.android\build-cache\93076b813d15d091871e21d183221078e9df6c5e\output\AndroidManifest.xml:26:92-129
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.2.0\AndroidManifest.xml:26:19-91
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Eric\.android\build-cache\93076b813d15d091871e21d183221078e9df6c5e\output\AndroidManifest.xml:26:19-91
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.0\AndroidManifest.xml:20:9-189
+ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Eric\.android\build-cache\2ed1e281f56dec50e5e32bddd4dbb7c8912dfea3\output\AndroidManifest.xml:20:9-189
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.0\AndroidManifest.xml:20:129-162
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Eric\.android\build-cache\2ed1e281f56dec50e5e32bddd4dbb7c8912dfea3\output\AndroidManifest.xml:20:129-162
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.0\AndroidManifest.xml:20:163-187
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Eric\.android\build-cache\2ed1e281f56dec50e5e32bddd4dbb7c8912dfea3\output\AndroidManifest.xml:20:163-187
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.0\AndroidManifest.xml:20:69-128
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Eric\.android\build-cache\2ed1e281f56dec50e5e32bddd4dbb7c8912dfea3\output\AndroidManifest.xml:20:69-128
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.0\AndroidManifest.xml:20:19-68
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Eric\.android\build-cache\2ed1e281f56dec50e5e32bddd4dbb7c8912dfea3\output\AndroidManifest.xml:20:19-68
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.0\AndroidManifest.xml:24:9-184
+ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Eric\.android\build-cache\2ed1e281f56dec50e5e32bddd4dbb7c8912dfea3\output\AndroidManifest.xml:24:9-184
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.0\AndroidManifest.xml:24:64-87
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Eric\.android\build-cache\2ed1e281f56dec50e5e32bddd4dbb7c8912dfea3\output\AndroidManifest.xml:24:64-87
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.0\AndroidManifest.xml:24:88-182
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Eric\.android\build-cache\2ed1e281f56dec50e5e32bddd4dbb7c8912dfea3\output\AndroidManifest.xml:24:88-182
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.0\AndroidManifest.xml:24:18-63
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Eric\.android\build-cache\2ed1e281f56dec50e5e32bddd4dbb7c8912dfea3\output\AndroidManifest.xml:24:18-63
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.0\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Eric\.android\build-cache\c97a5ac6f9b8b0d61a2966b63f72628c8d952d69\output\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.0\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Eric\.android\build-cache\c97a5ac6f9b8b0d61a2966b63f72628c8d952d69\output\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.0\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Eric\.android\build-cache\c97a5ac6f9b8b0d61a2966b63f72628c8d952d69\output\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.0\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Eric\.android\build-cache\c97a5ac6f9b8b0d61a2966b63f72628c8d952d69\output\AndroidManifest.xml:19:19-85

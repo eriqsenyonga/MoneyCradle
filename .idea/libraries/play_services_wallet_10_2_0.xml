@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="play-services-wallet-10.2.0">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/sentayzo/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.2.0/res" />
-      <root url="jar://$PROJECT_DIR$/sentayzo/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/b20ba9013e18fbb8c2055ca173a5bf5313eefe09/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b20ba9013e18fbb8c2055ca173a5bf5313eefe09/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
