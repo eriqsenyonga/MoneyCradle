@@ -86,6 +86,7 @@ MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Eric\.andro
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Eric\.android\build-cache\de3a2b1c03814c1c595b59ba8a06e9f593226947\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Eric\.android\build-cache\b16d8ff13053181504788dd58a9df594e1db3893\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Eric\.android\build-cache\cf4eb282623d7a46275cfe6838ecc637e0de5cd4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Eric\.android\build-cache\75fbcf9d60142dc2c5eda7941feaed4626ea583c\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.0] C:\Users\Eric\.android\build-cache\505f2279d0853c10e4703a07178e838f8478bec6\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
@@ -220,6 +221,7 @@ MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\Eric\.andro
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\Eric\.android\build-cache\de3a2b1c03814c1c595b59ba8a06e9f593226947\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\Eric\.android\build-cache\b16d8ff13053181504788dd58a9df594e1db3893\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.0] C:\Users\Eric\.android\build-cache\cf4eb282623d7a46275cfe6838ecc637e0de5cd4\output\AndroidManifest.xml:29:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Eric\.android\build-cache\75fbcf9d60142dc2c5eda7941feaed4626ea583c\output\AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:27:9-41
 	android:allowBackup

@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable-xxxhdpi-v4\\ic_expand_00014.png"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_replay_30_white_36.png",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable-xxxhdpi-v4\\quantum_ic_replay_30_white_36.png"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_replay_30_white_36.png",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable-xxxhdpi-v4\\quantum_ic_replay_30_white_36.png"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_expand_00000.png",
@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable-xxxhdpi-v4\\quantum_ic_play_arrow_grey600_36.png"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_pause_grey600_36.png",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable-xxxhdpi-v4\\quantum_ic_pause_grey600_36.png"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_collapse_00002.png",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable-xxxhdpi-v4\\ic_collapse_00002.png"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_pause_grey600_36.png",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable-xxxhdpi-v4\\quantum_ic_pause_grey600_36.png"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
@@ -56,12 +56,12 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable-xxxhdpi-v4\\ic_cast_white.png"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_stop_white_24.png",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable-xxxhdpi-v4\\quantum_ic_stop_white_24.png"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_pause_white_24.png",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable-xxxhdpi-v4\\quantum_ic_pause_white_24.png"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_stop_white_24.png",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable-xxxhdpi-v4\\quantum_ic_stop_white_24.png"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_collapse_00001.png",
@@ -84,28 +84,28 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable-xxxhdpi-v4\\ic_collapse_00004.png"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\fab_bg_normal.png",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\f14d83ec3ec064866201d078571b7bd5b355bdbb\\output\\res\\drawable-xxxhdpi-v4\\fab_bg_normal.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\fab_bg_normal.png",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\f14d83ec3ec064866201d078571b7bd5b355bdbb\\output\\res\\drawable-xxxhdpi-v4\\fab_bg_normal.png"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_volume_up_grey600_36.png",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable-xxxhdpi-v4\\quantum_ic_volume_up_grey600_36.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_group_expand_07.png",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\a8d5e913922faa3a770fdae5d503cacd33763173\\output\\res\\drawable-xxxhdpi-v4\\ic_group_expand_07.png"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_group_collapse_09.png",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\a8d5e913922faa3a770fdae5d503cacd33763173\\output\\res\\drawable-xxxhdpi-v4\\ic_group_collapse_09.png"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\ic_group_expand_07.png",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\a8d5e913922faa3a770fdae5d503cacd33763173\\output\\res\\drawable-xxxhdpi-v4\\ic_group_expand_07.png"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_volume_up_grey600_36.png",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable-xxxhdpi-v4\\quantum_ic_volume_up_grey600_36.png"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\quantum_ic_stop_grey600_48.png",

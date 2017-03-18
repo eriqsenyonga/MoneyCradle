@@ -91,13 +91,13 @@ t = ((ApplicationClass) getApplication()).getTracker(ApplicationClass.TrackerNam
 		if ((billingPrefs.getBoolean("KEY_FREE_TRIAL_PERIOD", true) == false)
 				&& (billingPrefs.getBoolean("KEY_PURCHASED_ADS", false) == false)) {
 
-			Log.d("1stssssssrrrttt","111ssstttttt");
+
 			
 			
 		}
 		else{
-			Log.d("2222nnnnnnddddd","2222222nnnnnnddddd");
-			findViewById(R.id.adFragment).setVisibility(View.GONE);
+
+			//findViewById(R.id.adFragment).setVisibility(View.GONE);
 			
 		}
 

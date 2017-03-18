@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable-xhdpi-v4\\ic_close_light.png"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_play_arrow_grey600_48.png",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable-xhdpi-v4\\quantum_ic_play_arrow_grey600_48.png"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_on_19_dark.png",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable-xhdpi-v4\\ic_media_route_on_19_dark.png"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_play_arrow_grey600_48.png",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable-xhdpi-v4\\quantum_ic_play_arrow_grey600_48.png"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\powered_by_google_light.png",

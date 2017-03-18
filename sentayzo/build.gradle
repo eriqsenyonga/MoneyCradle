@@ -44,4 +44,5 @@ dependencies {
     compile 'com.google.android.gms:play-services-gcm:10.2.0'
     compile 'com.github.TR4Android:AppCompat-Extension-Library:v0.4.0'
     compile 'com.getkeepsafe.taptargetview:taptargetview:1.8.0'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
 }

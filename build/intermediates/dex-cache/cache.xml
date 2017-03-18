@@ -3,183 +3,102 @@
 
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
+        jar="E:\android\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.1_8240dc89660b568c1bc86e4e74d257b9e575be72\classes.dex" />
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_28b4af3c675ebdba4e959331a6cc43f544b67271\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\42e4d0c76569b720bbdf6769b222ed085da3a543\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.2.0_49dc15b445498aee2c4a73cde65c0eb1179c11c9\classes.dex" />
+        revision="25.0.2"
+        sha1="a9493f008850469ed3fab9b28658919562882aed">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eac5cd4e9589d908c53fc4115d9ee258d46fca5c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\520555067597f5653911fbd3c5fb19564eb839b7\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.2.0_d9a72085b870f5d7945be0fa5a8206f926254b4a\classes.dex" />
+        revision="25.0.2"
+        sha1="ec3360994c4007c282a4b651723603e82682b601">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4e1e6a18281a6a9d8a046a6dc3c6d92ea0115d93\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\ed29af10731f088c16a02e71cc3462f3cd0eaa38\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
+        revision="25.0.2"
         sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.2.0_0697e97e2ac626f57de941b8a005d8834c7b2178\classes.dex" />
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e43a8847d7bab1fe054f27e9c3f68ed09a258e61\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\e7ce07ee74a55b444cc9dfbc9d0bf92950eb2430\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="7d14fe9bd2283b2eb7fcab08458aa0357917e138">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.2.0_f24c25cf62e69c80925375f1af73f52e83726b9d\classes.dex" />
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_47cdddaa71616a7470852dda50cf9cef6b07b3e4\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\8f9a72c28177ad376d58a15905d78cd365e9da69\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.2.0_cb71e966f722c4399dac9ae97dbdef2702d842e4\classes.dex" />
+        revision="25.0.2"
+        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_28cbddee9b49c9f07780c8c0eb87abd3ee66f3e6\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.0\jars\classes.jar"
+        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\libs\opencsv-3.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.2.0_c03f3e111d5df7ac934b8ce1b6d7ac29a852e541\classes.dex" />
+        revision="25.0.2"
+        sha1="8f5f973158e0aeada6378c685753fc0261019399">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\2\opencsv-3.0_6611d2c1efcbe4d09fafaf44369758256e3d4257\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\4a26cc39cb0f6f56a0bf4503b87cc8ed56a06d48\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_3740ff96504c1bdbf5fa31afb0c3cd9360316ee3\classes.dex" />
+        revision="25.0.2"
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d24ce553d861bd775fcbec41f28fc13c8f79e2f7\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\5cc67d52e9098fe64ef1976d494badf49548baf0\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.2.0_17ec84c32a35812a9af6701f56dc6555c5d683c2\classes.dex" />
+        revision="25.0.2"
+        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b1e31badc3fc10b017629642b9921dee66334730\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\b600d16e3a7cb2b0169dcce0de4e45c8d6d1f563\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_3895e10e125dce67124ca53a3ea29f0400fac9ec\classes.dex" />
+        revision="25.0.2"
+        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_21d60fb694193eee82558a70684266abb427439c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\25119748a811ec173ae684eba67b7f2b7031abc0\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.2.0_6f9f76443ad495c9ec6988ac6f8c3d971a1b247e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.2.0_d0d2878177141fba0101978e415afbd622a48499\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_2905a9dd62c903036398d8afb8d6f7a8791f733c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.2.0_8a8851487b5e33fc0c5290a728c498aa7d99e4e8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="90270132a5f1a33584f453c571257dd35e728201">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.2.0_21f531532f3cd76625809fe765ca68e574decf56\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.2.0_77788651666bfccb34ab9ce7085736f66ba59253\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.2.0_f477a339efecb077fde155e2df9f3865c3e1ef94\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.2.0_7a687da86514cc19cab8b726ad83f42caf4bc6d1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b831d3902674d096189451d46fce219e2c2904b7">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.2.0_dc4509633d12a94bdb1ba789973f015d03deafff\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.1.1_fc4b31078786320c967834ca95205cf61203e4c7\classes.dex" />
+        revision="25.0.2"
+        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_361600738a67d757a860214fed366517f6d713c3\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -192,6 +111,33 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\de3a2b1c03814c1c595b59ba8a06e9f593226947\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_26588896c26a4004e098276f916df38d5dbf87f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\a845715e9a327be2bd065a003f33de58b600e205\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_72f97f3d7007f435d7c6fb53ff4092d841441d3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\cf4eb282623d7a46275cfe6838ecc637e0de5cd4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2a3f654ae38c2351902cb71c4840b597b5e5ad92\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v2.1.5\34b9f39e5343d39e205fb7617e734601dc4868e7\MPAndroidChart-v2.1.5.jar"
         jumboMode="true"
         optimize="true"
@@ -201,102 +147,318 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\bd8cba514b076afbbbacc6d1d7f1502a497b211d\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.2.0_6a7b8821c56e40394a3cb6f746a7ec3bf4bff36a\classes.dex" />
+        revision="25.0.2"
+        sha1="7d14fe9bd2283b2eb7fcab08458aa0357917e138">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_becb0ae6a664a455a222769ab3e258d8a039a823\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\505f2279d0853c10e4703a07178e838f8478bec6\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.2.0_989047558e61b3146cd5abcb3292e812490b921d\classes.dex" />
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cfaa576d90b08c4b6b0ef012ccce5ac046c58770\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\213c31ab0efb0cacc9113b040110caff3459fdec\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.2.0_9c75956d78a04ad5a7302477935d86d3b63e1a54\classes.dex" />
+        revision="25.0.2"
+        sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2b4d29fd0366affeb84d4ab62fee2fb9cc8ee724\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.github.TR4Android\AppCompat-Extension-Library\v0.4.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\64190e363722bebadcbf6cfa09b134f39f4c7f8c\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="71f09c4765092901bb14dfa1040be62a075d86e0">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.TR4Android-AppCompat-Extension-Library-v0.4.0_b2a4599e4c7fe27d1780821798877be033c3f4a0\classes.dex" />
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cede223d789b4476a31d18e4aa096604c8038389\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\14c65df7750ee246b4cfd12fadda6190feca8cd8\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_aa1ff1443177052c7498b809e0f3490fc18d85bd\classes.dex" />
+        revision="25.0.2"
+        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_41d783b3385a69f12412213e0a4979319e2387b3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\451a14cea5e0e23753d7b5ffadc3906e2fcda960\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_4f1d7341215b374befb0e73357b86d5038b7d0ee\classes.dex" />
+        revision="25.0.2"
+        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_35033f52306ab42afe8e7c4a6cae96f485559d19\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\23eaadd912706cec1f78caf5830f3ffefa0e5b75\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.2.0_cfd09c12cb9bfaba8d949488109beda0abdf3b79\classes.dex" />
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_94fda2553dcb8e45ac300c67f8a5667674134310\classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="1ba354bba79da81defe3b88389784233f0f34f5a">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_03e1b54d1e0607988cc60e6bcc41859501a9e81e\classes.dex" />
+        revision="25.0.2"
+        sha1="ea37a0f2066f36701fb7cd7e7b83ec2211cd8186">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_03e1b54d1e0607988cc60e6bcc41859501a9e81e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\fe415157e9ad4bc1407d3bfbab076281cb6ce920\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_8be4aa385c669412017a14587439451dbaa71c81\classes.dex" />
+        revision="25.0.2"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_635948f2aee4cda9d39f0b0f1899e11a43b94694\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\243f3d9906d2a15ee70cb062bbeff2f9be858bc2\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.2.0_967f8396ce86b2d6152e44909e0c9a599ca4c0a0\classes.dex" />
+        revision="25.0.2"
+        sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_989a2e11e8bb9bb82750cfab6e79be64b4591ea7\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\6c4225345c10145906a29e8ba4803106eebb559e\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_927dcf7f71a7f21e43e96ab6bb48184642cde5cf\classes.dex" />
+        revision="25.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3e0f5e355babe0beb33ca607d46926610313f7e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\bd3f545296a7025c44ff500069db10f3404ed483\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4ad8e2a0c9e9a9fca90d491a6f745e7dbd4e5a4e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\deca89f791f0fc5ea2f89880ef235e90c1148fd9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_347d180bf42ced059bc382d05558611f3accb211\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\582099eea7507d036f1b9e49a45a06875642b529\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_102da096498b1db7de4379c66f5cfd7e1da09397\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\76aed39a246fa291168c6058bd1c9a4c139efcd8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_043d81bf71512b923a2cf9d73ee7603e8f5805bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\a77aae57dde695bf9287affebab97c34dd17e27c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9f741335d475e5f5be1d800d73cda7c1a125a7d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\b20ba9013e18fbb8c2055ca173a5bf5313eefe09\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a277bfac462ac9cd5a1aefe20f46da7d70d3a079\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\bba57e1c163d373bff5bbb0415e7f41a31b90d29\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a7dabb75279c6d15edb09e742426d9df8cdbe199\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\f14d83ec3ec064866201d078571b7bd5b355bdbb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4eff90a2da3e42cbea5706a72aae2aa9b12f55b3">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1faefb23a3f7df47389d1c2e0ef8724b91a1f50f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\3e350926df685a539108f1b9ca2173962468f7b2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3528768915fd33c611ce516df132ee7fc09d30e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\59966306977f0ab16ef9a7d2e898a0690f2dd713\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_338283b0613f5fcd5db8b9418b2dc557f90f6df7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\1086aad74dd17006c9d586af3977a1e50f818870\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4763059f09f643e778fd8cb615ce1d00574388c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v2.1.5\34b9f39e5343d39e205fb7617e734601dc4868e7\MPAndroidChart-v2.1.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="34b9f39e5343d39e205fb7617e734601dc4868e7">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v2.1.5_14002a775d456318fc3f73fc97a3b232a462a477\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\ad28534bc29d46e03377a975e4d966838421969d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_085e44051def3885ce37722ca3551fbebf949930\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\b16d8ff13053181504788dd58a9df594e1db3893\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2e3fdd55e7db4a83385f5b23ea9fbe1a94098c3e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\6957229a5f8cb70c6d5192fa7d7d0944f8101667\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b597456a54649562678534df2c91eaf3b9ba9137\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\3a11f9b7b11a137bc27af6f17869ea14b102d174\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bf0a26a3bd8cc18be1023387ba89b703457520dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\5a0df2291a469d3406ba92ecf3523debbce3250c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a7d70ac944c5219755ec873033adce241c8ad07e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\0a3cd4f57706721523a20caa40b78ec8146a5a46\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_29a47aefed635fea7976870a90f9f8649d7adbed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\540fc837d236085b4deeccb49d13381ecdea2930\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c2507d512c51605316b7521cdfa8d6ee1b3e8aea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\2e84c08a7fac4c9e1ac2b0d01832114a4cc5ad81\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3f4483afd050f3be12db7838422309446a45daa1">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7fb1acfb1ab778492045805c3f01adf95c416728\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_39697b8eb50b21078c419b14e9f053ee9fcabec3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\93076b813d15d091871e21d183221078e9df6c5e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7b822bc2210af456fc20899b156271242f0df6b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\224f34d28d09bf38f3043470730f9a791cb21336\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ebfcb87190669c0136cc8797e77f8f084704faad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\c97a5ac6f9b8b0d61a2966b63f72628c8d952d69\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_da05cb6bc630793517194db119eeed8d30267e67\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -309,192 +471,102 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\9bd4379e7f08f0f4af0254b205b33cc0f9c999a2\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.2.0_b06dbce3a3f079987867d83f40ca8aee25786d17\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.2.0_1a5c732f50e1669f9b9cef826913d64076fa77be\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.2.0_aede76fe21b3a9ac6b5932f119569f07095ecf9e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.2.0_d7fc0ab57ce05bd2cb686233b629e1f944afd543\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.2.0_36534573e7606a632df9db63066fbf509ae080dc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.2.0_7dc33508ce65ed1d5472020e8055e181beb484bf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\net.i2p.android.ext\floatingactionbutton\1.10.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="4eff90a2da3e42cbea5706a72aae2aa9b12f55b3">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\net.i2p.android.ext-floatingactionbutton-1.10.0_37d1394689a403f740dd21e0e0f390a64edc8f40\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.2.0_f45e49a17803d2222bbd0d4d427c5cb0c6070313\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.1_639c718130dedd46342a73beca16e734a307e3d5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.2.0_3bf24b9cd4545382f0fb06940755779baf693f09\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_e054e19cbe7ebd421e90d19a260de3ed3d89f265\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_51285a7ef8969392ae202fdea14b58b6579f1c20\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.2.0_92629508ceae69be6e04976f52d21c873a9cad0e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_d50da68fb55f60b2095355c376ee9f3d79160c06\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.2.0_be0e3bdc2f1ca219bfedd14e611dc78a177546b2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.2.0_233cf505ed72c5edacf67dbcca80ba5597da4b32\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.1_e233c030b30ca6afe6d817825e0adee0594754e8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.2.0_a39bfee58e0b861a9c7ff01ad5aca77c0b94339f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_0d86066a50015a1c06737bd56e8c9b08aa8b1840\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.2.0_86135d344ef6eb0803d0eaf3bd8dd06e2058cc35\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
+        revision="25.0.2"
         sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.2.0_ffb19cd9fc1b1a27cf4ebc3c0acc29b2aac285d1\classes.dex" />
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2e47a5cca89090c58b4366364cd202e34fe89504\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\803bec62a29bb3dc3b083e6bd640bbfe5df37e23\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_069c48eea53956c62fe142ed22eb6ff5402ee40d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\c2876b2d36fd58153f813206a223630a555f690c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cda14f213796d6ef233b0615fba2a6d42e2e1725\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\72a056a9daf79c588ee70b05930f2324fc25e748\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_acac0e914b10acd97b591bf15b0d41c18c613089\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\2705397380f135617d8414e07bd3a1e5ed022aca\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="71f09c4765092901bb14dfa1040be62a075d86e0">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_baad2ff4e43be2cc3af8bd111f17f09619eddf7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\2c8b0344fda2c80e0afe696b07e8184384cbbb19\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fea0ba804350dad2ba9a1f58543da3817fa1e269\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\197136c49af27287e3937d8fdb67de96cbbb29e4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e0828e10b7a60e00e6e604b1633a471634479dc7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\4f1371e86eb4b108f08d36c1237bf7e9ae3f4040\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c80bd4c4592c342719d8bdbac3ac022724ff8dc7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\c632242ebaf58956ed95e07471c916021233695e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_084140e125e7c92c80c8021b6b76d60686e56de7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\023a29542041468217c90c7db1feef67a767a787\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_67dd6956ccb657ec91dfff3a1daa0bf1949214da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\f8b00c54ea8c5d0b26eed23f45db395abdfc8e51\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6e605fcf1f340329debce07063bc6cb9ba736743\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -507,174 +579,129 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\android\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jar="C:\Users\Eric\.android\build-cache\c7f496328030e4d51817c9618134151aa0689ba2\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_481c304773a314b141f2ad6322a34bb836778106\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_318ae1ea5ce2c9fbdd2b085c1fa5f2efdb214f00\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3f4483afd050f3be12db7838422309446a45daa1">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.2.0_8edd9ae78d7ffcb21533830145dde58b4d8d8a8c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.2.0_7e2dd55949a28d2f54bc5bfc214f39e1d8968061\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.2.0_bbfca4d5b55f66ad7d0cd4df4c3fa113068f8f95\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.2.0_c42622ed129214f94d12d22f6bc16ec96858a26f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.2.0_7a55925f08a291e48d4530ce3800ebb397ce251b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.2.0_4fd0ac9e45893de1f2e599d259b1548090beba5f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.getkeepsafe.taptargetview\taptargetview\1.8.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="fa92b755e0854683a37e2a79b0960ea89bcdce78">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.getkeepsafe.taptargetview-taptargetview-1.8.0_41eca6e5b074eb9f146596426e21e4abd6ac38be\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
+        revision="25.0.2"
         sha1="94fca868854457ede6df15c902938468c71d579e">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.2.0_6280874b7b38c740a4c270e0891e76dfbc8c1494\classes.dex" />
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3fa5703dd9192144b65cffd96c754340bf24e382\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\923449145eef27f6b9045fd343c584f0df7ce93f\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_cf1b2d7dd25fd2a6136934ad50a7837a0f1cf7b7\classes.dex" />
+        revision="25.0.2"
+        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_642215d7a5488c9cf88cac32ef6e62c9ba1a4cd9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\ee750775faafa25a641e7a65da2a0691d8fd7928\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.2.0_d761f3732c3c6012e239039bf69ef62056d06aeb\classes.dex" />
+        revision="25.0.2"
+        sha1="90270132a5f1a33584f453c571257dd35e728201">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_72820a5c1134a0b4f9acff23253d4ce6b94e3f9e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\6d1f56ce9649b8ba7f0d9c541de1ba8f2b8dda6a\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="a9493f008850469ed3fab9b28658919562882aed">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.2.0_c46da3b64b7d689b468d0098c880cb44bbe9ad99\classes.dex" />
+        revision="25.0.2"
+        sha1="fa92b755e0854683a37e2a79b0960ea89bcdce78">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3329ad8e8b2b8ea00ce09c2344f40eb8a87eb1a9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\a73429213956fafa493153e0fb1f47dc53f4542f\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.2.0_b595b454e2bc57a539899486d6af4af427815a26\classes.dex" />
+        revision="25.0.2"
+        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b3095f656bba450e807f182166ee0e22eb5a78c8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\553727e1d7fcac6308109c42bae6f9a266713f0a\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.2.0_2a7d189a8c6bbbba13f4bc511b2550651ace3f75\classes.dex" />
+        revision="25.0.2"
+        sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5e84375b66709bfb92daa1b2e80fca2fa082173b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\d853bf72c524f558422bc6597eb76f7b3bdedb0d\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.2.0_5c2085b55ab88087c8734817a732b2417bdd8d23\classes.dex" />
+        revision="25.0.2"
+        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a6e4ded94d14f5629e680956da144e5aa8e9ae2b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\2ed1e281f56dec50e5e32bddd4dbb7c8912dfea3\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.2.0_b8482c788fade38170ec7165a6446e3b306db260\classes.dex" />
+        revision="25.0.2"
+        sha1="b831d3902674d096189451d46fce219e2c2904b7">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1f3d9a409f596e513700cc6a767bdef5a726e907\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\libs\achartengine-1.1.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="c1527c470b4e17931b9dace941b4f11da935f1c1">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_39697b8eb50b21078c419b14e9f053ee9fcabec3\classes.dex" />
+        revision="25.0.2"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\2\achartengine-1.1.0_5e2e9c7b3c53cd4daf0e626fd87ef2eba70160e7\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.2.0\jars\classes.jar"
+        jar="C:\Users\Eric\.android\build-cache\110296c357eb6c8119125469dd0a52725f5a7a6d\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.1"
-        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.2.0_5c44d936f4aaa12215cb360c03b40245331f8240\classes.dex" />
+        revision="25.0.2"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_550d45d2d765a593ee7a98459b95eedb20c23343\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\814c0b92125d3b42a31b91777e9f86f8660a0863\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af36ccbfdc608b4856042f0d734d343c46f3688d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\f80b7e06cf7f0a515ab7fd98e8778be0a06918cb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dc7c7582c3cddb2720360f3be29a5aa7738cce2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.android\build-cache\a8d5e913922faa3a770fdae5d503cacd33763173\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="56690259d2254d4d0216730ec6889a577b61812c">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_416d807f6cfefce5495a527cb4dd6424b9daab15\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_c23c95ba042d9080310b93774d66ad1f66ed0bbb\classes.dex" />
     </item>
 
 </items>
