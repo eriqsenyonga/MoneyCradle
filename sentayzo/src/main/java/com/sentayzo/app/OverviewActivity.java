@@ -53,6 +53,7 @@ public class OverviewActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
+
         t = ((ApplicationClass) getApplication())
                 .getTracker(ApplicationClass.TrackerName.APP_TRACKER);
 

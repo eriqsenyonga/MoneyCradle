@@ -655,4 +655,5 @@
     <string name="ac_type_bank">Bank</string>
     <string name="ac_type_asset">Asset</string>
     <string name="ac_type_liability">Liability</string>
+    <string name="photo">Photo</string>
 </resources>

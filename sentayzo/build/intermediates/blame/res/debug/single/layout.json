@@ -16,28 +16,28 @@
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\new_project_dialog.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\appcompat_extension_account_list_item.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\2705397380f135617d8414e07bd3a1e5ed022aca\\output\\res\\layout\\appcompat_extension_account_list_item.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\activity_start.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
-        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\activity_start.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\appcompat_extension_account_list_item.xml",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\2705397380f135617d8414e07bd3a1e5ed022aca\\output\\res\\layout\\appcompat_extension_account_list_item.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\505f2279d0853c10e4703a07178e838f8478bec6\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_scheduled.xml",
-        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\fragment_scheduled.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_test_chart.xml",
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\fragment_test_chart.xml"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_scheduled.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\fragment_scheduled.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
@@ -52,16 +52,16 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\2705397380f135617d8414e07bd3a1e5ed022aca\\output\\res\\layout\\date_picker_view_animator_material.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\cast_tracks_chooser_dialog_layout.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\layout\\cast_tracks_chooser_dialog_layout.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\cast_tracks_chooser_dialog_layout.xml",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\layout\\cast_tracks_chooser_dialog_layout.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
@@ -72,16 +72,16 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\mr_volume_control.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\a8d5e913922faa3a770fdae5d503cacd33763173\\output\\res\\layout\\mr_volume_control.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pending_tx.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\fragment_pending_tx.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_upgrade.xml",
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\fragment_upgrade.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pending_tx.xml",
-        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\fragment_pending_tx.xml"
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\mr_volume_control.xml",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\a8d5e913922faa3a770fdae5d503cacd33763173\\output\\res\\layout\\mr_volume_control.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_store.xml",
@@ -116,12 +116,20 @@
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\transaction_list.xml"
     },
     {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_picker.xml",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\6c98be18d75fa9ef21d2800fc5aadf3c1dfdfcd5\\output\\res\\layout\\activity_image_picker.xml"
+    },
+    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\datepicker_dialog.xml",
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\datepicker_dialog.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_image.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\dialog_image.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\cast_mini_controller.xml",
@@ -198,6 +206,10 @@
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_dialog.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\2705397380f135617d8414e07bd3a1e5ed022aca\\output\\res\\layout\\date_picker_dialog.xml"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\item_image.xml",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\6c98be18d75fa9ef21d2800fc5aadf3c1dfdfcd5\\output\\res\\layout\\item_image.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
@@ -440,6 +452,10 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\2705397380f135617d8414e07bd3a1e5ed022aca\\output\\res\\layout\\time_picker_dialog.xml"
     },
     {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\item_folder.xml",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\6c98be18d75fa9ef21d2800fc5aadf3c1dfdfcd5\\output\\res\\layout\\item_folder.xml"
+    },
+    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_nav_drawer_test.xml",
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\fragment_nav_drawer_test.xml"
     },
@@ -498,6 +514,10 @@
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\505f2279d0853c10e4703a07178e838f8478bec6\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar.xml",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\6c98be18d75fa9ef21d2800fc5aadf3c1dfdfcd5\\output\\res\\layout\\toolbar.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\mr_playback_control.xml",

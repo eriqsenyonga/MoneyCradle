@@ -624,6 +624,10 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\a8d5e913922faa3a770fdae5d503cacd33763173\\output\\res\\drawable-xxhdpi-v4\\ic_dialog_close_light.png"
     },
     {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_camera_white.png",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\6c98be18d75fa9ef21d2800fc5aadf3c1dfdfcd5\\output\\res\\drawable-xxhdpi-v4\\ic_camera_white.png"
+    },
+    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_mr_button_connected_18_dark.png",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\a8d5e913922faa3a770fdae5d503cacd33763173\\output\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_18_dark.png"
     },
@@ -850,6 +854,10 @@
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_mr_button_connecting_19_dark.png",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\a8d5e913922faa3a770fdae5d503cacd33763173\\output\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_19_dark.png"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_done_white.png",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\6c98be18d75fa9ef21d2800fc5aadf3c1dfdfcd5\\output\\res\\drawable-xxhdpi-v4\\ic_done_white.png"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_mr_button_connecting_22_light.png",

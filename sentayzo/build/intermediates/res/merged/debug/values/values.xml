@@ -2675,6 +2675,8 @@
     <string name="payment_dialog_message">Your full version free trial period expired. Some features are only available in the full version.</string>
     <string name="pen_start_date">Start :</string>
     <string name="pending">PENDING</string>
+    <string name="photo">Photo</string>
+    <string name="pick_image_intent_text">Choose an image</string>
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
     <string name="pref_PIN_authorisation">PIN Authorisation</string>

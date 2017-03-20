@@ -17,6 +17,8 @@ public class BackupDatabase {
     String sharedPreferenceName = "mySharedPrefs";
     String KEY_TRANSFER_NUMBER = "transfer number";
     String KEY_ALARM_ID = "alarm id int";
+    public static int IMPORT_DB = 0;
+    public static int EXPORT_DB = 0;
 
     Context context;
 
@@ -31,13 +33,13 @@ public class BackupDatabase {
 
     public void callThem(int i) {
 
-        if (i == 0) {
+        if (i == IMPORT_DB) {
 
             Log.d("callThem", "restore");
             importDB();
         }
 
-        if (i == 1) {
+        if (i == EXPORT_DB) {
             Log.d("callThem", "backup");
             exportDB();
         }

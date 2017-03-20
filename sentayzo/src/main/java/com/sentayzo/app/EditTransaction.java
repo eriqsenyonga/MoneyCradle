@@ -37,6 +37,7 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.FilterQueryProvider;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -47,7 +48,8 @@ import com.google.android.gms.analytics.Tracker;
 public class EditTransaction extends AppCompatActivity implements
         LoaderCallbacks<Cursor>, OnClickListener {
 
-    Button dateButton, newCatButton, newProjectButton, calcButton;
+    Button dateButton;
+    ImageButton calcButton, newCatButton, newProjectButton, addPhoto;
     EditText et_amount, et_tx_note;
     AutoCompleteTextView et_payee;
     Spinner accountSpinner, categorySpinner, transactionTypeSpinner,
@@ -100,15 +102,15 @@ public class EditTransaction extends AppCompatActivity implements
         Intent i = getIntent();
         bundle = i.getBundleExtra("txBundle");
 
-        newCatButton = (Button) findViewById(R.id.b_new_cat);
+        newCatButton = (ImageButton) findViewById(R.id.b_new_cat);
         dateButton = (Button) findViewById(R.id.spinner_newTransactionDates);
         accountSpinner = (Spinner) findViewById(R.id.spinner_accounts);
         et_payee = (AutoCompleteTextView) findViewById(R.id.et_payee);
         categorySpinner = (Spinner) findViewById(R.id.spinner_categories);
         et_amount = (EditText) findViewById(R.id.et_amount);
         transactionTypeSpinner = (Spinner) findViewById(R.id.spinner_transactionType);
-        calcButton = (Button) findViewById(R.id.b_calculator);
-        newProjectButton = (Button) findViewById(R.id.b_new_project);
+        calcButton = (ImageButton) findViewById(R.id.b_calculator);
+        newProjectButton = (ImageButton) findViewById(R.id.b_new_project);
         et_tx_note = (EditText) findViewById(R.id.tx_note);
         projectSpinner = (Spinner) findViewById(R.id.spinner_projects);
 

@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.google.android.gms.analytics.HitBuilders;
@@ -116,7 +117,7 @@ public class TransactionHistoryActivity extends AppCompatActivity {
 
         } else {
 
-            findViewById(R.id.adFragment).setVisibility(View.GONE);
+//            findViewById(R.id.adFragment).setVisibility(View.GONE);
 
         }
 
@@ -140,4 +141,17 @@ public class TransactionHistoryActivity extends AppCompatActivity {
         txList.addItemDecoration(new ListDividerDecoration(this));
     }
 
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+
+        if (item.getItemId() == android.R.id.home) {
+
+            onBackPressed();
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
 }

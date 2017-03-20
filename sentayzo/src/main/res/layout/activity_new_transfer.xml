@@ -54,6 +54,7 @@
                         android:gravity="center"
                         android:text="10 - Jan - 2016" />
 
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -63,9 +64,10 @@
                         android:textAppearance="?android:attr/textAppearanceSmall"
                         android:textColor="@color/accent" />
 
+
                     <Spinner
                         android:id="@+id/spinner_account_from"
-                        android:layout_width="fill_parent"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1" />
 

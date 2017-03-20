@@ -176,7 +176,7 @@
                             android:id="@+id/b_new_currency_to_my_currencies"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/add_category"
+                            android:background="@drawable/add_category_ic"
                             android:visibility="gone" />
                     </LinearLayout>
 

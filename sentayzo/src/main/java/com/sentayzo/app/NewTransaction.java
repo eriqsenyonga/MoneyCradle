@@ -1,7 +1,10 @@
 package com.sentayzo.app;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.text.DecimalFormat;
 import java.util.Calendar;
+import java.util.Random;
 
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
@@ -11,9 +14,11 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.design.widget.TextInputLayout;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.app.LoaderManager.LoaderCallbacks;
@@ -36,17 +41,25 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.FilterQueryProvider;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
+import com.mvc.imagepicker.ImagePicker;
+
 
 public class NewTransaction extends AppCompatActivity implements
         LoaderCallbacks<Cursor>, OnClickListener {
 
-    Button dateButton, newCatButton, newProjectButton, calcButton;
+    String imageFolder = "money_cradle";
+
+    int REQUEST_CODE_PICKER = 1;
+    Button dateButton;
+    ImageButton calcButton, newCatButton, newProjectButton, addPhoto;
     EditText et_amount, et_tx_note;
     AutoCompleteTextView et_payee;
     Spinner accountSpinner, categorySpinner, transactionTypeSpinner,
@@ -70,6 +83,7 @@ public class NewTransaction extends AppCompatActivity implements
     Toolbar toolBar;
     Long creditCardTrnAmtAllowed;
     TextInputLayout tilPayee;
+    TextView tvPhotoPath;
 
 
     @Override
@@ -89,8 +103,10 @@ public class NewTransaction extends AppCompatActivity implements
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_cancel);
 
         i = getIntent();
-        newProjectButton = (Button) findViewById(R.id.b_new_project);
-        newCatButton = (Button) findViewById(R.id.b_new_cat);
+        tvPhotoPath = (TextView) findViewById(R.id.tv_photo_uri);
+        addPhoto = (ImageButton) findViewById(R.id.ib_add_photo);
+        newProjectButton = (ImageButton) findViewById(R.id.b_new_project);
+        newCatButton = (ImageButton) findViewById(R.id.b_new_cat);
         dateButton = (Button) findViewById(R.id.spinner_newTransactionDates);
         accountSpinner = (Spinner) findViewById(R.id.spinner_accounts);
         et_payee = (AutoCompleteTextView) findViewById(R.id.et_payee);
@@ -99,7 +115,7 @@ public class NewTransaction extends AppCompatActivity implements
         transactionTypeSpinner = (Spinner) findViewById(R.id.spinner_transactionType);
         et_tx_note = (EditText) findViewById(R.id.tx_note);
         projectSpinner = (Spinner) findViewById(R.id.spinner_projects);
-        calcButton = (Button) findViewById(R.id.b_calculator);
+        calcButton = (ImageButton) findViewById(R.id.b_calculator);
         tilPayee = (TextInputLayout) findViewById(R.id.til_payee);
 
         // rest of form
@@ -112,6 +128,10 @@ public class NewTransaction extends AppCompatActivity implements
         dateButton.setText(buttonTextDate);
 
         dateButton.setOnClickListener(this);
+
+        addPhoto.setOnClickListener(this);
+
+        tvPhotoPath.setOnClickListener(this);
 
         // set up to populate the spinner of accounts
         mLoaderManager.initLoader(accountLoaderId, null, this);
@@ -600,8 +620,16 @@ public class NewTransaction extends AppCompatActivity implements
 
             newTx.open();
 
-            newTx.insertNewTransaction(txDate, accountNameId, payee,
-                    categoryNameId, txTypeId, txAmount, prId, txNote);
+            if (tvPhotoPath.getText().toString().isEmpty()) {
+
+                newTx.insertNewTransaction(txDate, accountNameId, payee,
+                        categoryNameId, txTypeId, txAmount, prId, txNote);
+            } else {
+
+                newTx.insertNewTransaction(txDate, accountNameId, payee,
+                        categoryNameId, txTypeId, txAmount, prId, txNote, tvPhotoPath.getText().toString());
+
+            }
 
             newTx.close();
 
@@ -1111,6 +1139,88 @@ public class NewTransaction extends AppCompatActivity implements
             Dialog newPrDialog = prBuilder.create();
             newPrDialog.show();
 
+        }
+
+        if (view == addPhoto) {
+
+
+            ImagePicker.pickImage(this, "Select your image:");
+
+
+        }
+
+        if (view == tvPhotoPath) {
+
+
+            LayoutInflater inflater = LayoutInflater.from(this);
+            View imageDialog = inflater.inflate(R.layout.dialog_image, null);
+            ImageView iv = (ImageView) imageDialog.findViewById(R.id.iv_tx_image);
+            iv.setImageURI(Uri.fromFile(new File(tvPhotoPath.getText().toString())));
+
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setView(imageDialog);
+            builder.setNeutralButton(getResources().getString(R.string.ok), new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+
+
+                }
+            });
+
+
+            Dialog dialog = builder.create();
+            dialog.show();
+
+
+
+
+
+        }
+
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+
+        Bitmap bitmap = ImagePicker.getImageFromResult(this, requestCode, resultCode, data);
+        // TODO do something with the bitmap
+
+        saveBitmapToGallery(bitmap);
+
+
+    }
+
+    private void saveBitmapToGallery(Bitmap bitmap) {
+
+        String root = Environment.getExternalStorageDirectory().toString();
+        File myDir = new File(root + "/" + imageFolder);
+        myDir.mkdirs();
+        Random generator = new Random();
+        int n = 10000;
+        n = generator.nextInt(n);
+
+        String fname = "Image-" + n + ".jpg";
+        File file = new File(myDir, fname);
+
+        Log.i("filename", "" + file);
+
+        if (file.exists())
+            file.delete();
+        try {
+            FileOutputStream out = new FileOutputStream(file);
+            bitmap.compress(Bitmap.CompressFormat.JPEG, 90, out);
+            out.flush();
+            out.close();
+
+
+            tvPhotoPath.setText(root + "/" + imageFolder + "/" + fname);
+
+            //  sendBroadcast(new Intent(Intent.ACTION_MEDIA_MOUNTED, Uri.parse("file://" + Environment.getExternalStorageDirectory())));
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
     }

@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
     SharedPreferences sharedPrefs, billingPrefs, mPositionSavedPrefs;
     SharedPreferences.Editor editor, billingEditor, posSavedEditor;
     private InterstitialAd interstitial;
+    NavigationView navigationView;
 
     FloatingActionsMenu fam;
     FloatingActionButton fabNewAccount;
@@ -81,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
 
         fm = getSupportFragmentManager();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.navigation_view);
+        navigationView = (NavigationView) findViewById(R.id.navigation_view);
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
@@ -252,6 +253,7 @@ public class MainActivity extends AppCompatActivity {
 
             Fragment fragment = null;
             CharSequence title = null;
+            int itemIndex = 0;
 
             int menuItemId = mPositionSavedPrefs.getInt(
                     "last_main_position", 1);
@@ -262,6 +264,8 @@ public class MainActivity extends AppCompatActivity {
                 fragment = HomeFragment.newInstance();
                 title = getString(R.string.home);
 
+                itemIndex = 0;
+
 
             } else if (menuItemId == R.id.navigation_item_categories) {
 
@@ -269,6 +273,7 @@ public class MainActivity extends AppCompatActivity {
 
                 fragment = new CategoryList();
                 title = getString(R.string.categories);
+                itemIndex = 2;
 
             } else if (menuItemId == R.id.navigation_item_payees) {
 
@@ -276,7 +281,7 @@ public class MainActivity extends AppCompatActivity {
 
                 fragment = new PayeeList();
                 title = getString(R.string.payees);
-
+                itemIndex = 3;
 
             } else if (menuItemId == R.id.navigation_item_projects) {
 
@@ -284,12 +289,14 @@ public class MainActivity extends AppCompatActivity {
 
                 fragment = new ProjectList();
                 title = getString(R.string.projects_drawer);
+                itemIndex = 4;
 
 
             } else if (menuItemId == R.id.navigation_item_scheduled) {
                 // if scheduled transaction is clicked
                 fragment = ScheduledFragment.newInstance();
                 title = getString(R.string.scheduled);
+                itemIndex = 1;
 
 
             } else if (menuItemId == R.id.navigation_item_closed_accounts) {
@@ -297,12 +304,14 @@ public class MainActivity extends AppCompatActivity {
 
                 fragment = new ClosedAccountsListFragment();
                 title = getString(R.string.closed_accounts);
+                itemIndex = 5;
 
             } else if (menuItemId == R.id.navigation_item_store) {
                 // if upgrade is clicked
 
                 fragment = new UpgradeFragment();
                 title = getString(R.string.upgrade);
+                itemIndex = 6;
             }
 
 
@@ -311,6 +320,7 @@ public class MainActivity extends AppCompatActivity {
                 // FragmentManager fragmentManager = getFragmentManager();
 
                 setTitle(title);
+                navigationView.getMenu().getItem(itemIndex).setChecked(true);
 
 
                 fm.beginTransaction()
@@ -320,6 +330,8 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
+
+        //  showPaymentDialog(this);
 
     }
 
@@ -352,14 +364,12 @@ public class MainActivity extends AppCompatActivity {
 
             drawerLayout.openDrawer(GravityCompat.START);
 
-
         }
 
         if (id == R.id.action_settings) {
 
             Intent i = new Intent(this, SettingsActivity.class);
             startActivity(i);
-
 
             return true;
 
@@ -369,14 +379,14 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_Backup) {
 
             BackupDatabase mBdB = new BackupDatabase(getApplicationContext());
-            mBdB.callThem(1);
+            mBdB.callThem(BackupDatabase.EXPORT_DB);
 
         }
 
         if (id == R.id.action_Restore) {
 
             BackupDatabase mBdB = new BackupDatabase(getApplicationContext());
-            mBdB.callThem(0);
+            mBdB.callThem(BackupDatabase.IMPORT_DB);
             Intent i = new Intent(this, MainActivity.class);
             startActivity(i);
 
@@ -424,8 +434,16 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         // TODO Auto-generated method stub
 
-                        Intent i = new Intent(context, StoreActivity.class);
-                        startActivity(i);
+                        //   Intent i = new Intent(context, StoreActivity.class);
+                        //   startActivity(i);
+
+
+                        setTitle(getString(R.string.upgrade));
+                        navigationView.getMenu().getItem(6).setChecked(true);
+                        fm.beginTransaction()
+                                .replace(R.id.flContent, new UpgradeFragment()).commit();
+
+
                     }
                 });
 

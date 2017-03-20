@@ -1091,6 +1091,38 @@ public class DbClass {
         ourDatabase.insert(DATABASE_TABLE_TRANSACTION, null, cv);
     }
 
+    public void insertNewTransaction(String txDate, Long accountNameId,
+                                     String payee, Long categoryNameId, Long txTypeId, Long txAmount,
+                                     Long prId, String txNote, String photoPath) {
+        // TODO Auto-generated method stub
+
+        String sql = "SELECT " + KEY_PAYEE_ID + " FROM " + DATABASE_TABLE_PAYEE
+                + " WHERE " + KEY_PAYEE_NAME + " = '" + payee + "'";
+
+        // we get the id of the inserted payee name from the payee table
+
+        Cursor c = ourDatabase.rawQuery(sql, null);
+
+        c.moveToFirst();
+
+        Long payeeId = c.getLong(c.getColumnIndex(KEY_PAYEE_ID));
+
+        c.close();
+
+        ContentValues cv = new ContentValues();
+        cv.put(KEY_TRANSACTION_DATE, txDate);
+        cv.put(KEY_TRANSACTION_ACCOUNT_ID, accountNameId);
+        cv.put(KEY_TRANSACTION_PAYEE_ID, payeeId);
+        cv.put(KEY_TRANSACTION_CATEGORY_ID, categoryNameId);
+        cv.put(KEY_TRANSACTION_TRANSACTION_TYPE_ID, txTypeId);
+        cv.put(KEY_TRANSACTION_AMOUNT, txAmount);
+        cv.put(KEY_TRANSACTION_NOTE, txNote);
+        cv.put(KEY_TRANSACTION_PROJECT_ID, prId);
+        cv.put(KEY_TRANSACTION_PHOTO, photoPath);
+
+        ourDatabase.insert(DATABASE_TABLE_TRANSACTION, null, cv);
+    }
+
     public void insertPayee(String payee) {
         // TODO Auto-generated method stub
 
