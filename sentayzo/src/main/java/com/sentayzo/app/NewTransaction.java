@@ -55,7 +55,7 @@ import com.mvc.imagepicker.ImagePicker;
 public class NewTransaction extends AppCompatActivity implements
         LoaderCallbacks<Cursor>, OnClickListener {
 
-    String imageFolder = "money_cradle";
+    public static String imageFolder = "money_cradle";
 
     int REQUEST_CODE_PICKER = 1;
     Button dateButton;
@@ -1170,9 +1170,6 @@ public class NewTransaction extends AppCompatActivity implements
 
             Dialog dialog = builder.create();
             dialog.show();
-
-
-
 
 
         }

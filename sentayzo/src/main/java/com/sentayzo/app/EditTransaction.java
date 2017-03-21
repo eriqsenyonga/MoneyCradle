@@ -1,10 +1,13 @@
 package com.sentayzo.app;
 
+import java.io.File;
+import java.io.FileOutputStream;
 import java.text.DecimalFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
+import java.util.Random;
 
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
@@ -14,8 +17,10 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.app.LoaderManager.LoaderCallbacks;
 import android.support.v4.content.CursorLoader;
@@ -38,18 +43,21 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.FilterQueryProvider;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
+import com.mvc.imagepicker.ImagePicker;
 
 public class EditTransaction extends AppCompatActivity implements
         LoaderCallbacks<Cursor>, OnClickListener {
 
     Button dateButton;
     ImageButton calcButton, newCatButton, newProjectButton, addPhoto;
+    TextView tvPhotoPath;
     EditText et_amount, et_tx_note;
     AutoCompleteTextView et_payee;
     Spinner accountSpinner, categorySpinner, transactionTypeSpinner,
@@ -102,6 +110,9 @@ public class EditTransaction extends AppCompatActivity implements
         Intent i = getIntent();
         bundle = i.getBundleExtra("txBundle");
 
+        tvPhotoPath = (TextView) findViewById(R.id.tv_photo_uri);
+        addPhoto = (ImageButton) findViewById(R.id.ib_add_photo);
+
         newCatButton = (ImageButton) findViewById(R.id.b_new_cat);
         dateButton = (Button) findViewById(R.id.spinner_newTransactionDates);
         accountSpinner = (Spinner) findViewById(R.id.spinner_accounts);
@@ -121,12 +132,10 @@ public class EditTransaction extends AppCompatActivity implements
         if ((billingPrefs.getBoolean("KEY_FREE_TRIAL_PERIOD", true) == false)
                 && (billingPrefs.getBoolean("KEY_PURCHASED_ADS", false) == false)) {
 
-            Log.d("1stssssssrrrttt", "111ssstttttt");
-
 
         } else {
-            Log.d("2222nnnnnnddddd", "2222222nnnnnnddddd");
-         //   findViewById(R.id.adFragment).setVisibility(View.GONE);
+
+            //   findViewById(R.id.adFragment).setVisibility(View.GONE);
 
         }
 
@@ -144,8 +153,12 @@ public class EditTransaction extends AppCompatActivity implements
 
         dateButton.setOnClickListener(this);
         newCatButton.setOnClickListener(this);
+        addPhoto.setOnClickListener(this);
+        tvPhotoPath.setOnClickListener(this);
 
         et_tx_note.setText(bundle.getString("note"));
+
+        tvPhotoPath.setText(bundle.getString("photoPath"));
 
         // set up to populate the spinner of accounts
         mLoaderManager.initLoader(accountLoaderId, null, this);
@@ -621,24 +634,27 @@ public class EditTransaction extends AppCompatActivity implements
                 // before inserting
                 // transaction
 
-                Log.d("12", "12");
+
                 try {
                     updateTx = new DbClass(this);
 
                     updateTx.open();
-                    Log.d("13", "13");
-                    Log.d("txDate", "" + txDate);
-                    Log.d("accountNameId", "" + accountNameId);
-                    Log.d("payee", "" + payee);
-                    Log.d("categoryNameId", "" + categoryNameId);
-                    Log.d("txTypeId", "" + txTypeId);
-                    Log.d("txAmount", "" + txAmount);
-                    Log.d("tId", "" + bundle.getLong("tId"));
 
-                    updateTx.updateTransaction(txDate, accountNameId, payee,
-                            categoryNameId, txTypeId, txAmount,
-                            bundle.getLong("tId"), projectId, txNote);
-                    Log.d("14", "14");
+
+                    if (tvPhotoPath.getText().toString().isEmpty()) {
+
+                        updateTx.updateTransaction(txDate, accountNameId, payee,
+                                categoryNameId, txTypeId, txAmount,
+                                bundle.getLong("tId"), projectId, txNote);
+                    } else {
+
+                        updateTx.updateTransaction(txDate, accountNameId, payee,
+                                categoryNameId, txTypeId, txAmount,
+                                bundle.getLong("tId"), projectId, txNote, tvPhotoPath.getText().toString());
+
+                    }
+
+
                     updateTx.close();
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -665,16 +681,16 @@ public class EditTransaction extends AppCompatActivity implements
     }
 
     private void firstInsertOrCheckForPayee(String payee) {
-        // TODO Auto-generated method stub
-        Log.d("8.5", "8.5");
+
+
         DbClass mDbClass = new DbClass(this);
 
         mDbClass.open();
-        Log.d("9", "9");
+
         mDbClass.insertOrCheckForPayee(payee);
-        Log.d("10", "10");
+
         mDbClass.close();
-        Log.d("11", "11");
+
     }
 
     @Override
@@ -758,7 +774,7 @@ public class EditTransaction extends AppCompatActivity implements
 
     @Override
     public void onLoaderReset(Loader<Cursor> arg0) {
-        // TODO Auto-generated method stub
+
 
         if (arg0.getId() == accountLoaderId) {
             accountAdapter.swapCursor(null);
@@ -787,7 +803,6 @@ public class EditTransaction extends AppCompatActivity implements
 
     @Override
     public void onClick(View view) {
-        // TODO Auto-generated method stub
 
         if (view == dateButton) {
             // if the dateButton is clicked
@@ -1142,6 +1157,85 @@ public class EditTransaction extends AppCompatActivity implements
             Dialog newPrDialog = prBuilder.create();
             newPrDialog.show();
 
+        }
+
+        if (view == addPhoto) {
+
+
+            ImagePicker.pickImage(this, "Select your image:");
+
+
+        }
+
+        if (view == tvPhotoPath) {
+
+
+            LayoutInflater inflater = LayoutInflater.from(this);
+            View imageDialog = inflater.inflate(R.layout.dialog_image, null);
+            ImageView iv = (ImageView) imageDialog.findViewById(R.id.iv_tx_image);
+            iv.setImageURI(Uri.fromFile(new File(tvPhotoPath.getText().toString())));
+
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setView(imageDialog);
+            builder.setNeutralButton(getResources().getString(R.string.ok), new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+
+
+                }
+            });
+
+
+            Dialog dialog = builder.create();
+            dialog.show();
+
+
+        }
+
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+
+        Bitmap bitmap = ImagePicker.getImageFromResult(this, requestCode, resultCode, data);
+        // TODO do something with the bitmap
+
+        saveBitmapToGallery(bitmap);
+
+
+    }
+
+    private void saveBitmapToGallery(Bitmap bitmap) {
+
+        String root = Environment.getExternalStorageDirectory().toString();
+        File myDir = new File(root + "/" + NewTransaction.imageFolder);
+        myDir.mkdirs();
+        Random generator = new Random();
+        int n = 10000;
+        n = generator.nextInt(n);
+
+        String fname = "Image-" + n + ".jpg";
+        File file = new File(myDir, fname);
+
+        Log.i("filename", "" + file);
+
+        if (file.exists())
+            file.delete();
+        try {
+            FileOutputStream out = new FileOutputStream(file);
+            bitmap.compress(Bitmap.CompressFormat.JPEG, 90, out);
+            out.flush();
+            out.close();
+
+
+            tvPhotoPath.setText(root + "/" + NewTransaction.imageFolder + "/" + fname);
+
+            //  sendBroadcast(new Intent(Intent.ACTION_MEDIA_MOUNTED, Uri.parse("file://" + Environment.getExternalStorageDirectory())));
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
     }

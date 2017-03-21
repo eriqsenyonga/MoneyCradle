@@ -1527,6 +1527,7 @@ public class DbClass {
                 .getLong(c.getColumnIndex(KEY_TRANSACTION_PROJECT_ID));
         Long transferId = c.getLong(c
                 .getColumnIndex(KEY_TRANSACTION_TRANSFER_ID));
+        String photoPath = c.getString(c.getColumnIndex(KEY_TRANSACTION_PHOTO));
 
         c.close();
 
@@ -1558,6 +1559,7 @@ public class DbClass {
         bundle.putLong("projectId", projectId);
         bundle.putString("note", note);
         bundle.putLong("transferId", transferId);
+        bundle.putString("photoPath", photoPath);
 
         return bundle;
     }
@@ -1600,22 +1602,22 @@ public class DbClass {
     public void updateTransaction(String txDate, Long accountNameId,
                                   String payee, Long categoryNameId, Long txTypeId, Long txAmount,
                                   long long1, Long projectId, String txNote) {
-        // TODO Auto-generated method stub
-        Log.d("update", "1");
+
+
         String sql = "SELECT DISTINCT " + KEY_PAYEE_NAME + "," + KEY_PAYEE_ID
                 + " FROM " + DATABASE_TABLE_PAYEE + " WHERE " + KEY_PAYEE_NAME
                 + " = '" + payee + "'";
-        Log.d("update", "2");
+
         // we get the id of the inserted payee name from the payee table
 
         Cursor c = ourDatabase.rawQuery(sql, null);
-        Log.d("update", "3");
+
         c.moveToFirst();
-        Log.d("update", "4");
+
         Long payeeId = c.getLong(c.getColumnIndex(KEY_PAYEE_ID));
-        Log.d("update", "5");
+
         c.close();
-        Log.d("update", "6");
+
         String updateSql = "UPDATE " + DATABASE_TABLE_TRANSACTION + " SET "
                 + KEY_TRANSACTION_DATE + "='" + txDate + "', "
                 + KEY_TRANSACTION_ACCOUNT_ID + "=" + accountNameId + ", "
@@ -1626,9 +1628,45 @@ public class DbClass {
                 + KEY_TRANSACTION_PROJECT_ID + "= " + projectId + ", "
                 + KEY_TRANSACTION_NOTE + "='" + txNote + "' WHERE "
                 + KEY_TRANSACTION_ID + "=" + long1 + ";";
-        Log.d("update", "7");
+
         ourDatabase.execSQL(updateSql);
-        Log.d("update", "8");
+
+
+    }
+
+    public void updateTransaction(String txDate, Long accountNameId,
+                                  String payee, Long categoryNameId, Long txTypeId, Long txAmount,
+                                  long long1, Long projectId, String txNote, String photoPath) {
+        // TODO Auto-generated method stub
+
+        String sql = "SELECT DISTINCT " + KEY_PAYEE_NAME + "," + KEY_PAYEE_ID
+                + " FROM " + DATABASE_TABLE_PAYEE + " WHERE " + KEY_PAYEE_NAME
+                + " = '" + payee + "'";
+
+        // we get the id of the inserted payee name from the payee table
+
+        Cursor c = ourDatabase.rawQuery(sql, null);
+
+        c.moveToFirst();
+
+        Long payeeId = c.getLong(c.getColumnIndex(KEY_PAYEE_ID));
+
+        c.close();
+
+        String updateSql = "UPDATE " + DATABASE_TABLE_TRANSACTION + " SET "
+                + KEY_TRANSACTION_DATE + "='" + txDate + "', "
+                + KEY_TRANSACTION_ACCOUNT_ID + "=" + accountNameId + ", "
+                + KEY_TRANSACTION_PAYEE_ID + "=" + payeeId + ", "
+                + KEY_TRANSACTION_CATEGORY_ID + "=" + categoryNameId + ", "
+                + KEY_TRANSACTION_TRANSACTION_TYPE_ID + "=" + txTypeId + ", "
+                + KEY_TRANSACTION_AMOUNT + "=" + txAmount + ", "
+                + KEY_TRANSACTION_PHOTO + "='" + photoPath + "', "
+                + KEY_TRANSACTION_PROJECT_ID + "= " + projectId + ", "
+                + KEY_TRANSACTION_NOTE + "='" + txNote + "' WHERE "
+                + KEY_TRANSACTION_ID + "=" + long1 + ";";
+
+        ourDatabase.execSQL(updateSql);
+
 
     }
 
