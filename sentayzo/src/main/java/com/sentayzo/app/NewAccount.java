@@ -294,6 +294,20 @@ public class NewAccount extends AppCompatActivity implements
                                         //set previous card issuer
                                         cardIssuerSpinner.setSelection((int) (accEditPrevCardIssuer - 1));
 
+                                        cardIssuerSpinner.setOnItemSelectedListener(new OnItemSelectedListener() {
+                                            @Override
+                                            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+                                            }
+
+                                            @Override
+                                            public void onNothingSelected(AdapterView<?> parent) {
+
+                                            }
+                                        });
+
+
+
 
                                     }
 

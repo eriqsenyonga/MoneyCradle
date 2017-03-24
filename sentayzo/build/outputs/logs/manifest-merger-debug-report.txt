@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:2:1-254:12
+ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:2:1-250:12
 	package
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:3:5-31
 		INJECTED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml
@@ -179,7 +179,7 @@ ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\And
 	android:name
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:29:22-77
 application
-ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:31:5-252:19
+ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:31:5-248:19
 MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\Eric\.android\build-cache\4a26cc39cb0f6f56a0bf4503b87cc8ed56a06d48\output\AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services:10.2.0] C:\Users\Eric\.android\build-cache\e90c7995a484b43e786248ab62d8097f49f84b8b\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Eric\.android\build-cache\197136c49af27287e3937d8fdb67de96cbbb29e4\output\AndroidManifest.xml:26:5-19
@@ -518,24 +518,16 @@ ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\And
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:238:13-58
 	android:name
 		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:237:13-43
-activity#com.sentayzo.app.Temp_activity
-ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:239:9-242:47
-	android:label
-		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:241:13-65
-	android:theme
-		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:242:13-44
-	android:name
-		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:240:13-42
 activity#com.sentayzo.app.TransactionHistoryActivity
-ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:243:9-251:20
+ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:239:9-247:20
 	android:label
-		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:245:13-71
+		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:241:13-71
 	android:parentActivityName
-		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:246:13-59
+		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:242:13-59
 	android:theme
-		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:247:13-44
+		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:243:13-44
 	android:name
-		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:244:13-55
+		ADDED from E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\src\main\AndroidManifest.xml:240:13-55
 meta-data#android.support.VERSION
 ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\Eric\.android\build-cache\4a26cc39cb0f6f56a0bf4503b87cc8ed56a06d48\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:mediarouter-v7:25.3.0] C:\Users\Eric\.android\build-cache\a8d5e913922faa3a770fdae5d503cacd33763173\output\AndroidManifest.xml:22:5-24:34

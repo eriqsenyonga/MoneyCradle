@@ -3,10 +3,12 @@ package com.sentayzo.app;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -16,9 +18,18 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import com.github.mikephil.charting.animation.Easing;
+import com.github.mikephil.charting.charts.PieChart;
+import com.github.mikephil.charting.data.PieData;
+import com.github.mikephil.charting.data.PieDataSet;
+import com.github.mikephil.charting.data.PieEntry;
+import com.github.mikephil.charting.utils.ColorTemplate;
+import com.github.mikephil.charting.utils.MPPointF;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 import com.nineoldandroids.animation.ValueAnimator;
+
+import java.util.ArrayList;
 
 public class OverviewActivity extends AppCompatActivity {
 
@@ -38,6 +49,9 @@ public class OverviewActivity extends AppCompatActivity {
     static int KEY_ACCOUNT_OVERVIEW = 1;
     static int KEY_PROJECT_OVERVIEW = 2;
 
+    PieChart pieChart;
+    ArrayList<PieEntry> yEntries;
+    ArrayList<String> xEntries;
 
     int whichOverview;
     Cursor relevantCursor;
@@ -52,7 +66,8 @@ public class OverviewActivity extends AppCompatActivity {
         setSupportActionBar(toolBar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-
+        yEntries = new ArrayList<>();
+        xEntries = new ArrayList<>();
 
         t = ((ApplicationClass) getApplication())
                 .getTracker(ApplicationClass.TrackerName.APP_TRACKER);
@@ -99,9 +114,18 @@ public class OverviewActivity extends AppCompatActivity {
 
 
         setupFonts();
+
+
+        pieChart = (PieChart) findViewById(R.id.pc_overview);
+        pieChart.setRotationEnabled(true);
+        pieChart.setHoleRadius(58f);
+        pieChart.setUsePercentValues(true);
+
+        pieChart.getDescription().setEnabled(false);
+        pieChart.setEntryLabelTypeface(robotoMedium);
+
+
         setValuesForTextViews();
-
-
         tvViewAllTx = (TextView) findViewById(R.id.tv_view_all_tx);
 
         tvViewAllTx.setOnClickListener(new View.OnClickListener() {
@@ -149,6 +173,9 @@ public class OverviewActivity extends AppCompatActivity {
 
         Long totBalance = bundle.getLong("totBalance", 0);
 
+
+        setPieChartData(totIncome, totExpense);
+
         tv_totalAmount_in.setText(mCC.valueConverter(totIncome));
         tv_totalAmount_in.setTextColor(getResources().getColor(
                 R.color.display_green));
@@ -158,6 +185,35 @@ public class OverviewActivity extends AppCompatActivity {
         tv_balanceAmount.setText(mCC.valueConverter(totBalance));
 
         //   animateTextView(0, 322000000, tv_balanceAmount);
+
+
+    }
+
+    private void setPieChartData(Long totIncome, Long totExpense) {
+
+
+        yEntries.add(new PieEntry(mCC.valueConverterReturnFloat(totExpense * (-1)), "Expense"));
+        yEntries.add(new PieEntry(mCC.valueConverterReturnFloat(totIncome), "Income"));
+
+
+        xEntries.add("Income");
+        xEntries.add("Expense");
+
+        ArrayList<Integer> colors = new ArrayList<>();
+
+        colors.add(ContextCompat.getColor(OverviewActivity.this, R.color.graph_red));
+        colors.add(ContextCompat.getColor(OverviewActivity.this, R.color.graph_green));
+
+        PieDataSet dataSet = new PieDataSet(yEntries, "Amount");
+        dataSet.setSliceSpace(2);
+
+        //dataSet.setColors(ColorTemplate.MATERIAL_COLORS);
+        dataSet.setColors(colors);
+
+        PieData pieData = new PieData(dataSet);
+        pieChart.setData(pieData);
+        pieChart.animateY(1400, Easing.EasingOption.EaseInOutQuad);
+        pieChart.invalidate();
 
 
     }
@@ -190,13 +246,13 @@ public class OverviewActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT < 23) {
             //if api below 23
 
-            tv_totalAmount_in.setTypeface(robotoThin);
-            tv_totalAmount_in.setTextAppearance(this, R.style.boldText);
+            tv_totalAmount_in.setTypeface(robotoMedium);
+            // tv_totalAmount_in.setTextAppearance(this, R.style.boldText);
 
-            tv_totalAmount_out.setTypeface(robotoThin);
-            tv_totalAmount_out.setTextAppearance(this, R.style.boldText);
+            tv_totalAmount_out.setTypeface(robotoMedium);
+            //  tv_totalAmount_out.setTextAppearance(this, R.style.boldText);
 
-            tv_balanceAmount.setTypeface(robotoThin);
+            tv_balanceAmount.setTypeface(robotoMedium);
             tv_balanceAmount.setTextAppearance(this, R.style.boldText);
 
         } else {

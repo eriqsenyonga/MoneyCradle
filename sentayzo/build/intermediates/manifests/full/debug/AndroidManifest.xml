@@ -250,10 +250,6 @@
             android:name="com.sentayzo.app.BudgetActivity"
             android:label="@string/title_activity_budget" />
         <activity
-            android:name="com.sentayzo.app.Temp_activity"
-            android:label="@string/title_activity_temp_activity"
-            android:theme="@style/AppTheme" />
-        <activity
             android:name="com.sentayzo.app.TransactionHistoryActivity"
             android:label="@string/title_activity_transaction_history"
             android:parentActivityName="com.sentayzo.app.OverviewActivity"

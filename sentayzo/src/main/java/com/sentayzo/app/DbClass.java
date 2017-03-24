@@ -7026,6 +7026,37 @@ public class DbClass {
         return allowedAmt;
     }
 
+    public Long getCreditLimitAndCurrentTotal(Long accountId, Long tId) {
+
+        String sql = "SELECT "
+                + DATABASE_TABLE_ACCOUNT + "." + KEY_ACCOUNT_CREDIT_LIMIT + ", "
+                + "SUM(" + DATABASE_TABLE_TRANSACTION + "." + KEY_TRANSACTION_AMOUNT + ") as credTot"
+                + " FROM "
+                + DATABASE_TABLE_ACCOUNT
+                + " INNER JOIN " + DATABASE_TABLE_TRANSACTION
+                + " ON " + DATABASE_TABLE_ACCOUNT + "." + KEY_ACCOUNT_ID + " = " + DATABASE_TABLE_TRANSACTION + "." + KEY_TRANSACTION_ACCOUNT_ID
+                + " WHERE " + DATABASE_TABLE_ACCOUNT + "." + KEY_ACCOUNT_ID + " = " + accountId
+                + " AND " + DATABASE_TABLE_TRANSACTION + "." + KEY_TRANSACTION_ID + " != " + tId;
+
+        Long credLimit, currentTotal, allowedAmt;
+
+        open();
+        Cursor c = ourDatabase.rawQuery(sql, null);
+
+        c.moveToFirst();
+
+        credLimit = c.getLong(c.getColumnIndex(DATABASE_TABLE_ACCOUNT + "." + KEY_ACCOUNT_CREDIT_LIMIT));
+        currentTotal = c.getLong(c.getColumnIndex("credTot"));
+
+        c.close();
+
+        close();
+
+        allowedAmt = currentTotal + credLimit;
+
+        return allowedAmt;
+    }
+
     public Bundle getIncomeAndExpenseTotals(Long idOfEntity, int whichOverview) {
 
         String entityIdColumn = KEY_TRANSACTION_ACCOUNT_ID;

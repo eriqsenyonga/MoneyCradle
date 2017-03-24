@@ -273,6 +273,8 @@ public class AccountsList extends Fragment {
                                     i.putExtra("accountId", accountId);
                                     startActivity(i);
 
+
+
                                 }
 
                                 if (position == 3) {
@@ -476,7 +478,7 @@ public class AccountsList extends Fragment {
         // procedure for the total
         getTotal();
 
-        rvAccounts.addOnScrollListener(new RecyclerView.OnScrollListener() {
+        rvAccounts.setOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
                 super.onScrolled(recyclerView, dx, dy);

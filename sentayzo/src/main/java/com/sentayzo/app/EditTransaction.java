@@ -19,6 +19,7 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.LoaderManager;
@@ -75,6 +76,7 @@ public class EditTransaction extends AppCompatActivity implements
             transactionTypeLoaderIdAsset = 6, payeeLoaderId = 7,
             projectLoaderId = 8;
     String buttonTextDate;
+    Long creditCardTrnAmtAllowed;
     Bundle bundle;
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd",
             Locale.getDefault());
@@ -86,6 +88,7 @@ public class EditTransaction extends AppCompatActivity implements
     ConversionClass mCC;
     SharedPreferences billingPrefs;
     Toolbar toolBar;
+    TextView tvMaxCreditSpend;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -109,6 +112,8 @@ public class EditTransaction extends AppCompatActivity implements
 
         Intent i = getIntent();
         bundle = i.getBundleExtra("txBundle");
+
+        tvMaxCreditSpend = (TextView) findViewById(R.id.tv_creditMaxSpend);
 
         tvPhotoPath = (TextView) findViewById(R.id.tv_photo_uri);
         addPhoto = (ImageButton) findViewById(R.id.ib_add_photo);
@@ -457,10 +462,15 @@ public class EditTransaction extends AppCompatActivity implements
         String[] from = {DbClass.KEY_TRANSACTION_TYPE_NAME};
         int[] to = {android.R.id.text1};
 
-        if (accountTypeId == 1) {
-            // if the account chosen in accountSpinner is of type , Cash
-
+        if (accountTypeId == 1 || accountTypeId == 5) {
+            // if the account chosen in accountSpinner is of type , Cash or Credit card
+            Log.d("txspin", "0.5, accounttypeid = " + accountTypeId);
             mLoaderManager.initLoader(transactionTypeLoaderIdCash, null, this);
+
+            if (accountTypeId == 5) {
+                mLoaderManager.initLoader(transactionTypeLoaderIdCash, null, this);
+
+            }
 
             txTypeAdapter = new SimpleCursorAdapter(getBaseContext(),
                     android.R.layout.simple_spinner_item, null, from, to, 0);
@@ -548,6 +558,21 @@ public class EditTransaction extends AppCompatActivity implements
 
                     }
                 });
+
+        if (accountTypeId == 5) {
+            //special scenario if account is a credit card
+            /*
+            *       Logic here;
+            *       1. Get the credit limit and current total amount from db
+            *       2. Calculate maximum that can be used in this transaction
+            *       3. if transaction amount > maximum for this transaction, error --> dont save else go ahead
+            * */
+
+            tvMaxCreditSpend.setVisibility(View.VISIBLE);
+            new MyAsyncGetAllowedAmt().execute(accountId);
+
+
+        }else{tvMaxCreditSpend.setVisibility(View.GONE);}
 
 
     }
@@ -1238,6 +1263,39 @@ public class EditTransaction extends AppCompatActivity implements
             e.printStackTrace();
         }
 
+    }
+
+    class MyAsyncGetAllowedAmt extends AsyncTask<Long, Void, Long> {
+        //get the allowed amount
+
+        ConversionClass myCC = new ConversionClass(EditTransaction.this);
+
+        @Override
+        protected Long doInBackground(Long... params) {
+
+            Long accID = params[0];
+
+            DbClass ccDb = new DbClass(EditTransaction.this);
+            ccDb.open();
+            Long allowedAmt = ccDb.getCreditLimitAndCurrentTotal(accID, bundle.getLong("tId"));
+            ccDb.close();
+
+
+            return allowedAmt;
+        }
+
+        @Override
+        protected void onPostExecute(Long aLong) {
+            super.onPostExecute(aLong);
+
+            Log.d("ALLOWEDAMT", myCC.valueConverter(aLong));
+            creditCardTrnAmtAllowed = aLong;
+
+            Toast.makeText(EditTransaction.this, myCC.valueConverter(aLong), Toast.LENGTH_LONG).show();
+            tvMaxCreditSpend.setText(getString(R.string.max_spend) + myCC.valueConverter(aLong));
+
+
+        }
     }
 
 }

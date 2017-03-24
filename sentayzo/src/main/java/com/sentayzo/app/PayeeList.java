@@ -163,17 +163,18 @@ t = ((ApplicationClass) getActivity().getApplication()).getTracker(ApplicationCl
 								.getLayoutInflater();
 						View v = inflater.inflate(R.layout.new_category_dialog,
 								null);
-						TextView entryName = (TextView) v
-								.findViewById(R.id.tv_entry_name);
+
 						final EditText payeeEt = (EditText) v
 								.findViewById(R.id.et_cat_Name);
 
-						entryName.setText("Payee Name");
+						payeeEt.setHint(R.string.payeee_name);
+
+
 						payeeEt.setText(payeeName);
 
 						AlertDialog.Builder builder = new AlertDialog.Builder(
 								getActivity());
-						builder.setTitle("Edit Payee");
+						builder.setTitle(R.string.edit_payee);
 
 						builder.setView(v);
 

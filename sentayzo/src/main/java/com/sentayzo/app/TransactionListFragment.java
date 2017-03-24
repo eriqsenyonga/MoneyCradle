@@ -93,7 +93,9 @@ public class TransactionListFragment extends Fragment {
 
         getTotal();
 
-        txList.addOnScrollListener(new RecyclerView.OnScrollListener() {
+
+
+        txList.setOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
                 super.onScrolled(recyclerView, dx, dy);

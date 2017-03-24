@@ -3,27 +3,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
-    android:background="#FFFFFF"
-    android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="2dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:text="@string/project_name"
-        android:textColor="#000000"
-        android:textSize="19sp" />
+    android:orientation="vertical"
+    android:padding="10dp">
 
-    <EditText
-        android:id="@+id/et_project_Name"
+
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:inputType="textCapSentences"
-        android:maxLength="50" />
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_project_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/project_name"
+            android:inputType="textCapSentences"
+            android:maxLength="50" />
+
+    </android.support.design.widget.TextInputLayout>
+
 
     <View
         android:layout_width="match_parent"
@@ -34,8 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="2dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+
         android:text="@string/note"
         android:textColor="#000000"
         android:textSize="19sp" />
@@ -44,8 +41,7 @@
         android:id="@+id/et_project_note"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+
         android:layout_marginTop="0dp"
         android:ems="10"
         android:hint="@string/project_hint"

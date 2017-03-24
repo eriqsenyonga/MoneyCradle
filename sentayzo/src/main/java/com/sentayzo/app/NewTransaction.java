@@ -83,7 +83,7 @@ public class NewTransaction extends AppCompatActivity implements
     Toolbar toolBar;
     Long creditCardTrnAmtAllowed;
     TextInputLayout tilPayee;
-    TextView tvPhotoPath;
+    TextView tvPhotoPath, tvMaxCreditSpend;
 
 
     @Override
@@ -103,6 +103,7 @@ public class NewTransaction extends AppCompatActivity implements
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_action_cancel);
 
         i = getIntent();
+        tvMaxCreditSpend = (TextView) findViewById(R.id.tv_creditMaxSpend);
         tvPhotoPath = (TextView) findViewById(R.id.tv_photo_uri);
         addPhoto = (ImageButton) findViewById(R.id.ib_add_photo);
         newProjectButton = (ImageButton) findViewById(R.id.b_new_project);
@@ -441,13 +442,15 @@ public class NewTransaction extends AppCompatActivity implements
         // TODO Auto-generated method stub
 
         accTypeId = accountTypeId;
-
+        Log.d("txspin", "0");
         String[] from = {DbClass.KEY_TRANSACTION_TYPE_NAME};
         int[] to = {android.R.id.text1};
 
         if (accountTypeId == 1 || accountTypeId == 5) {
             // if the account chosen in accountSpinner is of type , Cash or Credit card
 
+
+            Log.d("txspin", "0.5, accounttypeid = " + accountTypeId);
             mLoaderManager.initLoader(transactionTypeLoaderIdCash, null, this);
 
             txTypeAdapter = new SimpleCursorAdapter(getBaseContext(),
@@ -494,7 +497,7 @@ public class NewTransaction extends AppCompatActivity implements
                     public void onItemSelected(AdapterView<?> arg0, View arg1,
                                                int arg2, long arg3) {
                         // TODO Auto-generated method stub
-
+                        Log.d("txspin", "1");
                         transactionTypeId = arg3;
 
                     }
@@ -516,10 +519,13 @@ public class NewTransaction extends AppCompatActivity implements
             *       3. if transaction amount > maximum for this transaction, error --> dont save else go ahead
             * */
 
-
+            tvMaxCreditSpend.setVisibility(View.VISIBLE);
             new MyAsyncGetAllowedAmt().execute(accountId);
 
 
+        } else {
+            tvMaxCreditSpend.setVisibility(View.GONE);
+            et_amount.setEnabled(true);
         }
 
     }
@@ -1249,7 +1255,16 @@ public class NewTransaction extends AppCompatActivity implements
             Log.d("ALLOWEDAMT", myCC.valueConverter(aLong));
             creditCardTrnAmtAllowed = aLong;
 
-            Toast.makeText(NewTransaction.this, myCC.valueConverter(aLong), Toast.LENGTH_LONG).show();
+
+            if (aLong > 0) {
+                Toast.makeText(NewTransaction.this, myCC.valueConverter(aLong), Toast.LENGTH_LONG).show();
+                tvMaxCreditSpend.setText(getString(R.string.max_spend) + myCC.valueConverter(aLong));
+            } else {
+
+                tvMaxCreditSpend.setText(R.string.maxed_out);
+                et_amount.setEnabled(false);
+
+            }
 
 
         }

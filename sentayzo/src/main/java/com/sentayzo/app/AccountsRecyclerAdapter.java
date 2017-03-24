@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Build;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -140,8 +141,8 @@ public class AccountsRecyclerAdapter extends CursorRecyclerAdapter<AccountsRecyc
                 tv_creditLimit.setVisibility(View.GONE);
             } else if (accountTypeName.equals("Liability")) {
 
-                accountTypeImage.setImageDrawable(context.getResources()
-                        .getDrawable(R.drawable.ic_liability));
+                accountTypeImage.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.ic_liability));
+
 
                 tv_creditLimit.setVisibility(View.GONE);
             } else if (accountTypeName.equals("Credit Card")) {
@@ -159,6 +160,11 @@ public class AccountsRecyclerAdapter extends CursorRecyclerAdapter<AccountsRecyc
                 tv_creditLimit.setVisibility(View.VISIBLE);
 
                 tv_creditLimit.setText(context.getString(R.string.credLimit) + limitAmountString);  //set credit limit
+
+                if (creditLimit == (amount * (-1))) {
+
+                    tv_creditLimit.setText(R.string.maxed_out_status);
+                }
 
                 if (creditProvider == "") {
 

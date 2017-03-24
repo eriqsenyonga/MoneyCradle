@@ -633,7 +633,7 @@
  ]]>
     </string>
 
-      <string name="details_platinum">
+    <string name="details_platinum">
 <![CDATA[
  <ul style="list-style-type:square">
 
@@ -656,4 +656,10 @@
     <string name="ac_type_asset">Asset</string>
     <string name="ac_type_liability">Liability</string>
     <string name="photo">Photo</string>
+    <string name="summary">Summary</string>
+    <string name="max_spend">Maximum spend:</string>
+    <string name="maxed_out">Card maxed out</string>
+    <string name="maxed_out_status">Maxed out</string>
+    <string name="payeee_name">Payee Name</string>
+    <string name="edit_payee">Edit Payee</string>
 </resources>

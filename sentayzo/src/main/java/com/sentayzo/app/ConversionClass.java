@@ -344,6 +344,27 @@ public class ConversionClass {
 		
 		
 	}
+
+	public Float valueConverterReturnFloat(Long dbValue) {
+
+		BigDecimal bd = new BigDecimal(dbValue);
+
+		Log.d("bdLong", "" + bd);
+		BigDecimal divisor = new BigDecimal(100);
+
+		bd = bd.divide(divisor, 2, RoundingMode.HALF_EVEN);
+
+		Log.d("bdAfterDivide", "" + bd);
+		String r = bd.toString();
+		Log.d("r", "" + r);
+
+		final Float d = bd.floatValue();
+		Log.d("d", "" + d);
+
+		return d;
+
+
+	}
 	
 	public NumberFormat getNumberFormat() {
 		// TODO Auto-generated method stub

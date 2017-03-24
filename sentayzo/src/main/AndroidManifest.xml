@@ -237,10 +237,6 @@
             android:name=".BudgetActivity"
             android:label="@string/title_activity_budget" />
         <activity
-            android:name=".Temp_activity"
-            android:label="@string/title_activity_temp_activity"
-            android:theme="@style/AppTheme" />
-        <activity
             android:name=".TransactionHistoryActivity"
             android:label="@string/title_activity_transaction_history"
             android:parentActivityName=".OverviewActivity"

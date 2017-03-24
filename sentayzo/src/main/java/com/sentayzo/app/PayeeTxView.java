@@ -79,7 +79,7 @@ public class PayeeTxView extends AppCompatActivity {
 
         } else {
 
-            findViewById(R.id.adFragment).setVisibility(View.GONE);
+//            findViewById(R.id.adFragment).setVisibility(View.GONE);
 
         }
 

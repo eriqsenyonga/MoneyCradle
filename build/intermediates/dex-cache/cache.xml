@@ -102,15 +102,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v2.1.5\34b9f39e5343d39e205fb7617e734601dc4868e7\MPAndroidChart-v2.1.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="34b9f39e5343d39e205fb7617e734601dc4868e7">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v2.1.5_14002a775d456318fc3f73fc97a3b232a462a477\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Eric\.android\build-cache\ad28534bc29d46e03377a975e4d966838421969d\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -237,6 +228,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.1\369f9aa48a629b4e92557b37326f42dc3de796e4\MPAndroidChart-v3.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="369f9aa48a629b4e92557b37326f42dc3de796e4">
+        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v3.0.1_afa6753e4d40c323829584ce5d35be7e6487129f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
         jumboMode="true"
         optimize="true"
@@ -288,15 +288,6 @@
         revision="25.0.2"
         sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
         <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2a3f654ae38c2351902cb71c4840b597b5e5ad92\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Eric\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v2.1.5\34b9f39e5343d39e205fb7617e734601dc4868e7\MPAndroidChart-v2.1.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="34b9f39e5343d39e205fb7617e734601dc4868e7">
-        <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v2.1.5_14002a775d456318fc3f73fc97a3b232a462a477\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -502,7 +493,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="3a26a9e52b204596c2cf8c78cf05cb70dc4c93c7">
+        sha1="93357002f67de076c6e75855de014da1dbf4eff0">
         <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_03e1b54d1e0607988cc60e6bcc41859501a9e81e\classes.dex" />
     </item>
     <item
