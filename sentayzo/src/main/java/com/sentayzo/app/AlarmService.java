@@ -97,7 +97,7 @@ public class AlarmService extends IntentService {
 			// check if the intent is for a boot
 			// here we get all alarms from schedule table and reset them
 
-			// set up for trial period
+			// set up for trial periodType
 
 			SharedPreferences billingPrefs = this.getSharedPreferences(
 					"my_billing_prefs", 0);

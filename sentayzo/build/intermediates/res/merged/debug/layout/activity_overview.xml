@@ -224,13 +224,13 @@
                         android:background="@color/divider" />
 
                     <TextView
+                        android:id="@+id/tv_more_stats"
                         style="?android:textAppearanceMedium"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:gravity="right|center_vertical"
                         android:text="View more stats"
-
                         android:textColor="@color/primary" />
 
                 </LinearLayout>
@@ -270,7 +270,7 @@
                         android:background="@color/divider" />
 
                     <android.support.v7.widget.RecyclerView
-                        android:id="@+id/rv_tx_list"
+                        android:id="@+id/recycler_view"
                         android:layout_width="match_parent"
                         android:layout_height="180dp" />
 

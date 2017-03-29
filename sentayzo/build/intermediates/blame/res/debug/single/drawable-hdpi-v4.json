@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\c97a5ac6f9b8b0d61a2966b63f72628c8d952d69\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_bigtop_updates_white_24.png",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable-hdpi-v4\\quantum_ic_bigtop_updates_white_24.png"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_volume_off_white_36.png",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable-hdpi-v4\\quantum_ic_volume_off_white_36.png"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_bigtop_updates_white_24.png",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable-hdpi-v4\\quantum_ic_bigtop_updates_white_24.png"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quantum_ic_stop_grey600_36.png",

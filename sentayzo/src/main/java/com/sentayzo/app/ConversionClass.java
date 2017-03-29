@@ -19,395 +19,579 @@ import android.util.Log;
 
 public class ConversionClass {
 
-	SharedPreferences mSharedPrefs, customCurrencyPrefs;
+    SharedPreferences mSharedPrefs, customCurrencyPrefs;
 
-	Locale mLocale;
+    Locale mLocale;
 
-	String mLocaleCountryString;
+    String mLocaleCountryString;
 
-	Currency mCurrency;
+    Currency mCurrency;
 
-	String mCurrencyString;
+    String mCurrencyString;
 
-	Context context;
+    Context context;
 
-	SimpleDateFormat sdf4Db = new SimpleDateFormat("yyyy-MM-dd",
-			Locale.getDefault());
+    SimpleDateFormat sdf4Db = new SimpleDateFormat("yyyy-MM-dd",
+            Locale.getDefault());
 
-	SimpleDateFormat sdf4Display = new SimpleDateFormat("dd - MMM - yyyy",
-			Locale.getDefault());
+    SimpleDateFormat sdf4Display = new SimpleDateFormat("dd - MMM - yyyy",
+            Locale.getDefault());
 
-	SimpleDateFormat sdf4DisplayNew = new SimpleDateFormat("dd MMM yyyy",
-			Locale.getDefault());
+    SimpleDateFormat sdf4DisplayNew = new SimpleDateFormat("dd MMM yyyy",
+            Locale.getDefault());
 
-	public ConversionClass(Context c) {
+    SimpleDateFormat sdfStatMonthYear = new SimpleDateFormat("MM-yyyy", Locale.getDefault());
 
-		context = c;
+    SimpleDateFormat sdfDisplayStatMonthYear = new SimpleDateFormat("MMM - yyyy", Locale.getDefault());
 
-	}
+    SimpleDateFormat sdfStatMonth = new SimpleDateFormat("MM", Locale.getDefault());
 
-	public Long valueConverter(String inString) {
+    SimpleDateFormat sdfStatYear = new SimpleDateFormat("yyyy", Locale.getDefault());
 
-		BigDecimal bd = new BigDecimal(inString);
+    public ConversionClass(Context c) {
 
-		BigDecimal multiplicand = new BigDecimal(100);
+        context = c;
 
-		bd = bd.multiply(multiplicand);
+    }
 
-		Long lValue = bd.longValue();
+    public Long valueConverter(String inString) {
 
-		return lValue;
+        BigDecimal bd = new BigDecimal(inString);
 
-	}
+        BigDecimal multiplicand = new BigDecimal(100);
 
-	public String valueConverter(Long dbValue) {
+        bd = bd.multiply(multiplicand);
 
-		BigDecimal bd = new BigDecimal(dbValue);
+        Long lValue = bd.longValue();
 
-		Log.d("bdLong", "" + bd);
-		BigDecimal divisor = new BigDecimal(100);
+        return lValue;
 
-		bd = bd.divide(divisor, 2, RoundingMode.HALF_EVEN);
+    }
 
-		Log.d("bdAfterDivide", "" + bd);
-		String r = bd.toString();
-		Log.d("r", "" + r);
+    public String valueConverter(Long dbValue) {
 
-		final Double d = bd.doubleValue();
-		Log.d("d", "" + d);
+        BigDecimal bd = new BigDecimal(dbValue);
 
-		mSharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
-		
-		customCurrencyPrefs = context.getSharedPreferences("custom_currency_prefs", 0);
-		
-		
-		Boolean useCustomCurrency = mSharedPrefs.getBoolean("pref_use_custom_currency", false);
-		
-		
-		if(useCustomCurrency == true){
-			
-			
-			NumberFormat df = NumberFormat.getCurrencyInstance();
-			DecimalFormatSymbols dfs = new DecimalFormatSymbols();
-			dfs.setCurrencySymbol(customCurrencyPrefs.getString("currencyCode",
-					"AED") + " ");
-			
-			Log.d("groupSeparator", customCurrencyPrefs.getString("groupSeparator", ","));
+        Log.d("bdLong", "" + bd);
+        BigDecimal divisor = new BigDecimal(100);
 
-			if (customCurrencyPrefs.getString("groupSeparator", ",")
-					.equals(",")) {
-				dfs.setGroupingSeparator(',');
-			} else if (customCurrencyPrefs.getString("groupSeparator", ",")
-					.equals(".")){
-				dfs.setGroupingSeparator('.');
-			}
+        bd = bd.divide(divisor, 2, RoundingMode.HALF_EVEN);
 
-			if (customCurrencyPrefs.getString("decimalSeparator", ".").equals(
-					".")) {
-				dfs.setMonetaryDecimalSeparator('.');
-			} else if (customCurrencyPrefs.getString("decimalSeparator", ".")
-					.equals(",")) {
-				dfs.setMonetaryDecimalSeparator(',');
-			}
+        Log.d("bdAfterDivide", "" + bd);
+        String r = bd.toString();
+        Log.d("r", "" + r);
 
-			df.setMaximumFractionDigits(customCurrencyPrefs.getInt(
-					"numberOfDecimals", 2));
-			df.setRoundingMode(RoundingMode.HALF_EVEN);
-			((DecimalFormat) df).setDecimalFormatSymbols(dfs);
-			
-			String displayString = df.format(d);
-			
-			return displayString;
-		}
-		else
-		{
+        final Double d = bd.doubleValue();
+        Log.d("d", "" + d);
 
-		mLocaleCountryString = mSharedPrefs.getString("pref_default_country",
-				"US");
+        mSharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
 
-		mCurrencyString = mSharedPrefs
-				.getString("pref_default_currency", "USD");
+        customCurrencyPrefs = context.getSharedPreferences("custom_currency_prefs", 0);
 
-		mLocale = new Locale("", mLocaleCountryString);
 
-		mCurrency = Currency.getInstance(mCurrencyString);
+        Boolean useCustomCurrency = mSharedPrefs.getBoolean("pref_use_custom_currency", false);
 
-		NumberFormat nf = NumberFormat.getCurrencyInstance(mLocale);
 
-		nf.setCurrency(mCurrency);
-		nf.setMaximumFractionDigits(mCurrency.getDefaultFractionDigits());
+        if (useCustomCurrency == true) {
 
-		String display9 = nf.format(d);
 
-		Log.d(mLocaleCountryString, mLocaleCountryString + "= " + display9);
+            NumberFormat df = NumberFormat.getCurrencyInstance();
+            DecimalFormatSymbols dfs = new DecimalFormatSymbols();
+            dfs.setCurrencySymbol(customCurrencyPrefs.getString("currencyCode",
+                    "AED") + " ");
 
-		return display9;
-		
-		}
-	}
+            Log.d("groupSeparator", customCurrencyPrefs.getString("groupSeparator", ","));
 
-	public String dateForDb(String unformatted) {
+            if (customCurrencyPrefs.getString("groupSeparator", ",")
+                    .equals(",")) {
+                dfs.setGroupingSeparator(',');
+            } else if (customCurrencyPrefs.getString("groupSeparator", ",")
+                    .equals(".")) {
+                dfs.setGroupingSeparator('.');
+            }
 
-		String formatted = null;
+            if (customCurrencyPrefs.getString("decimalSeparator", ".").equals(
+                    ".")) {
+                dfs.setMonetaryDecimalSeparator('.');
+            } else if (customCurrencyPrefs.getString("decimalSeparator", ".")
+                    .equals(",")) {
+                dfs.setMonetaryDecimalSeparator(',');
+            }
 
-		Date unformattedNew;
+            df.setMaximumFractionDigits(customCurrencyPrefs.getInt(
+                    "numberOfDecimals", 2));
+            df.setRoundingMode(RoundingMode.HALF_EVEN);
+            ((DecimalFormat) df).setDecimalFormatSymbols(dfs);
 
-		try {
-			unformattedNew = sdf4Display.parse(unformatted);
+            String displayString = df.format(d);
 
-			formatted = sdf4Db.format(unformattedNew);
+            return displayString;
+        } else {
 
-			return formatted;
+            mLocaleCountryString = mSharedPrefs.getString("pref_default_country",
+                    "US");
 
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			Log.d("datePicker", e.toString());
-		}
+            mCurrencyString = mSharedPrefs
+                    .getString("pref_default_currency", "USD");
 
-		return formatted;
+            mLocale = new Locale("", mLocaleCountryString);
 
-	}
+            mCurrency = Currency.getInstance(mCurrencyString);
 
-	public String dateForDisplay(String unformatted) {
+            NumberFormat nf = NumberFormat.getCurrencyInstance(mLocale);
 
-		String formatted = null;
+            nf.setCurrency(mCurrency);
+            nf.setMaximumFractionDigits(mCurrency.getDefaultFractionDigits());
 
-		Date unformattedNew;
-		try {
-			unformattedNew = sdf4Db.parse(unformatted);
+            String display9 = nf.format(d);
 
-			formatted = sdf4Display.format(unformattedNew);
+            Log.d(mLocaleCountryString, mLocaleCountryString + "= " + display9);
 
-			return formatted;
+            return display9;
 
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			Log.d("datePicker", e.toString());
-		}
+        }
+    }
 
-		return formatted;
-	}
+    public String dateForDb(String unformatted) {
 
-	public String dateForDisplayNew(String unformatted) {
+        String formatted = null;
 
-		String formatted = null;
+        Date unformattedNew;
 
-		Date unformattedNew;
-		try {
-			unformattedNew = sdf4Db.parse(unformatted);
+        try {
+            unformattedNew = sdf4Display.parse(unformatted);
 
-			formatted = sdf4DisplayNew.format(unformattedNew);
+            formatted = sdf4Db.format(unformattedNew);
 
-			return formatted;
+            return formatted;
 
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			Log.d("datePicker", e.toString());
-		}
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            Log.d("datePicker", e.toString());
+        }
 
-		return formatted;
-	}
+        return formatted;
 
-	public String dateForDisplayFromCalendarInstance(Date unformatted) {
+    }
 
-		String formatted = null;
 
-		try {
+    public String dateStatMonth(String dateStatYear) {
 
-			formatted = sdf4Display.format(unformatted);
+        String formatted = null;
 
-			return formatted;
+        Date unformattedNew;
 
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			Log.d("datePicker", e.toString());
-		}
+        try {
 
-		return formatted;
-	}
+            unformattedNew = sdfStatMonthYear.parse(dateStatYear);
 
-	public Long dateForAlarmManager(String date) {
 
-		Long dateInMillis = null;
-		try {
-			dateInMillis = sdf4Db.parse(date).getTime();
-			return dateInMillis;
-		} catch (ParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+            formatted = sdfStatMonth.format(unformattedNew);
 
-		return dateInMillis;
+            return formatted;
 
-	}
+        } catch (Exception e) {
 
-	public Date returnDateObjectFromDbDateString(String endDate) {
-		// TODO Auto-generated method stub
+            e.printStackTrace();
+        }
 
-		Date neededDate;
-		try {
-			neededDate = sdf4Db.parse(endDate);
-			return neededDate;
-		} catch (ParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+        return formatted;
 
-		return null;
-	}
 
-	public Date returnDateObjectFromDisplayDateString(String displayDate) {
-		// TODO Auto-generated method stub
-		Date neededDate;
-		try {
-			neededDate = sdf4Display.parse(displayDate);
-			return neededDate;
-		} catch (ParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+    }
 
-		return null;
-	}
+    public String dateStatYear(String dateStatYear) {
 
-	public String addTheseDaysToDateAndReturnDbDate(int numberOfDays,
-			String displayDate) {
-		// TODO Auto-generated method stub
-		// display date is current date
+        String formatted = null;
 
-		Calendar c = Calendar.getInstance();
+        Date unformattedNew;
 
-		try {
-			Log.d("displayDate", displayDate);
-			Date dt = sdf4Display.parse(displayDate);
-			Log.d("dt", "" + dt);
+        try {
 
-			c.setTime(dt);
-			c.add(Calendar.DAY_OF_MONTH, numberOfDays);
+            unformattedNew = sdfStatMonthYear.parse(dateStatYear);
 
-			String dateNew = dateForDisplayFromCalendarInstance(c.getTime());
-			Log.d("dateNew", dateNew);
-			String nextDate = dateForDb(dateNew);
-			Log.d("nextDate", nextDate);
+            formatted = sdfStatYear.format(unformattedNew);
 
-			return nextDate;
-		} catch (ParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+            return formatted;
 
-		return null;
-	}
+        } catch (Exception e) {
 
-	public String returnAmountEditTextString(Long dbAmount) {
-		
-		if(dbAmount < 0 ){
-			
-			dbAmount = dbAmount * (-1);
-		}
+            e.printStackTrace();
+        }
 
-		BigDecimal bd = new BigDecimal(dbAmount);
+        return formatted;
 
-		Log.d("bdLong", "" + bd);
-		BigDecimal divisor = new BigDecimal(100);
 
-		bd = bd.divide(divisor, 2, RoundingMode.HALF_EVEN);
+    }
 
-		Log.d("bdAfterDivide", "" + bd);
-		String r = bd.toString();
 
-		return r;
+    public String dateForDisplay(String unformatted) {
 
-	}
-	
-	public Double valueConverterReturnDouble(Long dbValue) {
+        String formatted = null;
 
-		BigDecimal bd = new BigDecimal(dbValue);
+        Date unformattedNew;
+        try {
+            unformattedNew = sdf4Db.parse(unformatted);
 
-		Log.d("bdLong", "" + bd);
-		BigDecimal divisor = new BigDecimal(100);
+            formatted = sdf4Display.format(unformattedNew);
 
-		bd = bd.divide(divisor, 2, RoundingMode.HALF_EVEN);
+            return formatted;
 
-		Log.d("bdAfterDivide", "" + bd);
-		String r = bd.toString();
-		Log.d("r", "" + r);
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            Log.d("datePicker", e.toString());
+        }
 
-		final Double d = bd.doubleValue();
-		Log.d("d", "" + d);
-		
-		return d;
-		
-		
-	}
+        return formatted;
+    }
 
-	public Float valueConverterReturnFloat(Long dbValue) {
+    public String dateForDisplayNew(String unformatted) {
 
-		BigDecimal bd = new BigDecimal(dbValue);
+        String formatted = null;
 
-		Log.d("bdLong", "" + bd);
-		BigDecimal divisor = new BigDecimal(100);
+        Date unformattedNew;
+        try {
+            unformattedNew = sdf4Db.parse(unformatted);
 
-		bd = bd.divide(divisor, 2, RoundingMode.HALF_EVEN);
+            formatted = sdf4DisplayNew.format(unformattedNew);
 
-		Log.d("bdAfterDivide", "" + bd);
-		String r = bd.toString();
-		Log.d("r", "" + r);
+            return formatted;
 
-		final Float d = bd.floatValue();
-		Log.d("d", "" + d);
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+           // Log.d("datePicker", e.toString());
+        }
 
-		return d;
+        return formatted;
+    }
 
+    public String dateForStatUseFromDisplay(String unformatted) {
 
-	}
-	
-	public NumberFormat getNumberFormat() {
-		// TODO Auto-generated method stub
-		
-		
-		
-		mSharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
+        String formatted = null;
 
-		mLocaleCountryString = mSharedPrefs.getString("pref_default_country",
-				"US");
+        Date unformattedNew;
+        try {
+            unformattedNew = sdfDisplayStatMonthYear.parse(unformatted);
 
-		mCurrencyString = mSharedPrefs
-				.getString("pref_default_currency", "USD");
+            formatted = sdfStatMonthYear.format(unformattedNew);
 
-		mLocale = new Locale("", mLocaleCountryString);
+            return formatted;
 
-		mCurrency = Currency.getInstance(mCurrencyString);
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+           /// Log.d("datePicker", e.toString());
+        }
 
-		NumberFormat nf = NumberFormat.getCurrencyInstance(mLocale);
+        return formatted;
+    }
 
-		nf.setCurrency(mCurrency);
-		nf.setMaximumFractionDigits(mCurrency.getDefaultFractionDigits());
-		
-		return nf;
-		
-	}
-	
-public String returnAmountForCSVString(Long dbAmount) {
-		
-		
+    public String dateForDisplayFromCalendarInstance(Date unformatted) {
 
-		BigDecimal bd = new BigDecimal(dbAmount);
+        String formatted = null;
 
-		Log.d("bdLong", "" + bd);
-		BigDecimal divisor = new BigDecimal(100);
+        try {
 
-		bd = bd.divide(divisor, 2, RoundingMode.HALF_EVEN);
+            formatted = sdf4Display.format(unformatted);
 
-		Log.d("bdAfterDivide", "" + bd);
-		String r = bd.toString();
+            return formatted;
 
-		return r;
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            //	Log.d("datePicker", e.toString());
+        }
 
-	}
+        return formatted;
+    }
+
+    public String dateForStatDisplayFromCalendarInstance(Date unformatted) {
+
+        String formatted = null;
+
+        try {
+
+            formatted = sdfDisplayStatMonthYear.format(unformatted);
+
+            return formatted;
+
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            //	Log.d("datePicker", e.toString());
+        }
+
+        return formatted;
+    }
+
+    public String dateForStatistics(Date unformatted) {
+
+        String formatted = null;
+
+        try {
+
+            formatted = sdfStatMonthYear.format(unformatted);
+
+            return formatted;
+
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            //	Log.d("datePicker", e.toString());
+        }
+
+        return formatted;
+    }
+
+    public Long dateForAlarmManager(String date) {
+
+        Long dateInMillis = null;
+        try {
+            dateInMillis = sdf4Db.parse(date).getTime();
+            return dateInMillis;
+        } catch (ParseException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        return dateInMillis;
+
+    }
+
+    public Date returnDateObjectFromDbDateString(String endDate) {
+        // TODO Auto-generated method stub
+
+        Date neededDate;
+        try {
+            neededDate = sdf4Db.parse(endDate);
+            return neededDate;
+        } catch (ParseException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    public Date returnDateObjectFromDisplayDateString(String displayDate) {
+        // TODO Auto-generated method stub
+        Date neededDate;
+        try {
+            neededDate = sdf4Display.parse(displayDate);
+            return neededDate;
+        } catch (ParseException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    public String addTheseDaysToDateAndReturnDbDate(int numberOfDays,
+                                                    String displayDate) {
+        // TODO Auto-generated method stub
+        // display date is current date
+
+        Calendar c = Calendar.getInstance();
+
+        try {
+            Log.d("displayDate", displayDate);
+            Date dt = sdf4Display.parse(displayDate);
+            Log.d("dt", "" + dt);
+
+            c.setTime(dt);
+            c.add(Calendar.DAY_OF_MONTH, numberOfDays);
+
+            String dateNew = dateForDisplayFromCalendarInstance(c.getTime());
+            Log.d("dateNew", dateNew);
+            String nextDate = dateForDb(dateNew);
+            Log.d("nextDate", nextDate);
+
+            return nextDate;
+        } catch (ParseException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    public String returnAmountEditTextString(Long dbAmount) {
+
+        if (dbAmount < 0) {
+
+            dbAmount = dbAmount * (-1);
+        }
+
+        BigDecimal bd = new BigDecimal(dbAmount);
+
+        Log.d("bdLong", "" + bd);
+        BigDecimal divisor = new BigDecimal(100);
+
+        bd = bd.divide(divisor, 2, RoundingMode.HALF_EVEN);
+
+        Log.d("bdAfterDivide", "" + bd);
+        String r = bd.toString();
+
+        return r;
+
+    }
+
+    public Double valueConverterReturnDouble(Long dbValue) {
+
+        BigDecimal bd = new BigDecimal(dbValue);
+
+        Log.d("bdLong", "" + bd);
+        BigDecimal divisor = new BigDecimal(100);
+
+        bd = bd.divide(divisor, 2, RoundingMode.HALF_EVEN);
+
+        Log.d("bdAfterDivide", "" + bd);
+        String r = bd.toString();
+        Log.d("r", "" + r);
+
+        final Double d = bd.doubleValue();
+        Log.d("d", "" + d);
+
+        return d;
+
+
+    }
+
+    public Float valueConverterReturnFloat(Long dbValue) {
+
+        BigDecimal bd = new BigDecimal(dbValue);
+
+        Log.d("bdLong", "" + bd);
+        BigDecimal divisor = new BigDecimal(100);
+
+        bd = bd.divide(divisor, 2, RoundingMode.HALF_EVEN);
+
+        Log.d("bdAfterDivide", "" + bd);
+        String r = bd.toString();
+        Log.d("r", "" + r);
+
+        final Float d = bd.floatValue();
+        Log.d("d", "" + d);
+
+        return d;
+
+
+    }
+
+    public NumberFormat getNumberFormat() {
+        // TODO Auto-generated method stub
+
+
+        mSharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
+
+        mLocaleCountryString = mSharedPrefs.getString("pref_default_country",
+                "US");
+
+        mCurrencyString = mSharedPrefs
+                .getString("pref_default_currency", "USD");
+
+        mLocale = new Locale("", mLocaleCountryString);
+
+        mCurrency = Currency.getInstance(mCurrencyString);
+
+        NumberFormat nf = NumberFormat.getCurrencyInstance(mLocale);
+
+        nf.setCurrency(mCurrency);
+        nf.setMaximumFractionDigits(mCurrency.getDefaultFractionDigits());
+
+        return nf;
+
+    }
+
+    public String returnAmountForCSVString(Long dbAmount) {
+
+
+        BigDecimal bd = new BigDecimal(dbAmount);
+
+        Log.d("bdLong", "" + bd);
+        BigDecimal divisor = new BigDecimal(100);
+
+        bd = bd.divide(divisor, 2, RoundingMode.HALF_EVEN);
+
+        Log.d("bdAfterDivide", "" + bd);
+        String r = bd.toString();
+
+        return r;
+
+    }
+
+    public String statAddOneMonth(String dateStatDisplay) {
+
+
+        String dateNew = null;
+
+        Calendar c = Calendar.getInstance();
+
+
+        try {
+
+            Date dt = sdfDisplayStatMonthYear.parse(dateStatDisplay);
+            Log.d("dt", "" + dt);
+
+            c.setTime(dt);
+            c.add(Calendar.MONTH, 1);
+
+
+
+            dateNew = dateForStatDisplayFromCalendarInstance(c.getTime());
+            //Log.d("dateNew", dateNew);
+            // String nextDate = dateForDb(dateNew);
+            //	Log.d("nextDate", nextDate);
+
+            return dateNew;
+
+        } catch (Exception e) {
+
+            e.printStackTrace();
+        }
+
+
+        return dateNew;
+    }
+
+
+    public String statSubtractOneMonth(String dateStatDisplay) {
+
+
+        String dateNew = null;
+
+        Calendar c = Calendar.getInstance();
+
+
+        try {
+
+            Date dt = sdfDisplayStatMonthYear.parse(dateStatDisplay);
+            Log.d("dt", "" + dt);
+
+            c.setTime(dt);
+            c.add(Calendar.MONTH, -1);
+
+
+
+            dateNew = dateForStatDisplayFromCalendarInstance(c.getTime());
+            //Log.d("dateNew", dateNew);
+            // String nextDate = dateForDb(dateNew);
+            //	Log.d("nextDate", nextDate);
+
+            return dateNew;
+
+        } catch (Exception e) {
+
+            e.printStackTrace();
+        }
+
+
+        return dateNew;
+    }
+
 
 }

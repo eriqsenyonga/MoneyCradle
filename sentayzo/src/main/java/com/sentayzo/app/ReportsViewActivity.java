@@ -2338,7 +2338,7 @@ public class ReportsViewActivity extends AppCompatActivity implements
 
 		graphTypeSpinner.setAdapter(graphTypeAdapter);
 
-		// populate period spinner
+		// populate periodType spinner
 
 		periodAdapter = new ArrayAdapter<String>(this,
 				android.R.layout.simple_spinner_item, period);
@@ -2348,7 +2348,7 @@ public class ReportsViewActivity extends AppCompatActivity implements
 
 		periodSpinner.setAdapter(periodAdapter);
 
-		// populate expense or Income Both spinner
+		// populate expense or Inme Both spinner
 
 		expenseOrIncomeBothAdapter = new ArrayAdapter<String>(this,
 				android.R.layout.simple_spinner_item, expenseOrIncomeBoth);

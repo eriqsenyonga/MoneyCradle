@@ -317,7 +317,7 @@
     <string name="tot_income">Total Income</string>
     <string name="over_time">Over Time</string>
     <string name="tot_expenses">Total Expenses</string>
-    <string name="income_vs_expenses">INCOME VS EXPENSES</string>
+    <string name="income_vs_expenses">Income vs Expenses</string>
     <string name="payment_dialog_message">Your full version free trial period expired. Some features are only available in the full version.</string>
     <string name="unlock_all_features">Would you like to unlock these features</string>
     <string name="help_title_one">How To Use Money Cradle</string>
@@ -662,4 +662,9 @@
     <string name="maxed_out_status">Maxed out</string>
     <string name="payeee_name">Payee Name</string>
     <string name="edit_payee">Edit Payee</string>
+    <string name="statistics">Statistics</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="custom">Custom</string>
+    <string name="stats">Stats</string>
 </resources>

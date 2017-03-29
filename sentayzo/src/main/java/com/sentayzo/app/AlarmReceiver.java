@@ -37,7 +37,7 @@ public class AlarmReceiver extends BroadcastReceiver {
 
 
 		if (i.hasExtra("end_of_free_period")) {
-			// if the alarm is ending the free trial period
+			// if the alarm is ending the free trial periodType
 			
 		
 
@@ -48,7 +48,7 @@ public class AlarmReceiver extends BroadcastReceiver {
 			if (billingPrefs.getBoolean("already_executed_end_free_period",
 					false) == false) {
 
-				// first record that the free trial period is done
+				// first record that the free trial periodType is done
 				editor.putBoolean("KEY_FREE_TRIAL_PERIOD", false).commit();
 
 				// remove extra accounts

@@ -145,6 +145,7 @@
     <orderEntry type="library" exported="" name="firebase-analytics-10.2.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-tasks-10.2.0" level="project" />
     <orderEntry type="library" exported="" name="ImagePicker-1.0.5" level="project" />
+    <orderEntry type="library" exported="" name="constraint-layout-1.0.2" level="project" />
     <orderEntry type="library" exported="" name="design-25.3.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-base-10.2.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-identity-10.2.0" level="project" />
@@ -165,6 +166,7 @@
     <orderEntry type="library" exported="" name="firebase-storage-10.2.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-ads-10.2.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-tagmanager-api-10.2.0" level="project" />
+    <orderEntry type="library" exported="" name="constraint-layout-solver-1.0.2" level="project" />
     <orderEntry type="library" exported="" name="achartengine-1.1.0" level="project" />
     <orderEntry type="library" exported="" name="firebase-messaging-10.2.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-tagmanager-10.2.0" level="project" />

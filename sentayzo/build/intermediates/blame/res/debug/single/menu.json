@@ -104,6 +104,10 @@
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\menu\\financial_statement.xml"
     },
     {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\menu\\period_filter_menu.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\menu\\period_filter_menu.xml"
+    },
+    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\menu\\view_account_history.xml",
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\menu\\view_account_history.xml"
     },

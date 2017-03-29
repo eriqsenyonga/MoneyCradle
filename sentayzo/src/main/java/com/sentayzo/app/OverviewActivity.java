@@ -13,8 +13,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
@@ -23,20 +21,20 @@ import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
+import com.github.mikephil.charting.formatter.PercentFormatter;
 import com.github.mikephil.charting.utils.ColorTemplate;
-import com.github.mikephil.charting.utils.MPPointF;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 import com.nineoldandroids.animation.ValueAnimator;
 
 import java.util.ArrayList;
 
-public class OverviewActivity extends AppCompatActivity {
+public class OverviewActivity extends AppCompatActivity implements View.OnClickListener {
 
     RecyclerView txList;
     TransactionRecyclerAdapter adapter;
     TxListInteraction txListInteraction;
-    TextView tvViewAllTx;
+    TextView tvViewAllTx, tvViewMoreStats;
     Toolbar toolBar;
     TextView tv_totalAmount_in, tv_totalAmount_out, tv_balanceAmount;
     static Long idOfEntity; // this is the id of the account/project/category/payee to be viewed in overview
@@ -105,6 +103,7 @@ public class OverviewActivity extends AppCompatActivity {
 
         mCC = new ConversionClass(this);
 
+        tvViewMoreStats = (TextView) findViewById(R.id.tv_more_stats);
         tv_totalAmount_in = (TextView) findViewById(R.id.tv_total_in);
         tv_totalAmount_out = (TextView) findViewById(R.id.tv_total_out);
         tv_balanceAmount = (TextView) findViewById(R.id.tv_balance_amount);
@@ -118,29 +117,25 @@ public class OverviewActivity extends AppCompatActivity {
 
         pieChart = (PieChart) findViewById(R.id.pc_overview);
         pieChart.setRotationEnabled(true);
-        pieChart.setHoleRadius(58f);
+        pieChart.setHoleRadius(40f);
         pieChart.setUsePercentValues(true);
 
         pieChart.getDescription().setEnabled(false);
         pieChart.setEntryLabelTypeface(robotoMedium);
+        pieChart.setDrawEntryLabels(false);
+        pieChart.setTransparentCircleRadius(45f);
+        pieChart.setTransparentCircleAlpha(110);
+        pieChart.setTransparentCircleColor(Color.WHITE);
 
 
         setValuesForTextViews();
         tvViewAllTx = (TextView) findViewById(R.id.tv_view_all_tx);
 
-        tvViewAllTx.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        tvViewAllTx.setOnClickListener(this);
 
-                Intent i = new Intent(OverviewActivity.this,
-                        TransactionHistoryActivity.class);
-                i.putExtra("Id", idOfEntity);
-                i.putExtra("whichOverview", whichOverview);
-                startActivity(i);
-            }
-        });
+        tvViewMoreStats.setOnClickListener(this);
 
-        txList = (RecyclerView) findViewById(R.id.rv_tx_list);
+        txList = (RecyclerView) findViewById(R.id.recycler_view);
 
         txListInteraction = new TxListInteraction(this, TxListInteraction.ACCOUNT_TRANSACTIONS);
 
@@ -204,13 +199,15 @@ public class OverviewActivity extends AppCompatActivity {
         colors.add(ContextCompat.getColor(OverviewActivity.this, R.color.graph_red));
         colors.add(ContextCompat.getColor(OverviewActivity.this, R.color.graph_green));
 
-        PieDataSet dataSet = new PieDataSet(yEntries, "Amount");
+        PieDataSet dataSet = new PieDataSet(yEntries, "Income vs Expense");
         dataSet.setSliceSpace(2);
 
         //dataSet.setColors(ColorTemplate.MATERIAL_COLORS);
         dataSet.setColors(colors);
 
         PieData pieData = new PieData(dataSet);
+        pieData.setValueFormatter(new PercentFormatter());
+        pieData.setValueTextSize(11f);
         pieChart.setData(pieData);
         pieChart.animateY(1400, Easing.EasingOption.EaseInOutQuad);
         pieChart.invalidate();
@@ -271,4 +268,30 @@ public class OverviewActivity extends AppCompatActivity {
     }
 
 
+    @Override
+    public void onClick(View v) {
+
+        if (v == tvViewMoreStats) {
+
+            Intent i = new Intent(OverviewActivity.this, StatisticsActivity.class);
+            i.putExtra("singleEntity", true);
+            i.putExtra("Id", idOfEntity);
+            i.putExtra("whichOverview", whichOverview);
+
+            startActivity(i);
+
+
+        }
+
+        if (v == tvViewAllTx) {
+
+            Intent i = new Intent(OverviewActivity.this,
+                    TransactionHistoryActivity.class);
+            i.putExtra("Id", idOfEntity);
+            i.putExtra("whichOverview", whichOverview);
+            startActivity(i);
+
+
+        }
+    }
 }

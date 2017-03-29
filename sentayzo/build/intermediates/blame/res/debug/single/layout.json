@@ -108,6 +108,10 @@
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\reports_fragment.xml"
     },
     {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\row_stat_header.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\row_stat_header.xml"
+    },
+    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\custom_tab_title.xml",
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\custom_tab_title.xml"
     },
@@ -220,6 +224,10 @@
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\content_temp_activity.xml"
     },
     {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_inc_expense.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\fragment_inc_expense.xml"
+    },
+    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\505f2279d0853c10e4703a07178e838f8478bec6\\output\\res\\layout\\design_layout_tab_text.xml"
     },
@@ -294,6 +302,10 @@
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_transaction.xml",
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\activity_new_transaction.xml"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_statistics.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\activity_statistics.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
@@ -400,6 +412,10 @@
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\spinner_row_credit_issuers.xml"
     },
     {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\view_pager.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\view_pager.xml"
+    },
+    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\layout\\abc_screen_content_include.xml"
     },
@@ -440,8 +456,16 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\505f2279d0853c10e4703a07178e838f8478bec6\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_stat_category.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\fragment_stat_category.xml"
+    },
+    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\a77aae57dde695bf9287affebab97c34dd17e27c\\output\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\row_stat_item.xml",
+        "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\layout\\row_stat_item.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_material.xml",

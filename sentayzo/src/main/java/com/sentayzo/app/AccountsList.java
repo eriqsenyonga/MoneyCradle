@@ -20,9 +20,6 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
-import com.getkeepsafe.taptargetview.TapTarget;
-import com.getkeepsafe.taptargetview.TapTargetView;
-
 import net.i2p.android.ext.floatingactionbutton.FloatingActionButton;
 import net.i2p.android.ext.floatingactionbutton.FloatingActionsMenu;
 
@@ -61,7 +58,7 @@ public class AccountsList extends Fragment {
                 false);
 
         tv_totalAmount = (TextView) rootView.findViewById(R.id.tv_totalView);
-        rvAccounts = (RecyclerView) rootView.findViewById(R.id.rv_tx_list);
+        rvAccounts = (RecyclerView) rootView.findViewById(R.id.recycler_view);
 
         return rootView;
     }

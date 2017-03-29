@@ -259,6 +259,9 @@
                 android:value=".OverviewActivity" />
         </activity>
         <activity
+            android:name="com.sentayzo.app.StatisticsActivity"
+            android:label="@string/statistics" />
+        <activity
             android:name="com.google.android.gms.appinvite.PreviewActivity"
             android:exported="true"
             android:theme="@style/Theme.AppInvite.Preview" >

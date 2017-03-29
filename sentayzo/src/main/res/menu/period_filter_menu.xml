@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menu_month"
+        android:checked="true"
+        android:title="@string/month" />
+    <item
+        android:id="@+id/menu_year"
+        android:title="@string/year" />
+    <item
+        android:id="@+id/menu_custom"
+        android:title="@string/custom" />
+
+
+</menu>

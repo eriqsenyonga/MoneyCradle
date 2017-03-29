@@ -45,7 +45,7 @@ public class TransactionListFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_transaction_list,
                 container, false);
 
-        txList = (RecyclerView) view.findViewById(R.id.rv_tx_list);
+        txList = (RecyclerView) view.findViewById(R.id.recycler_view);
 
         tv_totalAmount = (TextView) view.findViewById(R.id.tv_totalView);
         return view;

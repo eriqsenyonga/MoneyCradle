@@ -43,11 +43,8 @@ public class TransactionHistoryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transaction_history);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.app_bar);
-        setSupportActionBar(toolbar);
 
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         toolBar = (Toolbar) findViewById(R.id.app_bar);
         setSupportActionBar(toolBar);
@@ -123,7 +120,7 @@ public class TransactionHistoryActivity extends AppCompatActivity {
 
         mCC = new ConversionClass(this);
 
-        txList = (RecyclerView) findViewById(R.id.rv_tx_list);
+        txList = (RecyclerView) findViewById(R.id.recycler_view);
 
         txListInteraction = new TxListInteraction(this, TxListInteraction.ACCOUNT_TRANSACTIONS);
 

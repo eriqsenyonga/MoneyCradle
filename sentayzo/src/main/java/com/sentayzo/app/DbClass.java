@@ -7111,4 +7111,239 @@ public class DbClass {
     }
 
 
+    public Cursor getExpenseCategoryTotals(int periodType, String specificPeriod) {
+
+
+        ConversionClass mCC = new ConversionClass(ourContext);
+
+        String month = mCC.dateStatMonth(specificPeriod);
+        String year = mCC.dateStatYear(specificPeriod);
+        String whereClausePeriod = null;
+
+
+        if (periodType == StatisticsActivity.PERIOD_MONTH) {
+
+            whereClausePeriod = " strftime('%m', `" + KEY_TRANSACTION_DATE + "`) = '" + month + "'  AND strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
+
+
+        } else if (periodType == StatisticsActivity.PERIOD_YEAR) {
+
+
+            whereClausePeriod = " strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
+
+
+        }
+
+
+        String sql = "SELECT  " + DATABASE_TABLE_CATEGORY + "." + KEY_CATEGORY_ID + ", "
+
+
+                + DATABASE_TABLE_CATEGORY + "."
+                + KEY_CATEGORY_NAME + ", " + " SUM( CASE WHEN "
+                + DATABASE_TABLE_TRANSACTION + "." + KEY_TRANSACTION_AMOUNT
+                + " < 0 THEN " + DATABASE_TABLE_TRANSACTION + "."
+                + KEY_TRANSACTION_AMOUNT + " ELSE 0 END) AS totalExpense"
+                + " FROM "
+                + DATABASE_TABLE_TRANSACTION + " INNER JOIN "
+                + DATABASE_TABLE_CATEGORY + " ON " + DATABASE_TABLE_TRANSACTION
+                + "." + KEY_TRANSACTION_CATEGORY_ID + " = "
+                + DATABASE_TABLE_CATEGORY + "." + KEY_CATEGORY_ID
+                + " WHERE " + DATABASE_TABLE_TRANSACTION + "." + KEY_TRANSACTION_AMOUNT + " < 0"
+                + " AND "
+                + whereClausePeriod
+                + " GROUP BY " + DATABASE_TABLE_CATEGORY + "."
+                + KEY_CATEGORY_NAME
+                + " ORDER BY totalExpense";
+
+        open();
+
+        return ourDatabase.rawQuery(sql, null);
+
+
+    }
+
+
+    public Cursor getExpenseCategoryTotals(int periodType, String specificPeriod, int whichOverview, Long idOfEntity) {
+
+
+        ConversionClass mCC = new ConversionClass(ourContext);
+
+        String month = mCC.dateStatMonth(specificPeriod);
+        String year = mCC.dateStatYear(specificPeriod);
+        String whereClausePeriod = null;
+        String whereClauseEntity = null;
+
+
+        if (periodType == StatisticsActivity.PERIOD_MONTH) {
+
+            whereClausePeriod = " strftime('%m', `" + KEY_TRANSACTION_DATE + "`) = '" + month + "'  AND strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
+
+
+        } else if (periodType == StatisticsActivity.PERIOD_YEAR) {
+
+
+            whereClausePeriod = " strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
+
+
+        }
+
+
+        if (whichOverview == OverviewActivity.KEY_ACCOUNT_OVERVIEW) {
+
+            whereClauseEntity = KEY_TRANSACTION_ACCOUNT_ID + " = " + idOfEntity;
+        } else if (whichOverview == OverviewActivity.KEY_PROJECT_OVERVIEW) {
+
+            whereClauseEntity = KEY_TRANSACTION_PROJECT_ID + " = " + idOfEntity;
+        }
+
+
+        String sql = "SELECT  " + DATABASE_TABLE_CATEGORY + "." + KEY_CATEGORY_ID + ", "
+
+
+                + DATABASE_TABLE_CATEGORY + "."
+                + KEY_CATEGORY_NAME + ", " + " SUM( CASE WHEN "
+                + DATABASE_TABLE_TRANSACTION + "." + KEY_TRANSACTION_AMOUNT
+                + " < 0 THEN " + DATABASE_TABLE_TRANSACTION + "."
+                + KEY_TRANSACTION_AMOUNT + " ELSE 0 END) AS totalExpense"
+                + " FROM "
+                + DATABASE_TABLE_TRANSACTION + " INNER JOIN "
+                + DATABASE_TABLE_CATEGORY + " ON " + DATABASE_TABLE_TRANSACTION
+                + "." + KEY_TRANSACTION_CATEGORY_ID + " = "
+                + DATABASE_TABLE_CATEGORY + "." + KEY_CATEGORY_ID
+                + " WHERE " + DATABASE_TABLE_TRANSACTION + "." + KEY_TRANSACTION_AMOUNT + " < 0"
+                + " AND "
+                + whereClausePeriod
+                + " AND "
+                + whereClauseEntity
+                + " GROUP BY " + DATABASE_TABLE_CATEGORY + "."
+                + KEY_CATEGORY_NAME
+                + " ORDER BY totalExpense";
+
+        open();
+
+        return ourDatabase.rawQuery(sql, null);
+
+
+    }
+
+    public Cursor getIncomeCategoryTotals(int periodType, String specificPeriod) {
+
+        ConversionClass mCC = new ConversionClass(ourContext);
+
+        String month = mCC.dateStatMonth(specificPeriod);
+        String year = mCC.dateStatYear(specificPeriod);
+        String whereClausePeriod = null;
+
+
+        if (periodType == StatisticsActivity.PERIOD_MONTH) {
+
+            whereClausePeriod = " strftime('%m', `" + KEY_TRANSACTION_DATE + "`) = '" + month + "'  AND strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
+
+
+        } else if (periodType == StatisticsActivity.PERIOD_YEAR) {
+
+
+            whereClausePeriod = " strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
+
+
+        }
+
+
+        String sql = "SELECT  " + DATABASE_TABLE_CATEGORY + "." + KEY_CATEGORY_ID + ", "
+
+
+                + DATABASE_TABLE_CATEGORY + "."
+                + KEY_CATEGORY_NAME + ", " + " SUM( CASE WHEN "
+                + DATABASE_TABLE_TRANSACTION + "." + KEY_TRANSACTION_AMOUNT
+                + " > 0 THEN " + DATABASE_TABLE_TRANSACTION + "."
+                + KEY_TRANSACTION_AMOUNT + " ELSE 0 END) AS totalExpense"
+                + " FROM "
+                + DATABASE_TABLE_TRANSACTION + " INNER JOIN "
+                + DATABASE_TABLE_CATEGORY + " ON " + DATABASE_TABLE_TRANSACTION
+                + "." + KEY_TRANSACTION_CATEGORY_ID + " = "
+                + DATABASE_TABLE_CATEGORY + "." + KEY_CATEGORY_ID
+                + " WHERE " + DATABASE_TABLE_TRANSACTION + "." + KEY_TRANSACTION_AMOUNT + " > 0"
+
+                + " AND "
+                //   WHERE strftime('%m', `date column`) = '04'
+
+                + whereClausePeriod
+
+                + " GROUP BY " + DATABASE_TABLE_CATEGORY + "."
+                + KEY_CATEGORY_NAME
+                + " ORDER BY totalExpense DESC";
+
+        open();
+
+        return ourDatabase.rawQuery(sql, null);
+
+
+    }
+
+    public Cursor getIncomeCategoryTotals(int periodType, String specificPeriod, int whichOverview, Long idOfEntity) {
+
+        ConversionClass mCC = new ConversionClass(ourContext);
+
+        String month = mCC.dateStatMonth(specificPeriod);
+        String year = mCC.dateStatYear(specificPeriod);
+        String whereClausePeriod = null;
+        String whereClauseEntity = null;
+
+
+        if (periodType == StatisticsActivity.PERIOD_MONTH) {
+
+            whereClausePeriod = " strftime('%m', `" + KEY_TRANSACTION_DATE + "`) = '" + month + "'  AND strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
+
+
+        } else if (periodType == StatisticsActivity.PERIOD_YEAR) {
+
+
+            whereClausePeriod = " strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
+
+
+        }
+
+        if (whichOverview == OverviewActivity.KEY_ACCOUNT_OVERVIEW) {
+
+            whereClauseEntity = KEY_TRANSACTION_ACCOUNT_ID + " = " + idOfEntity;
+        } else if (whichOverview == OverviewActivity.KEY_PROJECT_OVERVIEW) {
+
+            whereClauseEntity = KEY_TRANSACTION_PROJECT_ID + " = " + idOfEntity;
+        }
+
+
+        String sql = "SELECT  " + DATABASE_TABLE_CATEGORY + "." + KEY_CATEGORY_ID + ", "
+
+
+                + DATABASE_TABLE_CATEGORY + "."
+                + KEY_CATEGORY_NAME + ", " + " SUM( CASE WHEN "
+                + DATABASE_TABLE_TRANSACTION + "." + KEY_TRANSACTION_AMOUNT
+                + " > 0 THEN " + DATABASE_TABLE_TRANSACTION + "."
+                + KEY_TRANSACTION_AMOUNT + " ELSE 0 END) AS totalExpense"
+                + " FROM "
+                + DATABASE_TABLE_TRANSACTION + " INNER JOIN "
+                + DATABASE_TABLE_CATEGORY + " ON " + DATABASE_TABLE_TRANSACTION
+                + "." + KEY_TRANSACTION_CATEGORY_ID + " = "
+                + DATABASE_TABLE_CATEGORY + "." + KEY_CATEGORY_ID
+                + " WHERE " + DATABASE_TABLE_TRANSACTION + "." + KEY_TRANSACTION_AMOUNT + " > 0"
+
+                + " AND "
+                //   WHERE strftime('%m', `date column`) = '04'
+
+                + whereClausePeriod
+                + " AND "
+                + whereClauseEntity
+
+                + " GROUP BY " + DATABASE_TABLE_CATEGORY + "."
+                + KEY_CATEGORY_NAME
+                + " ORDER BY totalExpense DESC";
+
+        open();
+
+        return ourDatabase.rawQuery(sql, null);
+
+
+    }
+
+
 }

@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_close_dark.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\a8d5e913922faa3a770fdae5d503cacd33763173\\output\\res\\drawable\\mr_dialog_close_dark.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_light.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_media_route_on_light.xml"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_close_dark.xml",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\a8d5e913922faa3a770fdae5d503cacd33763173\\output\\res\\drawable\\mr_dialog_close_dark.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\background_splash.xml",
