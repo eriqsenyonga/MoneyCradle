@@ -7,6 +7,15 @@
             android:checked="true"
             android:icon="@drawable/ic_drawer_home"
             android:title="@string/home" />
+
+
+        <item
+            android:id="@+id/navigation_item_statistics"
+            android:checked="true"
+            android:icon="@drawable/ic_pie_chart"
+            android:title="@string/statistics" />
+
+
         <item
             android:id="@+id/navigation_item_scheduled"
             android:icon="@drawable/ic_drawer_scheduled"

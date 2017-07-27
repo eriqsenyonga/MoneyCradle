@@ -175,8 +175,31 @@ public class StatsRecyclerAdapter extends CursorRecyclerAdapterWithHeader<Recycl
                 colors.add(c);
 
 
+            ArrayList<Integer> colors2 = new ArrayList<Integer>();
+
+
+            for (int c : ColorTemplate.MATERIAL_COLORS)
+                colors2.add(c);
+
+            for (int c : ColorTemplate.COLORFUL_COLORS)
+                colors2.add(c);
+
+            for (int c : ColorTemplate.VORDIPLOM_COLORS)
+                colors2.add(c);
+
+            for (int c : ColorTemplate.JOYFUL_COLORS)
+                colors2.add(c);
+
+
+            for (int c : ColorTemplate.LIBERTY_COLORS)
+                colors2.add(c);
+
+            for (int c : ColorTemplate.PASTEL_COLORS)
+                colors2.add(c);
+
+
             if (whichStatCategory == StatPagerAdapter.INCOME) {
-                dataSet.setColors(ColorTemplate.MATERIAL_COLORS);
+                dataSet.setColors(colors2);
             } else if (whichStatCategory == StatPagerAdapter.EXPENSES) {
                 dataSet.setColors(colors);
             }

@@ -4,10 +4,6 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_light.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_media_route_on_light.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_close_dark.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\a8d5e913922faa3a770fdae5d503cacd33763173\\output\\res\\drawable\\mr_dialog_close_dark.xml"
     },
@@ -28,24 +24,12 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\folder_placeholder.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\6c98be18d75fa9ef21d2800fc5aadf3c1dfdfcd5\\output\\res\\drawable\\folder_placeholder.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\505f2279d0853c10e4703a07178e838f8478bec6\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\image_placeholder.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\6c98be18d75fa9ef21d2800fc5aadf3c1dfdfcd5\\output\\res\\drawable\\image_placeholder.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_audiotrack_light.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_audiotrack_light.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
@@ -112,10 +96,6 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\505f2279d0853c10e4703a07178e838f8478bec6\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_light.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_media_route_connecting_light.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_person_black_24dp.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\2705397380f135617d8414e07bd3a1e5ed022aca\\output\\res\\drawable\\ic_person_black_24dp.xml"
     },
@@ -164,16 +144,8 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\c97a5ac6f9b8b0d61a2966b63f72628c8d952d69\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_dark.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_media_route_connecting_dark.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_pause.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable\\cast_ic_expanded_controller_pause.xml"
-    },
-    {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_light.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_play_light.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\calc.png",
@@ -224,24 +196,12 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\c97a5ac6f9b8b0d61a2966b63f72628c8d952d69\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collapse.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\ic_collapse.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_dark.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_cast_dark.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\ic_expand.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_previous.xml",
@@ -340,28 +300,20 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\2705397380f135617d8414e07bd3a1e5ed022aca\\output\\res\\drawable\\ic_checkbox_circle_unchecked.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_media_pause_dark.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\a8d5e913922faa3a770fdae5d503cacd33763173\\output\\res\\drawable\\mr_media_pause_dark.xml"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_mute.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable\\cast_ic_mini_controller_mute.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_chevron_right_black_24dp.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\2705397380f135617d8414e07bd3a1e5ed022aca\\output\\res\\drawable\\ic_chevron_right_black_24dp.xml"
-    },
-    {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_pause_dark.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
@@ -384,16 +336,8 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable\\cast_ic_notification_forward30.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_light.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_close_light.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_close_light.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\a8d5e913922faa3a770fdae5d503cacd33763173\\output\\res\\drawable\\mr_dialog_close_light.xml"
-    },
-    {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_dark.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_media_route_on_dark.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_button_connecting_dark.xml",
@@ -436,10 +380,6 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_dark.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_close_dark.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
@@ -454,10 +394,6 @@
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_play_dark.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
@@ -498,10 +434,6 @@
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_cast_light.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
@@ -572,12 +504,12 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\a8d5e913922faa3a770fdae5d503cacd33763173\\output\\res\\drawable\\mr_dialog_material_background_light.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_closed_caption.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable\\cast_ic_mini_controller_closed_caption.xml"
+    },
+    {
+        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_settings_black_24dp.xml",
@@ -596,20 +528,12 @@
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_light.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_media_route_mono_light.xml"
-    },
-    {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_rewind30.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\023a29542041468217c90c7db1feef67a767a787\\output\\res\\drawable\\cast_ic_expanded_controller_rewind30.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\Eric\\.android\\build-cache\\5a0df2291a469d3406ba92ecf3523debbce3250c\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_light.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\063e3606000a3d6d59d0d95d2844f7196b7e5b5e\\output\\res\\drawable\\mr_ic_pause_light.xml"
     },
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind10.xml",

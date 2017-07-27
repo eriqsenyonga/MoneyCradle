@@ -87,7 +87,6 @@ public class StatisticsActivity extends AppCompatActivity implements View.OnClic
         }
         viewPager.setAdapter(adapter);
 
-
         tabLayout.setupWithViewPager(viewPager);
 
         viewPager.setOffscreenPageLimit(2);
@@ -118,12 +117,21 @@ public class StatisticsActivity extends AppCompatActivity implements View.OnClic
 
                     //TODO ADD WHAT HAPPENS ON MONTH
                     Toast.makeText(StatisticsActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
+
+                    currentPeriodType = PERIOD_MONTH;
+                    tvCurrentPeriod.setText(mCC.dateForStatDisplayFromCalendarInstance(c.getTime()));
+                    updateFragmentsInViewPager();
+
                     return true;
 
                 } else if (itemId == R.id.menu_year) {
 
                     //TODO ADD WHAT HAPPENS ON YEAR
                     Toast.makeText(StatisticsActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
+
+                    currentPeriodType = PERIOD_YEAR;
+                    tvCurrentPeriod.setText(mCC.dateYearForStatDisplayFromCalendarInstance(c.getTime()));
+                    updateFragmentsInViewPager();
                     return true;
 
                 } else if (itemId == R.id.menu_custom) {
@@ -173,20 +181,16 @@ public class StatisticsActivity extends AppCompatActivity implements View.OnClic
 
                 tvCurrentPeriod.setText(newStatDisplayDate);
 
-                //  StatCategoryFragment page1 = (StatCategoryFragment) adapter.getItem(0);
-                //  StatCategoryFragment page2 = (StatCategoryFragment) adapter.getItem(1);
-
-                StatCategoryFragment page1 = (StatCategoryFragment) getSupportFragmentManager().getFragments().get(0);
-                StatCategoryFragment page2 = (StatCategoryFragment) getSupportFragmentManager().getFragments().get(1);
-
-                page1.periodChanged(currentPeriodType, tvCurrentPeriod.getText().toString(), "", "");
-                page2.periodChanged(currentPeriodType, tvCurrentPeriod.getText().toString(), "", "");
-
 
             } else if (currentPeriodType == PERIOD_YEAR) {
 
+                String newStatDisplayDate = mCC.statAddOneYear(tvCurrentPeriod.getText().toString());
 
+                tvCurrentPeriod.setText(newStatDisplayDate);
             }
+
+
+            updateFragmentsInViewPager();
 
 
         }
@@ -205,20 +209,30 @@ public class StatisticsActivity extends AppCompatActivity implements View.OnClic
                 //  StatCategoryFragment page1 = (StatCategoryFragment) adapter.getItem(0);
                 //  StatCategoryFragment page2 = (StatCategoryFragment) adapter.getItem(1);
 
-                StatCategoryFragment page1 = (StatCategoryFragment) getSupportFragmentManager().getFragments().get(0);
-                StatCategoryFragment page2 = (StatCategoryFragment) getSupportFragmentManager().getFragments().get(1);
-
-                page1.periodChanged(currentPeriodType, tvCurrentPeriod.getText().toString(), "", "");
-                page2.periodChanged(currentPeriodType, tvCurrentPeriod.getText().toString(), "", "");
-
 
             } else if (currentPeriodType == PERIOD_YEAR) {
 
+                String newStatDisplayDate = mCC.statSubtractOneYear(tvCurrentPeriod.getText().toString());
 
+                tvCurrentPeriod.setText(newStatDisplayDate);
             }
+
+            updateFragmentsInViewPager();
 
 
         }
+
+
+    }
+
+
+    public void updateFragmentsInViewPager() {
+
+        StatCategoryFragment page1 = (StatCategoryFragment) getSupportFragmentManager().getFragments().get(0);
+        StatCategoryFragment page2 = (StatCategoryFragment) getSupportFragmentManager().getFragments().get(1);
+
+        page1.periodChanged(currentPeriodType, tvCurrentPeriod.getText().toString(), "", "");
+        page2.periodChanged(currentPeriodType, tvCurrentPeriod.getText().toString(), "", "");
 
 
     }

@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -16,6 +17,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -43,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     SharedPreferences.Editor editor, billingEditor, posSavedEditor;
     private InterstitialAd interstitial;
     NavigationView navigationView;
-
+ConversionClass mCC;
     FloatingActionsMenu fam;
     FloatingActionButton fabNewAccount;
     FloatingActionButton fabNewTrn;
@@ -56,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mDbClass = new DbClass(this);
+        mCC = new ConversionClass(this);
 
         toolBar = (Toolbar) findViewById(R.id.app_bar);
         setSupportActionBar(toolBar);
@@ -97,6 +100,12 @@ public class MainActivity extends AppCompatActivity {
                     // if home is clicked
 
                     fragment = HomeFragment.newInstance();
+
+
+                } else if (menuItemId == R.id.navigation_item_statistics) {
+                    // if home is clicked
+
+                    fragment = new StatisticsFragment();
 
 
                 } else if (menuItemId == R.id.navigation_item_categories) {
@@ -181,6 +190,15 @@ public class MainActivity extends AppCompatActivity {
 
         mTitle = getResources().getString(R.string.app_name);
         mDrawerTitle = getResources().getString(R.string.app_name);
+
+
+       View navHeader =  navigationView.getHeaderView(0);
+        TextView navBal = (TextView) navHeader.findViewById(R.id.tv_balance);
+
+
+        navBal.setText("Balance: " + mCC.valueConverter(mDbClass.totalTransactionAmount()));
+
+
 
         // toolBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
@@ -267,13 +285,21 @@ public class MainActivity extends AppCompatActivity {
                 itemIndex = 0;
 
 
+            } else if (menuItemId == R.id.navigation_item_statistics) {
+
+                // if "Statistics" is clicked
+
+                fragment = new StatisticsFragment();
+                title = getString(R.string.statistics);
+                itemIndex = 1;
+
             } else if (menuItemId == R.id.navigation_item_categories) {
 
                 // if "Categories" is clicked
 
                 fragment = new CategoryList();
                 title = getString(R.string.categories);
-                itemIndex = 2;
+                itemIndex = 3;
 
             } else if (menuItemId == R.id.navigation_item_payees) {
 
@@ -281,7 +307,7 @@ public class MainActivity extends AppCompatActivity {
 
                 fragment = new PayeeList();
                 title = getString(R.string.payees);
-                itemIndex = 3;
+                itemIndex = 4;
 
             } else if (menuItemId == R.id.navigation_item_projects) {
 
@@ -289,14 +315,14 @@ public class MainActivity extends AppCompatActivity {
 
                 fragment = new ProjectList();
                 title = getString(R.string.projects_drawer);
-                itemIndex = 4;
+                itemIndex = 5;
 
 
             } else if (menuItemId == R.id.navigation_item_scheduled) {
                 // if scheduled transaction is clicked
                 fragment = ScheduledFragment.newInstance();
                 title = getString(R.string.scheduled);
-                itemIndex = 1;
+                itemIndex = 2;
 
 
             } else if (menuItemId == R.id.navigation_item_closed_accounts) {
@@ -304,14 +330,14 @@ public class MainActivity extends AppCompatActivity {
 
                 fragment = new ClosedAccountsListFragment();
                 title = getString(R.string.closed_accounts);
-                itemIndex = 5;
+                itemIndex = 6;
 
             } else if (menuItemId == R.id.navigation_item_store) {
                 // if upgrade is clicked
 
                 fragment = new UpgradeFragment();
                 title = getString(R.string.upgrade);
-                itemIndex = 6;
+                itemIndex = 7;
             }
 
 

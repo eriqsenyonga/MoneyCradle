@@ -182,7 +182,7 @@ public class MyContentProvider extends ContentProvider {
 		if (uriMatcher.match(uri) == accounts) {
 			Log.i("MyContentProvider.java",
 					"inside the cursor querry thing for accounts");
-			return mDbClass.getAllAccounts();
+			return mDbClass.getAllOpenAccounts();
 		}
 
 		if (uriMatcher.match(uri) == projects) {

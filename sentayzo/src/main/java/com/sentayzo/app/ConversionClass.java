@@ -262,7 +262,7 @@ public class ConversionClass {
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-           // Log.d("datePicker", e.toString());
+            // Log.d("datePicker", e.toString());
         }
 
         return formatted;
@@ -283,7 +283,7 @@ public class ConversionClass {
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-           /// Log.d("datePicker", e.toString());
+            /// Log.d("datePicker", e.toString());
         }
 
         return formatted;
@@ -315,6 +315,25 @@ public class ConversionClass {
         try {
 
             formatted = sdfDisplayStatMonthYear.format(unformatted);
+
+            return formatted;
+
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            //	Log.d("datePicker", e.toString());
+        }
+
+        return formatted;
+    }
+
+    public String dateYearForStatDisplayFromCalendarInstance(Date unformatted) {
+
+        String formatted = null;
+
+        try {
+
+            formatted = sdfStatYear.format(unformatted);
 
             return formatted;
 
@@ -541,8 +560,73 @@ public class ConversionClass {
             c.add(Calendar.MONTH, 1);
 
 
-
             dateNew = dateForStatDisplayFromCalendarInstance(c.getTime());
+            //Log.d("dateNew", dateNew);
+            // String nextDate = dateForDb(dateNew);
+            //	Log.d("nextDate", nextDate);
+
+            return dateNew;
+
+        } catch (Exception e) {
+
+            e.printStackTrace();
+        }
+
+
+        return dateNew;
+    }
+
+    public String statAddOneYear(String dateStatDisplay) {
+
+
+        String dateNew = null;
+
+        Calendar c = Calendar.getInstance();
+
+
+        try {
+
+            Date dt = sdfStatYear.parse(dateStatDisplay);
+            //      Log.d("dt", "" + dt);
+
+            c.setTime(dt);
+            c.add(Calendar.YEAR, 1);
+
+
+            dateNew = dateYearForStatDisplayFromCalendarInstance(c.getTime());
+            //Log.d("dateNew", dateNew);
+            // String nextDate = dateForDb(dateNew);
+            //	Log.d("nextDate", nextDate);
+
+            return dateNew;
+
+        } catch (Exception e) {
+
+            e.printStackTrace();
+        }
+
+
+        return dateNew;
+    }
+
+    public String statSubtractOneYear(String dateStatDisplay) {
+
+
+        String dateNew = null;
+
+        Calendar c = Calendar.getInstance();
+
+
+        try {
+
+            Date dt = sdfStatYear.parse(dateStatDisplay);
+            //      Log.d("dt", "" + dt);
+
+            c.setTime(dt);
+            c.add(Calendar.YEAR, -1);
+
+
+            dateNew = dateYearForStatDisplayFromCalendarInstance(c.getTime());
             //Log.d("dateNew", dateNew);
             // String nextDate = dateForDb(dateNew);
             //	Log.d("nextDate", nextDate);
@@ -574,7 +658,6 @@ public class ConversionClass {
 
             c.setTime(dt);
             c.add(Calendar.MONTH, -1);
-
 
 
             dateNew = dateForStatDisplayFromCalendarInstance(c.getTime());

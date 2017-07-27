@@ -110,7 +110,7 @@
         <item>View Account Info</item>
         <item>New Transaction</item>
         <item>New Transfer</item>
-        <item>Account History</item>
+        <item>Account Overview</item>
         <item>Edit Account</item>
         <item>Close Account</item>
         <item>Delete Account</item>
@@ -667,4 +667,5 @@
     <string name="year">Year</string>
     <string name="custom">Custom</string>
     <string name="stats">Stats</string>
+    <string name="accounts_filter">Accounts filter</string>
 </resources>

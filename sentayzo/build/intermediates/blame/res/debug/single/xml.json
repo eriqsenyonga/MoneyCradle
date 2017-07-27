@@ -10,9 +10,5 @@
     {
         "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\xml\\app_tracker.xml",
         "source": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\src\\main\\res\\xml\\app_tracker.xml"
-    },
-    {
-        "merged": "E:\\Android Studio Projects\\MoneyCradle\\Sentayzo\\sentayzo\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
-        "source": "C:\\Users\\Eric\\.android\\build-cache\\6c98be18d75fa9ef21d2800fc5aadf3c1dfdfcd5\\output\\res\\xml\\file_paths.xml"
     }
 ]

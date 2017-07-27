@@ -96,374 +96,388 @@ public class AccountsList extends Fragment {
         animScaleUp = AnimationUtils.loadAnimation(getActivity(), R.anim.scale_up);
 
 
-        // mCursor = mDbClass.getAllAccounts();
+        // mCursor = mDbClass.getAllOpenAccounts();
 
 
         myAdapter = new AccountsRecyclerAdapter(getActivity().getContentResolver().query(Uri.parse("content://"
                         + "SentayzoDbAuthority" + "/accounts"), null, null, null,
                 null), new CustomItemClickListener() {
             @Override
-            public void onItemClick(View v, int position, final long accountId) {
+            public void onItemClick(View v, int position, final long accountId, boolean isLongClick) {
                 //  txListInteraction.start(id, myAdapter);
 
-                if (fam.isExpanded()) fam.collapse();
-                final String[] dialogList = getResources().getStringArray(
-                        R.array.accountsListDialog);
+                if(isLongClick){
 
-                AlertDialog.Builder builder = new AlertDialog.Builder(
-                        getActivity());
+                    if (fam.isExpanded()) fam.collapse();
+                    final String[] dialogList = getResources().getStringArray(
+                            R.array.accountsListDialog);
 
-                builder.setItems(dialogList,
-                        new DialogInterface.OnClickListener() {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(
+                            getActivity());
 
-                            @Override
-                            public void onClick(DialogInterface dialog,
-                                                int position) {
+                    builder.setItems(dialogList,
+                            new DialogInterface.OnClickListener() {
 
-
-                                Log.d("in alertdialog", "here");
-
-                                if (position == 0) {
-                                    // if "View Info" is clicked --show dialog
-                                    // with the account details
-
-                                    AlertDialog.Builder builder3 = new AlertDialog.Builder(
-                                            getActivity());
-                                    builder3.setTitle("Account Details");
-
-                                    LayoutInflater inflater = getActivity()
-                                            .getLayoutInflater();
-
-                                    View view = inflater.inflate(
-                                            R.layout.account_view, null);
-
-                                    TextView tvDate = (TextView) view
-                                            .findViewById(R.id.tv_date);
-                                    TextView tvAcc = (TextView) view
-                                            .findViewById(R.id.tv_accName);
-                                    TextView tvType = (TextView) view
-                                            .findViewById(R.id.tv_accType);
-                                    TextView tvOpBal = (TextView) view
-                                            .findViewById(R.id.tv_accOA);
-                                    TextView tvNote = (TextView) view
-                                            .findViewById(R.id.tv_accNote);
-                                    TextView tvBal = (TextView) view
-                                            .findViewById(R.id.tv_accBal);
-
-                                    DbClass nDbClass = new DbClass(
-                                            getActivity());
-
-                                    nDbClass.open();
-
-                                    Bundle infoBundle = nDbClass
-                                            .getTheInfoOfAccountWithId(accountId);
-
-                                    Long curBal = nDbClass
-                                            .getCurrentBalance(accountId);
-
-                                    nDbClass.close();
-
-                                    tvDate.setText(mCC
-                                            .dateForDisplay(infoBundle
-                                                    .getString("acDate")));
-                                    tvAcc.setText(infoBundle
-                                            .getString("acName"));
-                                    tvNote.setText(infoBundle
-                                            .getString("acNote"));
-
-                                    String opBal = mCC
-                                            .valueConverter(infoBundle
-                                                    .getLong("acOpenAmount"));
-                                    String currBal = mCC.valueConverter(curBal);
-
-                                    tvOpBal.setText(opBal);
-                                    tvBal.setText(currBal);
-
-                                    // values 1,2,3,4 below represent the _id of
-                                    // the account type table in the Database
-                                    if (infoBundle.getInt("acType") == 1) {
-                                        tvType.setText(R.string.ac_type_cash);
-                                    }
-                                    if (infoBundle.getInt("acType") == 2) {
-                                        tvType.setText(R.string.ac_type_bank);
-                                    }
-                                    if (infoBundle.getInt("acType") == 3) {
-                                        tvType.setText(R.string.ac_type_asset);
-                                    }
-                                    if (infoBundle.getInt("acType") == 4) {
-                                        tvType.setText(R.string.ac_type_liability);
-                                    }
-
-                                    builder3.setView(view);
-                                    builder3.setPositiveButton(
-                                            getResources().getString(
-                                                    R.string.edit),
-                                            new DialogInterface.OnClickListener() {
-
-                                                @Override
-                                                public void onClick(
-                                                        DialogInterface dialog,
-                                                        int which) {
-
-                                                    // method stub
-                                                    if (getAccountType(accountId) == 5) {
-                                                        //if the accountType is Credit Card
-                                                        DbClass myDbClass = new DbClass(
-                                                                getActivity());
-                                                        myDbClass.open();
-                                                        Bundle bundle = myDbClass
-                                                                .getCreditAccountInfoWithId(accountId);
-                                                        myDbClass.close();
-                                                        bundle.putLong("acId", accountId);
-
-                                                        Intent i = new Intent(getActivity(),
-                                                                NewAccount.class);
-                                                        i.putExtra("infoBundle", bundle);
-                                                        startActivity(i);
+                                @Override
+                                public void onClick(DialogInterface dialog,
+                                                    int position) {
 
 
-                                                    } else {
-                                                        //if the accountType is NOT CREDIT CARD
+                                    Log.d("in alertdialog", "here");
 
-                                                        DbClass myDbClass = new DbClass(
-                                                                getActivity());
-                                                        myDbClass.open();
-                                                        Bundle bundle = myDbClass
-                                                                .getTheInfoOfAccountWithId(accountId);
-                                                        myDbClass.close();
-                                                        bundle.putLong("acId",
-                                                                accountId);
+                                    if (position == 0) {
+                                        // if "View Info" is clicked --show dialog
+                                        // with the account details
 
-                                                        Intent i = new Intent(
-                                                                getActivity(),
-                                                                NewAccount.class);
-                                                        i.putExtra("infoBundle",
-                                                                bundle);
-                                                        startActivity(i);
-                                                    }
-
-                                                }
-                                            });
-                                    builder3.setNeutralButton(
-                                            getResources().getString(
-                                                    R.string.ok),
-                                            new DialogInterface.OnClickListener() {
-
-                                                @Override
-                                                public void onClick(
-                                                        DialogInterface arg0,
-                                                        int arg1) {
-
-                                                }
-                                            });
-
-                                    Dialog acViewDialog = builder3.create();
-
-                                    acViewDialog.show();
-
-                                }
-
-                                if (position == 1) {
-                                    // if "New Transaction" is clicked
-                                    Intent i = new Intent(getActivity(),
-                                            NewTransaction.class);
-                                    i.putExtra("accountId", accountId);
-                                    startActivity(i);
-
-
-
-                                }
-
-                                if (position == 3) {
-                                    // if "Account History" is clicked
-                                    Intent i = new Intent(getActivity(),
-                                            OverviewActivity.class);
-                                    i.putExtra("Id", accountId);
-                                    i.putExtra("whichOverview", OverviewActivity.KEY_ACCOUNT_OVERVIEW);
-                                    startActivity(i);
-
-                                }
-
-                                if (position == 4) {
-                                    // if "Edit" is clicked
-
-                                    if (getAccountType(accountId) == 5) {
-                                        //if the accountType is Credit Card
-                                        DbClass myDbClass = new DbClass(
+                                        AlertDialog.Builder builder3 = new AlertDialog.Builder(
                                                 getActivity());
-                                        myDbClass.open();
-                                        Bundle bundle = myDbClass
-                                                .getCreditAccountInfoWithId(accountId);
-                                        myDbClass.close();
-                                        bundle.putLong("acId", accountId);
+                                        builder3.setTitle("Account Details");
 
-                                        Intent i = new Intent(getActivity(),
-                                                NewAccount.class);
-                                        i.putExtra("infoBundle", bundle);
-                                        startActivity(i);
+                                        LayoutInflater inflater = getActivity()
+                                                .getLayoutInflater();
 
+                                        View view = inflater.inflate(
+                                                R.layout.account_view, null);
 
-                                    } else {
-                                        //if the accountType is NOT CREDIT CARD
-                                        DbClass myDbClass = new DbClass(
+                                        TextView tvDate = (TextView) view
+                                                .findViewById(R.id.tv_date);
+                                        TextView tvAcc = (TextView) view
+                                                .findViewById(R.id.tv_accName);
+                                        TextView tvType = (TextView) view
+                                                .findViewById(R.id.tv_accType);
+                                        TextView tvOpBal = (TextView) view
+                                                .findViewById(R.id.tv_accOA);
+                                        TextView tvNote = (TextView) view
+                                                .findViewById(R.id.tv_accNote);
+                                        TextView tvBal = (TextView) view
+                                                .findViewById(R.id.tv_accBal);
+
+                                        DbClass nDbClass = new DbClass(
                                                 getActivity());
-                                        myDbClass.open();
-                                        Bundle bundle = myDbClass
+
+                                        nDbClass.open();
+
+                                        Bundle infoBundle = nDbClass
                                                 .getTheInfoOfAccountWithId(accountId);
-                                        myDbClass.close();
-                                        bundle.putLong("acId", accountId);
 
-                                        Intent i = new Intent(getActivity(),
-                                                NewAccount.class);
-                                        i.putExtra("infoBundle", bundle);
-                                        startActivity(i);
+                                        Long curBal = nDbClass
+                                                .getCurrentBalance(accountId);
+
+                                        nDbClass.close();
+
+                                        tvDate.setText(mCC
+                                                .dateForDisplay(infoBundle
+                                                        .getString("acDate")));
+                                        tvAcc.setText(infoBundle
+                                                .getString("acName"));
+                                        tvNote.setText(infoBundle
+                                                .getString("acNote"));
+
+                                        String opBal = mCC
+                                                .valueConverter(infoBundle
+                                                        .getLong("acOpenAmount"));
+                                        String currBal = mCC.valueConverter(curBal);
+
+                                        tvOpBal.setText(opBal);
+                                        tvBal.setText(currBal);
+
+                                        // values 1,2,3,4 below represent the _id of
+                                        // the account type table in the Database
+                                        if (infoBundle.getInt("acType") == 1) {
+                                            tvType.setText(R.string.ac_type_cash);
+                                        }
+                                        if (infoBundle.getInt("acType") == 2) {
+                                            tvType.setText(R.string.ac_type_bank);
+                                        }
+                                        if (infoBundle.getInt("acType") == 3) {
+                                            tvType.setText(R.string.ac_type_asset);
+                                        }
+                                        if (infoBundle.getInt("acType") == 4) {
+                                            tvType.setText(R.string.ac_type_liability);
+                                        }
+
+                                        builder3.setView(view);
+                                        builder3.setPositiveButton(
+                                                getResources().getString(
+                                                        R.string.edit),
+                                                new DialogInterface.OnClickListener() {
+
+                                                    @Override
+                                                    public void onClick(
+                                                            DialogInterface dialog,
+                                                            int which) {
+
+                                                        // method stub
+                                                        if (getAccountType(accountId) == 5) {
+                                                            //if the accountType is Credit Card
+                                                            DbClass myDbClass = new DbClass(
+                                                                    getActivity());
+                                                            myDbClass.open();
+                                                            Bundle bundle = myDbClass
+                                                                    .getCreditAccountInfoWithId(accountId);
+                                                            myDbClass.close();
+                                                            bundle.putLong("acId", accountId);
+
+                                                            Intent i = new Intent(getActivity(),
+                                                                    NewAccount.class);
+                                                            i.putExtra("infoBundle", bundle);
+                                                            startActivity(i);
+
+
+                                                        } else {
+                                                            //if the accountType is NOT CREDIT CARD
+
+                                                            DbClass myDbClass = new DbClass(
+                                                                    getActivity());
+                                                            myDbClass.open();
+                                                            Bundle bundle = myDbClass
+                                                                    .getTheInfoOfAccountWithId(accountId);
+                                                            myDbClass.close();
+                                                            bundle.putLong("acId",
+                                                                    accountId);
+
+                                                            Intent i = new Intent(
+                                                                    getActivity(),
+                                                                    NewAccount.class);
+                                                            i.putExtra("infoBundle",
+                                                                    bundle);
+                                                            startActivity(i);
+                                                        }
+
+                                                    }
+                                                });
+                                        builder3.setNeutralButton(
+                                                getResources().getString(
+                                                        R.string.ok),
+                                                new DialogInterface.OnClickListener() {
+
+                                                    @Override
+                                                    public void onClick(
+                                                            DialogInterface arg0,
+                                                            int arg1) {
+
+                                                    }
+                                                });
+
+                                        Dialog acViewDialog = builder3.create();
+
+                                        acViewDialog.show();
+
                                     }
 
-                                }
-
-                                if (position == 5) {
-                                    // if close account is clicked
-                                    String closeDialogTitle = getResources()
-                                            .getString(
-                                                    R.string.closeDialogTitle);
-                                    String closeDialogMessage = getResources()
-                                            .getString(
-                                                    R.string.closeDialogMessage);
-                                    AlertDialog.Builder closeBuilder = new AlertDialog.Builder(
-                                            getActivity());
-                                    closeBuilder.setTitle(closeDialogTitle);
-                                    closeBuilder.setMessage(closeDialogMessage
-                                            + " \n\n" + proceed);
-
-                                    closeBuilder
-                                            .setNegativeButton(
-                                                    getResources().getString(
-                                                            R.string.no),
-                                                    new DialogInterface.OnClickListener() {
-
-                                                        @Override
-                                                        public void onClick(
-                                                                DialogInterface arg0,
-                                                                int arg1) {
+                                    if (position == 1) {
+                                        // if "New Transaction" is clicked
+                                        Intent i = new Intent(getActivity(),
+                                                NewTransaction.class);
+                                        i.putExtra("accountId", accountId);
+                                        startActivity(i);
 
 
-                                                        }
-                                                    });
 
-                                    closeBuilder
-                                            .setPositiveButton(
-                                                    getResources().getString(
-                                                            R.string.yes),
-                                                    new DialogInterface.OnClickListener() {
+                                    }
 
-                                                        @Override
-                                                        public void onClick(
-                                                                DialogInterface arg0,
-                                                                int arg1) {
+                                    if (position == 3) {
+                                        // if "Account History" is clicked
+                                        Intent i = new Intent(getActivity(),
+                                                OverviewActivity.class);
+                                        i.putExtra("Id", accountId);
+                                        i.putExtra("whichOverview", OverviewActivity.KEY_ACCOUNT_OVERVIEW);
+                                        startActivity(i);
 
+                                    }
 
-                                                            DbClass mDbClass = new DbClass(
-                                                                    getActivity());
+                                    if (position == 4) {
+                                        // if "Edit" is clicked
 
-                                                            mDbClass.open();
+                                        if (getAccountType(accountId) == 5) {
+                                            //if the accountType is Credit Card
+                                            DbClass myDbClass = new DbClass(
+                                                    getActivity());
+                                            myDbClass.open();
+                                            Bundle bundle = myDbClass
+                                                    .getCreditAccountInfoWithId(accountId);
+                                            myDbClass.close();
+                                            bundle.putLong("acId", accountId);
 
-                                                            mDbClass.closeAccountWithId(accountId);
-
-                                                            mDbClass.close();
-
-                                                            // myAdapter.swapCursor(mDbClass.getAllAccounts());
-
-                                                            myAdapter.changeCursor(getActivity().getContentResolver().query(Uri.parse("content://"
-                                                                            + "SentayzoDbAuthority" + "/accounts"), null, null, null,
-                                                                    null));
-
-                                                            myAdapter.notifyDataSetChanged();
-                                                        }
-                                                    });
-
-                                    Dialog closeDialog = closeBuilder.create();
-                                    closeDialog.show();
-
-                                }
-
-                                if (position == 6) {
-                                    // if "Delete" is clicked
-                                    String deleteDialogTitle = getResources()
-                                            .getString(
-                                                    R.string.deleteDialogTitle);
-                                    String deleteDialogMessage = getResources()
-                                            .getString(
-                                                    R.string.deleteDialogMessage);
-
-                                    AlertDialog.Builder builder2 = new AlertDialog.Builder(
-                                            getActivity());
-                                    builder2.setTitle(deleteDialogTitle);
-                                    builder2.setMessage(deleteDialogMessage
-                                            + " \n\n" + proceed);
-                                    builder2.setNegativeButton(
-                                            getResources().getString(
-                                                    R.string.no),
-                                            new DialogInterface.OnClickListener() {
-
-                                                @Override
-                                                public void onClick(
-                                                        DialogInterface arg0,
-                                                        int arg1) {
-
-                                                    // method stub
-
-                                                }
-                                            });
-
-                                    builder2.setPositiveButton(
-                                            getResources().getString(
-                                                    R.string.yes),
-                                            new DialogInterface.OnClickListener() {
-
-                                                @Override
-                                                public void onClick(
-                                                        DialogInterface arg0,
-                                                        int arg1) {
+                                            Intent i = new Intent(getActivity(),
+                                                    NewAccount.class);
+                                            i.putExtra("infoBundle", bundle);
+                                            startActivity(i);
 
 
-                                                    DbClass aDbClass = new DbClass(
-                                                            getActivity());
-                                                    aDbClass.open();
-                                                    aDbClass.deleteAccountWithId(accountId);
-                                                    aDbClass.close();
+                                        } else {
+                                            //if the accountType is NOT CREDIT CARD
+                                            DbClass myDbClass = new DbClass(
+                                                    getActivity());
+                                            myDbClass.open();
+                                            Bundle bundle = myDbClass
+                                                    .getTheInfoOfAccountWithId(accountId);
+                                            myDbClass.close();
+                                            bundle.putLong("acId", accountId);
 
-                                                    getTotal();
-                                                    myAdapter.changeCursor(getActivity().getContentResolver().query(Uri.parse("content://"
-                                                                    + "SentayzoDbAuthority" + "/accounts"), null, null, null,
-                                                            null));
+                                            Intent i = new Intent(getActivity(),
+                                                    NewAccount.class);
+                                            i.putExtra("infoBundle", bundle);
+                                            startActivity(i);
+                                        }
 
-                                                    myAdapter.notifyDataSetChanged();
+                                    }
+
+                                    if (position == 5) {
+                                        // if close account is clicked
+                                        String closeDialogTitle = getResources()
+                                                .getString(
+                                                        R.string.closeDialogTitle);
+                                        String closeDialogMessage = getResources()
+                                                .getString(
+                                                        R.string.closeDialogMessage);
+                                        AlertDialog.Builder closeBuilder = new AlertDialog.Builder(
+                                                getActivity());
+                                        closeBuilder.setTitle(closeDialogTitle);
+                                        closeBuilder.setMessage(closeDialogMessage
+                                                + " \n\n" + proceed);
+
+                                        closeBuilder
+                                                .setNegativeButton(
+                                                        getResources().getString(
+                                                                R.string.no),
+                                                        new DialogInterface.OnClickListener() {
+
+                                                            @Override
+                                                            public void onClick(
+                                                                    DialogInterface arg0,
+                                                                    int arg1) {
+
+
+                                                            }
+                                                        });
+
+                                        closeBuilder
+                                                .setPositiveButton(
+                                                        getResources().getString(
+                                                                R.string.yes),
+                                                        new DialogInterface.OnClickListener() {
+
+                                                            @Override
+                                                            public void onClick(
+                                                                    DialogInterface arg0,
+                                                                    int arg1) {
+
+
+                                                                DbClass mDbClass = new DbClass(
+                                                                        getActivity());
+
+                                                                mDbClass.open();
+
+                                                                mDbClass.closeAccountWithId(accountId);
+
+                                                                mDbClass.close();
+
+                                                                // myAdapter.swapCursor(mDbClass.getAllOpenAccounts());
+
+                                                                myAdapter.changeCursor(getActivity().getContentResolver().query(Uri.parse("content://"
+                                                                                + "SentayzoDbAuthority" + "/accounts"), null, null, null,
+                                                                        null));
+
+                                                                myAdapter.notifyDataSetChanged();
+                                                            }
+                                                        });
+
+                                        Dialog closeDialog = closeBuilder.create();
+                                        closeDialog.show();
+
+                                    }
+
+                                    if (position == 6) {
+                                        // if "Delete" is clicked
+                                        String deleteDialogTitle = getResources()
+                                                .getString(
+                                                        R.string.deleteDialogTitle);
+                                        String deleteDialogMessage = getResources()
+                                                .getString(
+                                                        R.string.deleteDialogMessage);
+
+                                        AlertDialog.Builder builder2 = new AlertDialog.Builder(
+                                                getActivity());
+                                        builder2.setTitle(deleteDialogTitle);
+                                        builder2.setMessage(deleteDialogMessage
+                                                + " \n\n" + proceed);
+                                        builder2.setNegativeButton(
+                                                getResources().getString(
+                                                        R.string.no),
+                                                new DialogInterface.OnClickListener() {
+
+                                                    @Override
+                                                    public void onClick(
+                                                            DialogInterface arg0,
+                                                            int arg1) {
+
+                                                        // method stub
+
+                                                    }
+                                                });
+
+                                        builder2.setPositiveButton(
+                                                getResources().getString(
+                                                        R.string.yes),
+                                                new DialogInterface.OnClickListener() {
+
+                                                    @Override
+                                                    public void onClick(
+                                                            DialogInterface arg0,
+                                                            int arg1) {
+
+
+                                                        DbClass aDbClass = new DbClass(
+                                                                getActivity());
+                                                        aDbClass.open();
+                                                        aDbClass.deleteAccountWithId(accountId);
+                                                        aDbClass.close();
+
+                                                        getTotal();
+                                                        myAdapter.changeCursor(getActivity().getContentResolver().query(Uri.parse("content://"
+                                                                        + "SentayzoDbAuthority" + "/accounts"), null, null, null,
+                                                                null));
+
+                                                        myAdapter.notifyDataSetChanged();
 
 //                                                    Snackbar.make(rootView.findViewById(R.id.coordinator), "Account deleted", Snackbar.LENGTH_SHORT).show();
-                                                }
-                                            });
+                                                    }
+                                                });
 
-                                    Dialog delDialog = builder2.create();
-                                    delDialog.show();
+                                        Dialog delDialog = builder2.create();
+                                        delDialog.show();
+
+                                    }
+
+                                    if (position == 2) {
+                                        // if "New Transfer" is clicked
+
+                                        Intent i = new Intent(getActivity(),
+                                                NewTransfer.class);
+                                        i.putExtra("accountId", accountId);
+                                        startActivity(i);
+
+                                    }
 
                                 }
+                            });
 
-                                if (position == 2) {
-                                    // if "New Transfer" is clicked
+                    Dialog d = builder.create();
 
-                                    Intent i = new Intent(getActivity(),
-                                            NewTransfer.class);
-                                    i.putExtra("accountId", accountId);
-                                    startActivity(i);
+                    d.show();}else{
 
-                                }
 
-                            }
-                        });
+                    Intent i = new Intent(getActivity(),
+                            OverviewActivity.class);
+                    i.putExtra("Id", accountId);
+                    i.putExtra("whichOverview", OverviewActivity.KEY_ACCOUNT_OVERVIEW);
+                    startActivity(i);
 
-                Dialog d = builder.create();
 
-                d.show();
+
+
+                }
             }
         });
 

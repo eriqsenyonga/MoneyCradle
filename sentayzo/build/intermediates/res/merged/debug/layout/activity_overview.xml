@@ -34,7 +34,7 @@
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="12dp"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
                 android:layout_marginRight="12dp"
                 android:layout_marginTop="12dp"
                 android:background="@color/super_light_grey"
@@ -213,7 +213,7 @@
                     <com.github.mikephil.charting.charts.PieChart
                         android:id="@+id/pc_overview"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp" />
+                        android:layout_height="250dp" />
 
                     <View
                         android:layout_width="match_parent"
@@ -231,7 +231,8 @@
                         android:layout_marginTop="8dp"
                         android:gravity="right|center_vertical"
                         android:text="View more stats"
-                        android:textColor="@color/primary" />
+                        android:textColor="@color/primary"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>

@@ -119,7 +119,7 @@ public class PendingTxFragment extends Fragment {
                         + "SentayzoDbAuthority" + "/pending"), null, null, null,
                 null), new CustomItemClickListener() {
             @Override
-            public void onItemClick(View v, int position, final long pendingId) {
+            public void onItemClick(View v, int position, final long pendingId, boolean isLongClick) {
                 //   txListInteraction.start(id, adapter);
 
 

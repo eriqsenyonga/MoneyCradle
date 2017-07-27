@@ -89,7 +89,7 @@ public class PayeeTxView extends AppCompatActivity {
                         + "SentayzoDbAuthority" + "/transactionsPayee"), null, null, null,
                 null), new CustomItemClickListener() {
             @Override
-            public void onItemClick(View v, int position, long id) {
+            public void onItemClick(View v, int position, long id, boolean isLongClick) {
                 txListInteraction.start(id, adapter);
             }
         });

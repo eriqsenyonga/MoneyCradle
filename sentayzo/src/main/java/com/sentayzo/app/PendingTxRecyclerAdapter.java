@@ -38,7 +38,7 @@ public class PendingTxRecyclerAdapter extends CursorRecyclerAdapter<PendingTxRec
         singleRowLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                listener.onItemClick(v, viewHolder.getAdapterPosition(), viewHolder.getItemId());
+                listener.onItemClick(v, viewHolder.getAdapterPosition(), viewHolder.getItemId(), false);
             }
         });
 

@@ -277,7 +277,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_39697b8eb50b21078c419b14e9f053ee9fcabec3\classes.dex" />
     </item>
     <item
@@ -493,7 +493,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="3b78dfd900556f444304b297f1477ff93a07d7fb">
+        sha1="2dc2c00d7106947e74c00f957415a79cfb5f6853">
         <dex dex="E:\Android Studio Projects\MoneyCradle\Sentayzo\sentayzo\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_03e1b54d1e0607988cc60e6bcc41859501a9e81e\classes.dex" />
     </item>
     <item

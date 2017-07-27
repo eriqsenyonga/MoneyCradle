@@ -43,7 +43,16 @@ public class AccountsRecyclerAdapter extends CursorRecyclerAdapter<AccountsRecyc
         singleRowLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                listener.onItemClick(v, viewHolder.getAdapterPosition(), viewHolder.getItemId());
+                listener.onItemClick(v, viewHolder.getAdapterPosition(), viewHolder.getItemId(), false);
+            }
+        });
+
+        singleRowLayout.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                listener.onItemClick(v, viewHolder.getAdapterPosition(), viewHolder.getItemId(), true);
+
+                return true;
             }
         });
 

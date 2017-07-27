@@ -115,7 +115,7 @@ public class StatCategoryFragment extends Fragment {
 
             } else if (periodType == StatisticsActivity.PERIOD_CUSTOM) {
 
-//// TODO: 3/27/2017 what happens for the custom period
+            //// TODO: 3/27/2017 what happens for the custom period
                 // cursor = mDb.getExpenseCategoryTotals(fromDate, toDate);
 
             }
@@ -152,7 +152,16 @@ public class StatCategoryFragment extends Fragment {
 
 
         this.periodType = periodType;
-        this.specificPeriod = mCC.dateForStatUseFromDisplay(specificPeriod);
+
+        if (this.periodType == StatisticsActivity.PERIOD_MONTH) {
+            this.specificPeriod = mCC.dateForStatUseFromDisplay(specificPeriod);
+        }
+
+        if(this.periodType == StatisticsActivity.PERIOD_YEAR){
+
+            this.specificPeriod = specificPeriod;
+
+        }
 
 
         if (periodType == StatisticsActivity.PERIOD_CUSTOM) {

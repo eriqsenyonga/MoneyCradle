@@ -50,7 +50,7 @@ public class MyPagerAdapter extends FragmentPagerAdapter {
 	public int getCount() {
 		// TODO Auto-generated method stub
 		Log.d("pagerAdapter", "9");
-		return 3;
+		return 2;
 	}
 
 	/*

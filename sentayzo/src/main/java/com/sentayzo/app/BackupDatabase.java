@@ -18,7 +18,7 @@ public class BackupDatabase {
     String KEY_TRANSFER_NUMBER = "transfer number";
     String KEY_ALARM_ID = "alarm id int";
     public static int IMPORT_DB = 0;
-    public static int EXPORT_DB = 0;
+    public static int EXPORT_DB = 1;
 
     Context context;
 

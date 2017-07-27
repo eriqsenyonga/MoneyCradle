@@ -492,7 +492,15 @@ public class NewScheduledTransactionActivity extends AppCompatActivity
 
             String note = noteEditText.getText().toString();
 
-            Integer alarmId = sharedPrefs.getInt(KEY_ALARM_ID, 1);
+
+            //change the alarm Id to be got from the db as +1 of the highest number in the column
+
+
+            DbClass ddb =   new DbClass(NewScheduledTransactionActivity.this);
+
+            Integer alarmId = ddb.getHighestScheduledAlarmId() + 1;
+
+         //   Integer alarmId = sharedPrefs.getInt(KEY_ALARM_ID, 1);
 
             // store in database
             DbClass mDb = new DbClass(NewScheduledTransactionActivity.this);

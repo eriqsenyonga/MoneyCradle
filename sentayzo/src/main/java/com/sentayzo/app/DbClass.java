@@ -934,9 +934,9 @@ public class DbClass {
 
     }
 
-    public Cursor getAllAccounts() {
+    public Cursor getAllOpenAccounts() {
         // TODO Auto-generated method stub
-        Log.d("in DbClass", "getAllAccounts() is called");
+        Log.d("in DbClass", "getAllOpenAccounts() is called");
 
         String query = "SELECT " + DATABASE_TABLE_ACCOUNT + "." + KEY_ACCOUNT_ID + ", "
                 + DATABASE_TABLE_ACCOUNT + "." + KEY_ACCOUNT_NAME + ", "
@@ -976,6 +976,18 @@ public class DbClass {
         open();
         Cursor c = ourDatabase.query(DATABASE_TABLE_ACCOUNT, columns,
                 selection, selectionArgs, null, null, null);
+
+        return c;
+    }
+
+
+    public Cursor getAllAccounts() {
+        // TODO Auto-generated method stub
+        String[] columns = {KEY_ACCOUNT_ID, KEY_ACCOUNT_NAME, KEY_ACCOUNT_OPEN};
+
+        open();
+        Cursor c = ourDatabase.query(DATABASE_TABLE_ACCOUNT, columns,
+                null, null, null, null, null);
 
         return c;
     }
@@ -2508,8 +2520,9 @@ public class DbClass {
                 + DATABASE_TABLE_ACCOUNT + " ON " + DATABASE_TABLE_TRANSACTION
                 + "." + KEY_TRANSACTION_ACCOUNT_ID + "="
                 + DATABASE_TABLE_ACCOUNT + "." + KEY_ACCOUNT_ID + " WHERE "
-                + DATABASE_TABLE_ACCOUNT + "." + KEY_ACCOUNT_INCLUDE_IN_TOTALS
-                + "=1 AND " + KEY_TRANSACTION_CATEGORY_ID + "=" + catViewId;
+                //      + DATABASE_TABLE_ACCOUNT + "." + KEY_ACCOUNT_INCLUDE_IN_TOTALS
+                //     + "=1 AND "
+                + KEY_TRANSACTION_CATEGORY_ID + "=" + catViewId;
         open();
 
         Cursor c = ourDatabase.rawQuery(sql, null);
@@ -7116,18 +7129,22 @@ public class DbClass {
 
         ConversionClass mCC = new ConversionClass(ourContext);
 
-        String month = mCC.dateStatMonth(specificPeriod);
-        String year = mCC.dateStatYear(specificPeriod);
+        String month;
+        String year;
         String whereClausePeriod = null;
 
 
         if (periodType == StatisticsActivity.PERIOD_MONTH) {
+
+            month = mCC.dateStatMonth(specificPeriod);
+            year = mCC.dateStatYear(specificPeriod);
 
             whereClausePeriod = " strftime('%m', `" + KEY_TRANSACTION_DATE + "`) = '" + month + "'  AND strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
 
 
         } else if (periodType == StatisticsActivity.PERIOD_YEAR) {
 
+            year = specificPeriod;
 
             whereClausePeriod = " strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
 
@@ -7168,19 +7185,25 @@ public class DbClass {
 
         ConversionClass mCC = new ConversionClass(ourContext);
 
-        String month = mCC.dateStatMonth(specificPeriod);
-        String year = mCC.dateStatYear(specificPeriod);
+        String month;
+        String year;
         String whereClausePeriod = null;
         String whereClauseEntity = null;
 
 
         if (periodType == StatisticsActivity.PERIOD_MONTH) {
 
+            month = mCC.dateStatMonth(specificPeriod);
+
+            year = mCC.dateStatYear(specificPeriod);
+
             whereClausePeriod = " strftime('%m', `" + KEY_TRANSACTION_DATE + "`) = '" + month + "'  AND strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
 
 
         } else if (periodType == StatisticsActivity.PERIOD_YEAR) {
 
+
+            year = specificPeriod;
 
             whereClausePeriod = " strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
 
@@ -7230,18 +7253,21 @@ public class DbClass {
 
         ConversionClass mCC = new ConversionClass(ourContext);
 
-        String month = mCC.dateStatMonth(specificPeriod);
-        String year = mCC.dateStatYear(specificPeriod);
+        String month;
+        String year;
         String whereClausePeriod = null;
 
 
         if (periodType == StatisticsActivity.PERIOD_MONTH) {
 
+            month = mCC.dateStatMonth(specificPeriod);
+            year = mCC.dateStatYear(specificPeriod);
+
             whereClausePeriod = " strftime('%m', `" + KEY_TRANSACTION_DATE + "`) = '" + month + "'  AND strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
 
 
         } else if (periodType == StatisticsActivity.PERIOD_YEAR) {
-
+            year = specificPeriod;
 
             whereClausePeriod = " strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
 
@@ -7284,19 +7310,24 @@ public class DbClass {
 
         ConversionClass mCC = new ConversionClass(ourContext);
 
-        String month = mCC.dateStatMonth(specificPeriod);
-        String year = mCC.dateStatYear(specificPeriod);
+        String month;
+        String year;
         String whereClausePeriod = null;
         String whereClauseEntity = null;
 
 
         if (periodType == StatisticsActivity.PERIOD_MONTH) {
 
+            month = mCC.dateStatMonth(specificPeriod);
+            year = mCC.dateStatYear(specificPeriod);
+
             whereClausePeriod = " strftime('%m', `" + KEY_TRANSACTION_DATE + "`) = '" + month + "'  AND strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
 
 
         } else if (periodType == StatisticsActivity.PERIOD_YEAR) {
 
+
+            year = specificPeriod;
 
             whereClausePeriod = " strftime('%Y', `" + KEY_TRANSACTION_DATE + "`) = '" + year + "'";
 
